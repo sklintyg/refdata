@@ -1,5 +1,4 @@
 # ignore
 .gradle/
-gradle/
 build/
 *~
