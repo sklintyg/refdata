@@ -1,0 +1,116 @@
+[
+  {
+    "key": "statistikAnvandarmanual",
+    "url": "https://www.inera.se/kundservice/dokument-och-lankar/tjanster/intygsstatistik-dokument/",
+    "text": "användarmanualer",
+    "target": "_blank"
+  },
+  {
+    "key": "highcharts",
+    "url": "https://www.highcharts.com/",
+    "text": "Highsoft AS",
+    "target": "_blank"
+  },
+  {
+    "key": "inerasPersonuppgiftshantering",
+    "url": "https://www.inera.se/om-inera/behandling-av-personuppgifter/",
+    "text": "Ineras hemsida",
+    "target": "_blank"
+  },
+  {
+    "key": "ptsCookies",
+    "url": "https://pts.se/sv/privat/internet/integritet/kakor-cookies/",
+    "text": "Post- och telestyrelsens webbplats.",
+    "target": "_blank"
+  },
+  {
+    "key": "creativeCommons",
+    "url": "https://creativecommons.org/licenses/by-nc/3.0/legalcode",
+    "text": "fri licens för icke-kommersiella utövare",
+    "target": "_blank"
+  },
+  {
+    "key": "ptsCookiesBanner",
+    "url": "https://pts.se/sv/privat/internet/integritet/kakor-cookies/",
+    "text": "Post- och telestyrelsens webbplats",
+    "target": "_blank"
+  },
+  {
+    "key": "ptsCookiesMerOm",
+    "url": "https://pts.se/sv/privat/internet/integritet/kakor-cookies/",
+    "text": "Mer om kakor (cookies) på Post- och telestyrelsens webbplats",
+    "target": "_blank"
+  },
+  {
+    "key": "sarskildBehorighetStatistik",
+    "url": "https://www.inera.se/kundservice/dokument-och-lankar/tjanster/intygsstatistik-dokument/",
+    "text": "Mer information om behörighet för Intygsstatistik",
+    "target": "_blank"
+  },
+  {
+    "key": "sarskildBehorighetStatistikClickHere",
+    "url": "https://www.inera.se/kundservice/dokument-och-lankar/tjanster/intygsstatistik-dokument/",
+    "text": "klicka här",
+    "target": "_blank"
+  },
+  {
+    "key": "ineraStartsida",
+    "url": "https://www.inera.se",
+    "text": "Inera AB",
+    "target": "_blank"
+  },
+  {
+    "key": "ineraKundserviceFelanmalan",
+    "url": "https://www.inera.se/felanmalan",
+    "text": "Kontaktinformation till kundservice",
+    "target": "_blank"
+  },
+  {
+    "key": "administrationAvLandsting",
+    "url": "https://www.inera.se/kundservice/dokument-och-lankar/tjanster/intygsstatistik-dokument/",
+    "text": "Administration av landsting",
+    "target": "_blank"
+  },
+  {
+    "key": "wc-lank-005",
+    "url": "https://www.inera.se/felanmalan",
+    "text": "Ineras felanmälan",
+    "target": "_blank"
+  },
+  {
+    "key": "wc-lank-007",
+    "url": "https://pts.se/sv/privat/internet/integritet/kakor-cookies/",
+    "text": "Post- och telestyrelsen frågor och svar om kakor",
+    "target": "_blank"
+  },
+  {
+    "key": "wc-lank-013",
+    "url": "https://www.inera.se/om-inera/behandling-av-personuppgifter/",
+    "text": "Ineras sida om hur personuppgifter behandlas",
+    "target": "_blank"
+  },
+  {
+    "key": "st-lank-001",
+    "url": "https://www.inera.se/intygsskolan/intygsstatistik",
+    "text": "Hitta svar på dina frågor i Ineras intygsskola",
+    "target": "_blank"
+  },
+  {
+    "key": "st-lank-002",
+    "url": "https://www.inera.se/intygsstatistik/inloggning",
+    "text": "Intygstatistiks felsökning SITHS/Efos-kort",
+    "target": "_blank"
+  },
+  {
+    "key": "st-lank-003",
+    "url": "https://www.highcharts.com/",
+    "text": "Highsoft AS",
+    "target": "_blank"
+  },
+  {
+    "key": "st-lank-004",
+    "url": "https://creativecommons.org/licenses/by-nc/3.0/legalcode",
+    "text": "Licens för icke-komersiella utövare.",
+    "target": "_blank"
+  }
+]
