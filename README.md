@@ -32,8 +32,15 @@ _Not 1: Tidigare låg referensdata under `src/main/resources` för varje applika
 
 _Not 2: Länkarna är fortfarande specifika per applikation men målsättningen är att även harmonisera dessa till en gemensam lista._
 
+### Release
+
+En förenklad releasehantering rekommenderas med en `master` branch som erhåller ett nytt byggnummer för varje uppdatering.
+
+
 ### Deployment
 
-Referensdata byggs och levereras som en JAR-artefakt och applikationerna konfigureras med variabeln `REF_DATA_URL` som läser in angiven JAR från URLen ifråga. För test- och demomiljöer används den vanliga Nexus servern.
+Referensdata byggs och levereras som en JAR-artefakt och applikationerna konfigureras med variabeln `REF_DATA_URL` som läser in angiven JAR från URLen ifråga. För test- och demomiljöer används den vanliga Nexus servern där de olika versionerna återfinns.
+
+
 
 
