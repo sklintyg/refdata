@@ -12,7 +12,7 @@ Gemensam referensdata delas mellan applikationer och består av:
 
 Tidigare har dessa legat under respektive applikation och även andra platser för stage och produktionsmiljöer.
 
-Detta repository frigör releasecykeln för referensdata från respektive applikations releasecykel och därmed kan en master-uppsättning underhållas och livscykelhanteras.
+Detta repository frikopplar releasecykeln för referensdata från respektive applikation och därmed kan en master-uppsättning av referensdata underhållas och livscykelhanteras.
      
 ### Applikationer
 
