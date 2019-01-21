@@ -19,7 +19,7 @@ Detta repository frikopplar releasecykeln för referensdata från respektive app
 Nedan visas vilket data som används i respektive applikation.
 
 | App | Gemensam referensdata |
-| --- | --------------- | -------- |
+| --- | --------------------- |
 | WC  | texts, links, postnummer, icf, diagnoskoder, befattnigskoder, privatlakaravtal |
 | ST | links |
 | MI | texts, links, befattnigskoder |
