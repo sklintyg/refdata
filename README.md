@@ -21,7 +21,7 @@ Nedan visas vilket data som används i respektive applikation.
 | App | Gemensam referensdata |
 | --- | --------------------- |
 | WC  | texts, links, postnummer, icf, diagnoskoder, befattnigskoder, privatlakaravtal |
-| ST | links,  diagnoskoder |
+| ST | links,  cdiagnoskoder |
 | MI | texts, links, befattnigskoder |
 | RS | links, diagnoskoder, diagnoskapitel, diagnosgrupper |
 | PP | links, postnummer |
@@ -39,7 +39,7 @@ En förenklad releasehantering rekommenderas med en `master` branch som erhålle
 
 ### Deployment
 
-Referensdata byggs och levereras som en JAR-artefakt och applikationerna konfigureras med variabeln `REF_DATA_URL` som läser in angiven JAR från URLen ifråga. För test- och demomiljöer används den vanliga Nexus servern där de olika versionerna återfinns.
+Referensdata byggs och levereras som en JAR-artefakt och applikationerna konfigureras med variabeln `REFDATA_URL` som läser in angiven JAR från URLen ifråga. Är inte någon URL angiven så hämtas den senaste versionen från NMT Nexus server [https://build-inera.nordicmedtest.se](https://build-inera.nordicmedtest.se). 
 
 
 

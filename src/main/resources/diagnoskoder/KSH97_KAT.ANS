@@ -1312,7 +1312,7 @@ R13    Sväljningssvårigheter
 R14    Flatulens och besläktade tillstånd
 R15    Fecesinkontinens
 R16    Förstorad lever och förstorad mjälte som ej klassificeras annorstädes
-R17    Icke specificerad gulsot
+R17    Hyperbilirubinemi, med eller utan gulsot, som ej klassificeras på annan plats
 R18    Ascites (vätska i buken)
 R19    Andra symtom och sjukdomstecken från matsmältningsorganen och buken
 R20    Störningar i hudkänseln
@@ -1562,6 +1562,7 @@ T71    Kvävning
 T73    Effekter av annan bristsituation
 T74    Misshandelssyndrom
 T75    Effekter av andra yttre orsaker
+T76    Ospecificerade effekter av yttre orsaker
 T78    Ogynnsamma effekter som ej klassificeras annorstädes
 T79    Vissa tidiga komplikationer till skada genom yttre våld som ej klassificeras annorstädes
 T80    Komplikationer efter infusion, transfusion och injektion i behandlingssyfte
@@ -1583,7 +1584,6 @@ T96    Sena besvär av förgiftning orsakad av droger, läkemedel och biologiska su
 T97    Sena besvär av toxiska effekter av substanser med i huvudsak icke medicinsk användning
 T98    Sena besvär av andra och icke specificerade effekter av yttre orsaker
 U04    Svår akut respiratorisk sjukdom [SARS]
-U06    Infektion med zikavirus
 U07    Kod som kan tas i bruk med kort varsel
 U82    Resistens mot betalaktamantibiotika
 U83    Resistens mot andra antibiotika
@@ -1691,7 +1691,7 @@ V94    Andra och icke specificerade transportolyckor på vatten
 V95    Olycka med motordriven luftfarkost med skada på ombordvarande
 V96    Olycka med ej motordriven luftfarkost med skada på ombordvarande
 V97    Andra specificerade olyckor vid lufttransport
-V98    Andra specificerade transportolyckor
+V98    Andra specificerade transportolyckor 
 V99    Transportolycka, ospecificerad
 W00    Fall i samma plan i samband med is och snö
 W01    Fall i samma plan genom halkning, snavning eller snubbling
@@ -1965,7 +1965,7 @@ Y88    Sena effekter av kirurgisk och medicinsk behandling som yttre orsak
 Y89    Sena effekter av andra yttre orsaker
 Y90    Tecken på alkoholpåverkan, fastställd genom mätning av blodets alkoholhalt
 Y91    Tecken på alkoholpåverkan med kliniskt fastställd intoxikationsgrad
-Y95    Nosokomial infektion
+Y95    Vårdrelaterad infektion
 Y96    Arbetsmiljö som orsak till sjukdom
 Y97    Förorening i yttre miljön som orsak till sjukdom
 Y98    Livsstil som orsak till sjukdom
