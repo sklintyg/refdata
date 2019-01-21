@@ -21,7 +21,7 @@ Nedan visas vilket data som används i respektive applikation.
 | App | Gemensam referensdata |
 | --- | --------------------- |
 | WC  | texts, links, postnummer, icf, diagnoskoder, befattnigskoder, privatlakaravtal |
-| ST | links |
+| ST | links,  diagnoskoder |
 | MI | texts, links, befattnigskoder |
 | RS | links, diagnoskoder, diagnoskapitel, diagnosgrupper |
 | PP | links, postnummer |
