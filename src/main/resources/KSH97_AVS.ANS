@@ -1,0 +1,267 @@
+A00-A09Infektionssjukdomar utgående från mag-tarmkanalen
+A15-A19Tuberkulos
+A20-A28Vissa djurburna bakteriesjukdomar
+A30-A49Andra bakteriesjukdomar
+A50-A64Huvudsakligen sexuellt överförda infektioner
+A65-A69Andra spiroketsjukdomar
+A70-A74Andra sjukdomar orsakade av klamydia
+A75-A79Sjukdomar orsakade av rickettsiaarter
+A80-A89Virussjukdomar i centrala nervsystemet
+A92-A99Febersjukdomar orsakade av virus överförda av leddjur och virusorsakade hemorragiska febrar
+B00-B09Virussjukdomar med hudutslag och slemhinneutslag
+B15-B19Virushepatit
+B20-B24Sjukdom orsakad av humant immunbristvirus [HIV]
+B25-B34Andra virussjukdomar
+B35-B49Svampsjukdomar
+B50-B64Protozosjukdomar
+B65-B83Masksjukdomar
+B85-B89Lusangrepp, acarinos (angrepp av kvalster) och andra infestationer
+B90-B94Sena effekter av infektionssjukdomar och parasitsjukdomar
+B95-B98Bakterier, virus och andra infektiösa organismer
+B99-B99Andra infektionssjukdomar
+C00-C14Maligna tumörer i läpp, munhåla och svalg
+C15-C26Maligna tumörer i matsmältningsorganen
+C30-C39Maligna tumörer i andningsorganen och brösthålans organ
+C40-C41Maligna tumörer i ben och ledbrosk
+C43-C44Melanom och andra maligna tumörer i huden
+C45-C49Maligna tumörer i mesotelial (kroppshåletäckande) vävnad och mjukvävnad
+C50-C50Malign tumör i bröstkörtel
+C51-C58Maligna tumörer i de kvinnliga könsorganen
+C60-C63Maligna tumörer i de manliga könsorganen
+C64-C68Maligna tumörer i urinorganen
+C69-C72Maligna tumörer i öga, hjärnan och andra delar av centrala nervsystemet
+C73-C75Maligna tumörer i tyreoidea och andra endokrina körtlar
+C76-C80Maligna tumörer med ofullständigt angivna, sekundära och icke specificerade lokalisationer
+C81-C96Maligna tumörer i lymfatisk, blodbildande och besläktad vävnad
+C97-C97Flera (primära) maligna tumörer med olika utgångspunkter
+D00-D09Cancer in situ (lokalt begränsad cancer utgången från epitel)
+D10-D36Benigna tumörer
+D37-D48Tumörer av osäker eller okänd natur
+D50-D53Nutritionsanemier
+D55-D59Hemolytiska anemier (blodbrist på grund av ökad nedbrytning av röda blodkroppar)
+D60-D64Aplastisk anemi (blodbrist på grund av upphörd eller minskad blodbildning i benmärgen) och andra anemier
+D65-D69Koagulationsrubbningar, purpura (punktformiga blödningar i huden mm) och andra blödningstillstånd
+D70-D77Andra sjukdomar i blod och blodbildande organ
+D80-D89Vissa rubbningar i immunsystemet
+E00-E07Sjukdomar i sköldkörteln
+E10-E14Diabetes mellitus
+E15-E16Andra rubbningar i glukosreglering och bukspottkörtelns inre sekretion
+E20-E35Sjukdomar i andra endokrina körtlar
+E40-E46Näringsbrist
+E50-E64Andra näringsbristtillstånd
+E65-E68Fetma och andra övernäringstillstånd
+E70-E90Ämnesomsättningssjukdomar
+F00-F09Organiska, inklusive symtomatiska, psykiska störningar
+F10-F19Psykiska störningar och beteendestörningar orsakade av psykoaktiva substanser
+F20-F29Schizofreni, schizotypa störningar och vanföreställningssyndrom
+F30-F39Förstämningssyndrom
+F40-F48Neurotiska, stressrelaterade och somatoforma syndrom
+F50-F59Beteendestörningar förenade med fysiologiska rubbningar och fysiska faktorer
+F60-F69Personlighetsstörningar och beteendestörningar hos vuxna
+F70-F79Psykisk utvecklingsstörning
+F80-F89Störningar av psykisk utveckling
+F90-F98Beteendestörningar och emotionella störningar med debut vanligen under barndom och ungdomstid
+F99-F99Ospecificerad psykisk störning
+G00-G09Inflammatoriska sjukdomar i centrala nervsystemet
+G10-G14Systemiska atrofier som primärt engagerar centrala nervsystemet
+G20-G26Basalgangliesjukdomar och rörelserubbningar
+G30-G32Andra degenerativa sjukdomar i nervsystemet
+G35-G37Myelinförstörande sjukdomar i centrala nervsystemet
+G40-G47Episodiska och paroxysmala sjukdomar
+G50-G59Sjukdomar i nerver, nervrötter och nervplexus
+G60-G64Polyneuropatier (samtidig sjukdom i flera perifera nerver) och andra sjukdomar i perifera nervsystemet
+G70-G73Neuromuskulära transmissionsrubbningar (rubbningar i överföring av impulser mellan nerver och muskler) och sjukdomar i muskler
+G80-G83Cerebral pares och andra förlamningssyndrom
+G90-G99Andra sjukdomar i nervsystemet
+H00-H06Sjukdomar i ögonlock, tårapparat och ögonhåla
+H10-H13Sjukdomar i bindehinnan
+H15-H22Sjukdomar i senhinnan, hornhinnan, regnbågshinnan och ciliarkroppen
+H25-H28Sjukdomar i linsen
+H30-H36Sjukdomar i åderhinnan och näthinnan
+H40-H42Glaukom (grön starr)
+H43-H45Sjukdomar i glaskroppen och ögongloben
+H46-H48Sjukdomar i synnerven och synbanorna
+H49-H52Sjukdomar i ögonmusklerna, förändringar i de binokulära rörelserna samt ögats ackommodation och refraktion
+H53-H54Synstörningar och blindhet
+H55-H59Andra sjukdomar i ögat och närliggande organ
+H60-H62Sjukdomar i ytterörat och hörselgången
+H65-H75Sjukdomar i mellanörat och mastoidutskottet
+H80-H83Sjukdomar i innerörat
+H90-H95Andra öronsjukdomar
+I00-I02Akut reumatisk feber
+I05-I09Kroniska reumatiska hjärtsjukdomar
+I10-I15Hypertonisjukdomar (högt blodtryck och därmed sammanhängande sjukdomar)
+I20-I25Ischemiska hjärtsjukdomar (sjukdomar orsakade av otillräcklig blodtillförsel till hjärtmuskeln)
+I26-I28Sjukdomstillstånd inom lungcirkulationen
+I30-I52Andra former av hjärtsjukdom
+I60-I69Sjukdomar i hjärnans kärl
+I70-I79Sjukdomar i artärer, arterioler (småartärer) och kapillärer
+I80-I89Sjukdomar i vener, lymfkärl och lymfkörtlar som ej klassificeras annorstädes
+I95-I99Andra och icke specificerade sjukdomar i cirkulationsorganen
+J00-J06Akuta infektioner i övre luftvägarna
+J09-J18Influensa och lunginflammation
+J20-J22Andra akuta infektioner i nedre luftvägarna
+J30-J39Andra sjukdomar i övre luftvägarna
+J40-J47Kroniska sjukdomar i nedre luftvägarna
+J60-J70Lungsjukdomar av yttre orsaker
+J80-J84Andra lungsjukdomar som huvudsakligen engagerar interstitiet (lungornas stödjevävnad)
+J85-J86Variga och nekrotiska tillstånd i nedre luftvägarna
+J90-J94Andra sjukdomar i lungsäcken
+J95-J99Andra sjukdomar i andningsorganen
+K00-K14Sjukdomar i munhåla, spottkörtlar och käkar
+K20-K31Matstrupens, magsäckens och tolvfingertarmens sjukdomar
+K35-K38Sjukdomar i blindtarmen
+K40-K46Bråck
+K50-K52Icke infektiös inflammation i tunntarmen och tjocktarmen
+K55-K64Andra sjukdomar i tarmen
+K65-K67Sjukdomar i bukhinnan
+K70-K77Sjukdomar i levern
+K80-K87Sjukdomar i gallblåsan, gallvägarna och bukspottkörteln
+K90-K93Andra sjukdomar i matsmältningsorganen
+L00-L08Infektioner i hud och underhud
+L10-L14Blåsdermatoser (hudsjukdomar med blåsor)
+L20-L30Dermatit och eksem
+L40-L45Papuloskvamösa sjukdomar
+L50-L54Urtikaria (nässelfeber) och erytematösa tillstånd (tillstånd med hudrodnad)
+L55-L59Strålningsrelaterade sjukdomar i hud och underhud
+L60-L75Sjukdomar i hår, hårfolliklar, naglar, talgkörtlar och svettkörtlar
+L80-L99Andra sjukdomar i hud och underhud
+M00-M03Infektiösa ledsjukdomar
+M05-M14Inflammatoriska polyartriter
+M15-M19Artros
+M20-M25Andra ledsjukdomar
+M30-M36Inflammatoriska systemsjukdomar
+M40-M43Deformerande ryggsjukdomar
+M45-M49Spondylopatier
+M50-M54Andra ryggsjukdomar
+M60-M63Muskelsjukdomar
+M65-M68Sjukdomar i ledhinnor och senor
+M70-M79Andra sjukdomar i mjukvävnader
+M80-M85Rubbningar i bentäthet och benstruktur
+M86-M90Andra sjukdomar i benvävnad
+M91-M94Sjukdomar i broskvävnad
+M95-M99Andra sjukdomar i muskuloskeletala systemet och bindväven
+N00-N08Glomerulussjukdomar
+N10-N16Tubulo-interstitiella njursjukdomar
+N17-N19Njursvikt
+N20-N23Sten i urinvägarna
+N25-N29Andra sjukdomar i njure och urinledare
+N30-N39Andra sjukdomar i urinorganen
+N40-N51Sjukdomar i de manliga könsorganen
+N60-N64Sjukdomar i bröstkörtel
+N70-N77Inflammatoriska sjukdomar i de kvinnliga bäckenorganen
+N80-N98Icke inflammatoriska sjukdomar i de kvinnliga könsorganen
+N99-N99Andra sjukliga tillstånd i urin- och könsorganen
+O00-O08Graviditet som avslutas med abort
+O10-O16Ödem, proteinuri (äggvita i urinen) och hypertoni under graviditet, förlossning och barnsängstid
+O20-O29Andra sjukdomar hos den blivande modern i huvudsak sammanhängande med graviditeten
+O30-O48Vård under graviditet på grund av problem relaterade till fostret och amnionhålan samt befarade förlossningsproblem
+O60-O75Komplikationer vid värkarbete och förlossning
+O80-O84Förlossning
+O85-O92Komplikationer huvudsakligen sammanhängande med barnsängstiden
+O94-O99Andra obstetriska tillstånd som ej klassificeras annorstädes (O94-O99)
+P00-P04Foster och nyfödd som påverkats av tillstånd hos modern och av komplikationer vid graviditet, värkarbete och förlossning
+P05-P08Sjukdomar som har samband med graviditetslängd och fostertillväxt
+P10-P15Förlossningsskador
+P20-P29Sjukdomar i andningsorgan och cirkulationsorgan specifika för den perinatala perioden
+P35-P39Infektioner specifika för den perinatala perioden
+P50-P61Blödningssjukdomar och blodsjukdomar hos foster och nyfödd
+P70-P74Övergående endokrina rubbningar och ämnesomsättningsrubbningar specifika för foster och nyfödd
+P75-P78Sjukdomar i matsmältningsorganen hos foster och nyfödd
+P80-P83Tillstånd som engagerar hud och temperaturreglering hos foster och nyfödd
+P90-P96Andra sjukdomar och rubbningar under den perinatala perioden
+Q00-Q07Medfödda missbildningar av nervsystemet
+Q10-Q18Medfödda missbildningar av öga, öra, ansikte och hals
+Q20-Q28Medfödda missbildningar av cirkulationsorganen
+Q30-Q34Medfödda missbildningar av andningsorganen
+Q35-Q37Kluven läpp och gom
+Q38-Q45Andra medfödda missbildningar av matsmältningsorganen
+Q50-Q56Medfödda missbildningar av könsorganen
+Q60-Q64Medfödda missbildningar av urinorganen
+Q65-Q79Medfödda missbildningar och deformiteter av muskler och skelett
+Q80-Q89Andra medfödda missbildningar
+Q90-Q99Kromosomavvikelser som ej klassificeras annorstädes
+R00-R09Symtom och sjukdomstecken från cirkulationsorganen och andningsorganen
+R10-R19Symtom och sjukdomstecken från matsmältningsorganen och buken
+R20-R23Symtom och sjukdomstecken från huden och underhuden
+R25-R29Symtom och sjukdomstecken från nervsystemet och muskuloskeletala systemet
+R30-R39Symtom och sjukdomstecken från urinorganen
+R40-R46Symtom och sjukdomstecken avseende intellektuella funktioner, uppfattningsförmåga, känsloläge och beteende
+R47-R49Symtom och sjukdomstecken avseende talet och rösten
+R50-R69Allmänna symtom och sjukdomstecken
+R70-R79Onormala fynd vid blodundersökning utan diagnos
+R80-R82Onormala fynd vid urinundersökning utan diagnos
+R83-R89Onormala fynd vid undersökning av andra kroppsvätskor, substanser och vävnader, utan diagnos
+R90-R94Onormala fynd vid radiologisk diagnostik och vid funktionsundersökning utan diagnos
+R95-R99Ofullständigt definierade och okända orsaker till död
+S00-S09Skador på huvudet
+S10-S19Skador på halsen
+S20-S29Skador i bröstregionen
+S30-S39Skador i buken, nedre delen av ryggen, ländkotpelaren och bäckenet
+S40-S49Skador på skuldra och överarm
+S50-S59Skador på armbåge och underarm
+S60-S69Skador på handled och hand
+S70-S79Skador på höft och lår
+S80-S89Skador på knä och underben
+S90-S99Skador på fotled och fot
+T00-T07Skador som engagerar flera kroppsregioner
+T08-T14Skador på icke specificerad del av bålen, extremitet eller annan kroppsregion
+T15-T19Effekter av främmande kropp som trängt in genom naturlig öppning
+T20-T25Brännskador och frätskador på yttre kroppsyta med specificerad lokalisation
+T26-T28Brännskador och frätskador begränsade till ögat och inre organ
+T29-T32Brännskador och frätskador på multipla och icke specificerade kroppsregioner
+T33-T35Köldskada
+T36-T50Förgiftning av droger, läkemedel och biologiska substanser
+T51-T65Toxisk effekt av substanser med i huvudsak icke-medicinsk användning
+T66-T78Andra och icke specificerade effekter av yttre orsaker
+T79-T79Vissa tidiga komplikationer till skada genom yttre våld
+T80-T88Komplikationer till kirurgiska åtgärder och medicinsk vård som ej klassificeras annorstädes
+T90-T98Sena besvär av skador, förgiftningar och andra följder av yttre orsaker
+U00-U49Interimistiska koder för nya sjukdomar med osäker etiologi eller koder som kan tas i bruk med kort varsel
+U82-U85Resistens mot antimikrobiella och antineoplastiska läkemedel (U82-U85)
+U98-U99Koder för särskilda nationella behov
+UA     UA
+UB     UB
+UP     UP
+V01-V09Fotgängare skadad i transportolycka
+V10-V19Cyklist (förare eller passagerare) skadad i transportolycka
+V20-V29Motorcyklist (förare eller passagerare) skadad i transportolycka
+V30-V39Förare av eller passagerare i trehjuligt motorfordon skadad i transportolycka
+V40-V49Förare av eller passagerare i personbil skadad i transportolycka
+V50-V59Förare av eller passagerare i lätt lastbil skadad i transportolycka
+V60-V69Förare av eller passagerare i tung lastbil skadad i transportolycka
+V70-V79Förare av eller passagerare i buss skadad i transportolycka
+V80-V89Andra transportolyckor på land
+V90-V94Transportolyckor på vatten
+V95-V97Transportolyckor i luften och rymden
+V98-V99Andra och icke specificerade transportolyckor
+W00-W19Fallolyckor
+W20-W49Exponering för icke levande mekaniska krafter
+W50-W64Exponering för levande mekaniska krafter
+W65-W74Drunkning och drunkningstillbud genom olyckshändelse
+W75-W84Annan kvävning och annat kvävningstillbud genom olyckshändelse
+W85-W99Exponering för elektrisk ström, strålning, extrem lufttemperatur och extremt lufttryck i omgivningen
+X00-X09Exponering för rök och öppen eld
+X10-X19Kontakt med heta föremål och heta ämnen
+X20-X29Kontakt med giftiga djur och växter
+X30-X39Exponering för naturkrafter
+X40-X49Förgiftningsolyckor och exponering för skadliga ämnen genom olyckshändelse
+X50-X57Överansträngning och umbäranden
+X58-X59Exponering genom olyckshändelse för andra och icke specificerade faktorer
+X60-X84Avsiktligt självdestruktiv handling
+X85-Y09Övergrepp av annan person
+Y10-Y34Skadehändelser med oklar avsikt
+Y35-Y36Polisingripande och krigshandling
+Y40-Y59Läkemedel, droger och biologiska substanser i terapeutiskt bruk som orsak till ogynnsam effekt
+Y60-Y69Missöden som inträffat med patienter under kirurgisk och medicinsk vård
+Y70-Y82Missöden orsakade av medicinska instrument i diagnostiskt och terapeutiskt bruk
+Y83-Y84Kirurgiska och andra medicinska åtgärder som orsak till onormal reaktion eller sen komplikation hos patient utan anknytning till missöde vid operations- eller behandlingstillfället
+Y85-Y89Sena effekter av yttre orsaker till sjukdom och död
+Y90-Y98Bidragande faktorer som har samband med yttre orsaker till sjukdom och död, vilka klassificeras annorstädes
+Z00-Z13Kontakt med hälso- och sjukvården för undersökning och utredning
+Z20-Z29Potentiella hälsorisker avseende smittsamma sjukdomar
+Z30-Z39Kontakter med hälso- och sjukvården i samband med fortplantning
+Z40-Z54Kontakter med hälso- och sjukvården för speciella åtgärder och vård
+Z55-Z65Potentiella hälsorisker avseende socioekonomiska och psykosociala förhållanden
+Z70-Z76Kontakter med hälso- och sjukvården i andra situationer
+Z80-Z99Potentiella hälsorisker i familjens och patientens sjukhistoria samt vissa tillstånd och förhållanden som påverkar hälsan
