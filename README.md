@@ -30,7 +30,7 @@ Nedan visas vilket data som används i respektive applikation.
 
 _Not 1: Tidigare låg referensdata under `src/main/resources` för varje applikation och där återfanns för vissa applikationer även en `security` folder med `features.yaml` och `authorities.yaml` dessa båda filer var applikationsspecifik konfiguration och har därför flyttats med `default` representationer till `web/src/main/resources/security`._
 
-_Not 2: Länkarna är fortfarande specifika per applikation men målsättningen är att även harmonisera dessa till en gemensam lista._
+_Not 2: Länkarna (links) är fortfarande specifika per applikation men målsättningen är att även harmonisera dessa till en gemensam lista._
 
 ### Release
 
