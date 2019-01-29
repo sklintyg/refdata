@@ -21,7 +21,7 @@ Nedan visas vilket data som används i respektive applikation.
 | App | Gemensam referensdata |
 | --- | --------------------- |
 | WC  | texts, links, postnummer, icf, diagnoskoder, befattnigskoder, privatlakaravtal |
-| ST | links,  cdiagnoskoder |
+| ST | links,  diagnoskoder |
 | MI | texts, links, befattnigskoder |
 | RS | links, diagnoskoder, diagnoskapitel, diagnosgrupper |
 | PP | links, postnummer |
@@ -34,7 +34,7 @@ _Not 2: Länkarna (links) är fortfarande specifika per applikation men målsät
 
 ### Release
 
-En förenklad releasehantering rekommenderas med en `master` branch som erhåller ett nytt byggnummer för varje uppdatering.
+En förenklad releasehantering rekommenderas med en `master` branch som erhåller ett nytt byggnummer för varje uppdatering. Vid en eventuell större strukturförändring skapas en särskild release branch för legacy. Detta innebär vidare att legacy applikationerna måste konfigurera en `REFDATA_URL, se mer nedan. 
 
 
 ### Deployment
