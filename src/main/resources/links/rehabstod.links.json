@@ -103,6 +103,12 @@
     "target": "_blank"
   },
   {
+    "key": "omSambi",
+    "url": "https://www.sambi.se/",
+    "text": "Lär dig mer om inloggning via Sambi",
+    "target": "_blank"
+  },
+  {
     "key": "lasMerOmLoggning",
     "url": "https://www.inera.se/intygsskolan/rehabstod",
     "text": "Läs mer om loggning i Ineras intygsskola",
