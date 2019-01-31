@@ -178,57 +178,15 @@
 	<text id="KAT_4.RBK">Bedömning</text>
 	<text id="FRG_1.RBK">På grunder som anges ovan bedömer jag att personen är olämplig/sannolikt olämplig att ha</text>
 	<text id="FRG_1.HLP"><![CDATA[AM - moped klass I
-				A1 - lätt motorcykel
-				A2 - mellanstor motorcykel
-				A - motorcykel
-				B - personbil, lätt lastbil och enbart ett lätt släpfordon
-				BE - personbil, lätt lastbil och ett eller flera släpfordon (Släpens totalvikt får inte överstiga 3,5 ton.)
-				C1 - medeltung lastbil och enbart ett lätt släpfordon
-				C1E - medeltung lastbil och ett eller flera släpfordon oavsett vikt
-				C - tung lastbil och enbart ett lätt släpfordon
-				CE - tung lastbil och ett eller flera släpfordon oavsett vikt
-				D1 - mellanstor buss och enbart ett lätt släpfordon
-				D1E - mellanstor buss och ett eller flera släpfordon oavsett vikt
-				D - buss och enbart ett lätt släpfordon
-				DE - buss och ett eller flera släpfordon oavsett vikt
-				Taxi - taxiförarlegitimation]]></text>
-
-	<!--
-  ==================
-  KATEGORI 6: Övrigt
-  ==================
-   -->
-	<text id="KAT_6.RBK">Övrigt</text>
-
-	<text id="FRG_32.RBK">Övriga kommentarer och upplysningar</text>
-
-	<!--
-  =====================
-  KATEGORI 7: Bedömning
-  =====================
-  -->
-	<text id="KAT_7.RBK">Bedömning</text>
-
-	<text id="FRG_33.RBK">Ange för vilka behörigheter som patienten uppfyller kraven enligt Transportstyrelsens föreskrifter och allmänna råd om medicinska krav för innehav av körkort m.m.(TSFS 2010:125)</text>
-	<text id="FRG_33.HLP"><![CDATA[<span style="text-align:left">AM = moped klass I<br/>A1 = lätt motorcykel<br/>A2 = mellanstor motorcykel<br/>A = motorcykel<br/>B = personbil, lätt lastbil och enbart ett lätt släpfordon<br/>BE = personbil, lätt lastbil och ett eller flera släpfordon. Släpens totalvikt får inte överstiga 3,5 ton.<br/>C1 = medeltung lastbil och enbart ett lätt släpfordon<br/>C1E = medeltung lastbil och ett eller flera släpfordon oavsett vikt<br/>C = tung lastbil och enbart ett lätt släpfordon<br/>CE = tung lastbil och ett eller flera släpfordon oavsett vikt<br/>D1 = mellanstor buss och enbart ett lätt släpfordon<br/>D1E = mellanstor buss och ett eller flera släpfordon oavsett vikt<br/>D = buss och enbart ett lätt släpfordon<br/>DE = buss och ett eller flera släpfordon oavsett vikt<br/>Taxi = taxiförarlegitimation</span>]]></text>
-
-	<text id="KV_KORKORTSBEHORIGHET_AM.RBK">AM</text>
-	<text id="KV_KORKORTSBEHORIGHET_A1.RBK">A1</text>
-	<text id="KV_KORKORTSBEHORIGHET_A2.RBK">A2</text>
-	<text id="KV_KORKORTSBEHORIGHET_A.RBK">A</text>
-	<text id="KV_KORKORTSBEHORIGHET_B.RBK">B</text>
-	<text id="KV_KORKORTSBEHORIGHET_BE.RBK">BE</text>
-	<text id="KV_KORKORTSBEHORIGHET_TRAKTOR.RBK">Traktor</text>
-	<text id="KV_KORKORTSBEHORIGHET_C1.RBK">C1</text>
-	<text id="KV_KORKORTSBEHORIGHET_C1E.RBK">C1E</text>
-	<text id="KV_KORKORTSBEHORIGHET_C.RBK">C</text>
-	<text id="KV_KORKORTSBEHORIGHET_CE.RBK">CE</text>
-	<text id="KV_KORKORTSBEHORIGHET_D1.RBK">D1</text>
-	<text id="KV_KORKORTSBEHORIGHET_D1E.RBK">D1E</text>
-	<text id="KV_KORKORTSBEHORIGHET_D.RBK">D</text>
-	<text id="KV_KORKORTSBEHORIGHET_DE.RBK">DE</text>
-	<text id="KV_KORKORTSBEHORIGHET_TAXI.RBK">Taxi</text>
-	<text id="KV_KORKORTSBEHORIGHET_KANINTETASTALLNING.RBK">Kan inte ta ställning</text>
+		A1 - lätt motorcykel
+		A2 - mellanstor motorcykel
+		A - motorcykel
+		B - personbil och lätt lastbil
+		C1 - medeltung lastbil
+		C - tung lastbil
+		D1 - mellanstor buss
+		D - buss
+		E - tungt släpfordon]]></text>
 
 	<text id="SVAR_ALLA.RBK">Alla behörigheter inkl. körkortstillstånd, traktorkort och taxiförarlegitimation</text>
 	<text id="SVAR_A_B_TRAKTOR.RBK">AM, A1, A2, A, B, BE, traktorkort</text>
