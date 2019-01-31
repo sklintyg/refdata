@@ -59,10 +59,10 @@
 		En anmälan från läkare ska vara skriftlig och innehålla de uppgifter om innehavarens hälsotillstånd som framkommit vid
 		undersökningen och som har betydelse för frågan om innehav.
 
-		Den senaste versionen av föreskrifterna finns på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a>
+		Den senaste versionen av föreskrifterna finns på <LINK:transportstyrelsen>
 
 		<b>Har du frågor?</b>
-		Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transportstyrelsens föreskrifter kan hämtas på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a>.
+		Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transportstyrelsens föreskrifter kan hämtas på <LINK:transportstyrelsen>.
 
 	]]></text>
 
@@ -119,10 +119,10 @@
 	<text id="KAT_3.RBK">Medicinska förhållanden</text>
 	<text id="FRG_47.RBK">Medicinska förhållanden som utgör grund för anmälan (ange t.ex. diagnos och funktionsnedsättning)</text>
 	<text id="FRG_47.HLP"><![CDATA[<b>Vid synnedsättning</b>
-		Se läkarintyg ”läkarintyg synfunktion” (TSTRK 1032) påwww.transportstyrelsen.seför ledning. Bedömningen ska göras utifrån 2 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+		Se läkarintyg ”läkarintyg synfunktion” (TSTRK 1032) på <LINK:transportstyrelsen> för ledning. Bedömningen ska göras utifrån 2 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
 		<b>Vid hjärt- och kärlsjukdom</b
-		Se läkarintyg ”läkarintyg avseende hjärt- och kärlsjukdomar” (TSTRK 1065) på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a> för ledning. Bedömningen ska göras utifrån 5 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+		Se läkarintyg ”läkarintyg avseende hjärt- och kärlsjukdomar” (TSTRK 1065) på <LINK:transportstyrelsen> för ledning. Bedömningen ska göras utifrån 5 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
 		<b>Vid epilepsi, epileptiskt anfall eller annan medvetandestörning</b>
 		Anmälan bör innehålla information om och en bedömning av
@@ -146,11 +146,11 @@
 		Bedömningen ska göras utifrån 10 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
 		<b>Vid sömn- eller vakenhetsstörning</b>
-		Se läkarintyg ”läkarintyg avseende sömn- och vakenhetsstörningar” (TSTRK 1063) på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a> för ledning. Bedömningen ska göras utifrån 11 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+		Se läkarintyg ”läkarintyg avseende sömn- och vakenhetsstörningar” (TSTRK 1063) på <LINK:transportstyrelsen> för ledning. Bedömningen ska göras utifrån 11 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
 
 		<b>Vid alkohol, narkotika och läkemedel</b>
-		Se läkarintyg ”läkarintyg avseende alkohol, narkotika och läkemedel” (TSTRK 1030) på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a> för ledning. Bedömningen ska göras utifrån 12 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+		Se läkarintyg ”läkarintyg avseende alkohol, narkotika och läkemedel” (TSTRK 1030) på <LINK:transportstyrelsen> för ledning. Bedömningen ska göras utifrån 12 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
 
 		<b>Vid psykisk sjukdom eller störning</b>
@@ -164,7 +164,7 @@
 
 
 		<b>Vid ADHD, autismspektrumtillstånd och likartade tillstånd samt psykisk utvecklingsstörning</b>
-		Se läkarintyg ”läkarintyg avseende ADHD, autismspektrumtillstånd och likartade tillstånd samt psykisk utvecklingsstörning” (TSTRK 1062) på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a> för ledning. Bedömningen ska göras utifrån 15 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+		Se läkarintyg ”läkarintyg avseende ADHD, autismspektrumtillstånd och likartade tillstånd samt psykisk utvecklingsstörning” (TSTRK 1062) på <LINK:transportstyrelsen> för ledning. Bedömningen ska göras utifrån 15 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 	]]></text>
 
 	<text id="FRG_48.RBK">Senaste undersökningsdatum</text>
