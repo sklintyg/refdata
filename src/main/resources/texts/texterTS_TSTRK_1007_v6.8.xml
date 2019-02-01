@@ -39,7 +39,6 @@ Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transpo
 	<text id="KORKORT.DE.RBK">DE</text>
 	<text id="KORKORT.TAXI.RBK">Taxi</text>
 	<text id="KORKORT.ANNAT.RBK">Annat</text>
-	<text id="KORKORT.KAN_INTE_TA_STALLNING.RBK">Kan inte ta ställning</text>
 
 	<!--
 	===============================================
@@ -245,7 +244,7 @@ Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 20
 	=============================================
 	-->
 	<text id="KAT_16.RBK">Övrig kommentar</text>
-	<text id="FRG_32.RBK">Övriga kommentarer som är relevant ur trafiksäkerhetssynpunkt:</text>
+	<text id="FRG_32.RBK">Övriga kommentarer som är relevant ur trafiksäkerhetssynpunkt</text>
 
 	<!--
 	===============================================
