@@ -30,7 +30,7 @@
 	===============================================
 	-->
 	<text id="KAT_100.RBK">Identitet styrkt genom</text>
-	<text id="KAT_100.OBS"><![CDATA[
+	<text id="KAT_100.OBS.RBK"><![CDATA[
 	¹ SIS-märkt ID-kort, svenskt nationellt ID-kort eller ID-kort utfärdat av Skatteverket.
 	² SIS-märkt företagskort eller tjänstekort.
 	³ Försäkran enligt 18 kap 4 § i Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
@@ -109,7 +109,7 @@
     medicinska krav för innehav av körkort m.m. (TSFS 2010:125, senast ändrade genom TSFS
     2013:2).
     Föreskrivna krav på läkarens specialistkompetens vid diabetessjukdom anges i 17 kap.
-    Se <LINK:transportstyrelsen>.]]></text>
+    Se <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a>.]]></text>
 	<text id="DFR_33.1.RBK">Någon av följande behörighetstyper</text>
   <text id="DFR_33.2.RBK">Kan inte ta ställning</text>
   <text id="FRG_45.RBK">Om patienten söker behörighet C1, C1E, C, CE, D1, D1E, D, DE eller Taxi, är han eller hon lämplig att inneha sådan behörighet med hänsyn till de körningar och arbetsformer som är aktuella vid sådant innehav? (Se 6 kap. 16 §)</text>
