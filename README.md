@@ -54,7 +54,7 @@ Exempel, använd branch `devtest` för OpenShift pipeline:
 
 _Observera att det är en GitHub specifik feature som används för att ladda ned ett en viss branch av ett repo som ett ZIP-arkiv._
 
-Alternativt kan refdata JAR fil konfigureras med REFDATA_URL till att peka på antingen en HTTP tjänst eller ett delat filsystem. Handlar det om ett filsystem så måste en fullt kvalificerad URL användas, exempel:
+Alternativt kan JAR-filen med refdata konfigureras med `REFDATA_URL` till att peka på antingen en HTTP tjänst eller ett delat filsystem. Handlar det om ett filsystem så måste en fullt kvalificerad URL användas, exempel:
 	
 	REFDATA_URL: "file://localhost/path/refdata-0-SNAPSHOT.jar"
 	RESOURCES_FOLDER: "classpath:"
