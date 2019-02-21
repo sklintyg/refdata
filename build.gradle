@@ -10,7 +10,7 @@ version = System.properties['buildVersion'] ?: '0-SNAPSHOT'
 task createVersionPropertyFile(type: VersionPropertyFileTask)
 
 uploadArchives.repositories.mavenDeployer {
-    pom.version = 'devtest'
+    pom.version = '1'
     repository(url: "https://build-inera.nordicmedtest.se/nexus/repository/snapshots/") {
         authentication(userName: System.properties['nexusUsername'], password: System.properties['nexusPassword'])
     }
