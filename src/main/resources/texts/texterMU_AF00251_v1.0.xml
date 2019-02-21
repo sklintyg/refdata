@@ -26,13 +26,13 @@
     <text id="FRG_2.HLP">Här anger du vad patienten har berättat att hen gör i sitt program. För en programdeltagare ska den medicinska bedömningen göras i förhållande till deltagarens förmåga att delta i aktiviteter i programmet.
 
         Exempel på aktiviteter är studier, arbetspraktik, jobbsökaraktiviteter och arbetslivsinriktad rehabilitering.</text>
-    <text id="DFR_2.2.RBK">Programmets omfattning (timmar/vecka).</text>
+    <text id="DFR_2.2.RBK">Programmets omfattning (timmar/vecka)</text>
     <text id="DFR_2.2.HLP">Här skriver du vad patienten anger är programmets omfattning.</text>
     <text id="OMFATTNING.PROGRAM_HELTID.RBK">Heltid (40 timmar/vecka)</text>
     <text id="OMFATTNING.PROGRAM_DELTID.RBK">Deltid</text>
     <text id="OMFATTNING.PROGRAM_OKAND.RBK">Okänd</text>
 
-    <text id="DFR_2.3.RBK">Ange timmar/vecka.</text>
+    <text id="DFR_2.3.RBK">Ange timmar/vecka</text>
 
     <!-- Fråga 3 -->
     <text id="FRG_3.RBK">Jag bedömer att patienten har följande funktionsnedsättning</text>
