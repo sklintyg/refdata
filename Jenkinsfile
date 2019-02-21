@@ -1,0 +1,28 @@
+#!groovy
+
+def buildVersion = "0-SNAPSHOT"
+
+stage('checkout') {
+    node {
+        git url: 'https://github.com/sklintyg/refdata.git', branch: 'devtest'
+        util.run { checkout scm }
+    }
+}
+
+stage('build') {
+    node {
+        shgradle "clean build"
+    }
+}
+
+stage('tag and upload') {
+    node {
+        shgradle "uploadArchives -DbuildVersion=${buildVersion}"
+    }
+}
+
+stage('notify') {
+    node {
+        util.notifySuccess()
+    }
+}
