@@ -22,13 +22,8 @@ stage('build') {
 }
 
 stage('tag and upload') {
-    def gitBranch = GIT_BRANCH
-
     node {
-        // om GIT_BRANCH är skilt från develop/master så
-        // 1. bygg upp artifactId med refdata-GIT_BRANCH-version
-        // 2. tagga koden med GIT_BRANCH-version
-        // annars gör som idag
+        def gitBranch = GIT_BRANCH
 
         if (gitBranch == "develop" || gitBranch == "master") {
             shgradle "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
