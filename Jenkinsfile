@@ -36,16 +36,11 @@ stage('tag and upload') {
         // annars gör som idag
 
         if (gitBranch == "develop" || gitBranch == "master") {
-            def shgradleCmd = "uploadArchives tagRelease "
-                + "-DbuildVersion=${buildVersion} "
+            def shgradleCmd = "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
             println "shgradleCmd 1: " + shgradleCmd
             //shgradle "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
         } else {
-            def shgradleCmd = "uploadArchives tagRelease "
-                + "-DcustomBuildName=${projectName}-${gitBranch.replaceAll('/', '')} "
-                + "-DbuildVersion=${BUILD_NUMBER} "
-                + "-Dintyg.tag.prefix=${gitBranch}-"
-
+            def shgradleCmd = "uploadArchives tagRelease -DcustomBuildName=${projectName}-${gitBranch.replaceAll('/', '')} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${gitBranch}-"
             println "shgradleCmd 2: " + shgradleCmd
 
             //shgradle "uploadArchives tagRelease "
