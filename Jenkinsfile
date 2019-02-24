@@ -4,7 +4,6 @@ def buildVersion = "1.0.0.${BUILD_NUMBER}"
 def projectName = "refdata"
 
 stage('checkout') {
-    //println 'checkout'
     node {
         /*
         git url: "https://github.com/sklintyg/refdata.git", branch: GIT_BRANCH
@@ -14,7 +13,6 @@ stage('checkout') {
 }
 
 stage('build') {
-    //println 'build'
     node {
         /*
         try {
@@ -28,9 +26,8 @@ stage('build') {
 }
 
 stage('tag and upload') {
-    //println 'tag and upload'
-    def gitBranch = GIT_BRANCH
-    //println "gitBranch: ${gitBranch}"
+    def gitBranch = ${GIT_BRANCH}
+    println "gitBranch: ${gitBranch}"
 
     node {
         // om GIT_BRANCH är skilt från develop/master så
@@ -41,7 +38,7 @@ stage('tag and upload') {
         if (gitBranch == "develop" || gitBranch == "master") {
             def shgradleCmd = "uploadArchives tagRelease "
                 + "-DbuildVersion=${buildVersion} "
-            //println "shgradleCmd 1: " + shgradleCmd
+            println "shgradleCmd 1: " + shgradleCmd
             //shgradle "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
         } else {
             def shgradleCmd = "uploadArchives tagRelease "
@@ -49,7 +46,7 @@ stage('tag and upload') {
                 + "-DbuildVersion=${BUILD_NUMBER} "
                 + "-Dintyg.tag.prefix=${gitBranch}-"
 
-            //println "shgradleCmd 2: " + shgradleCmd
+            println "shgradleCmd 2: " + shgradleCmd
 
             //shgradle "uploadArchives tagRelease "
             //        + "-DcustomBuildName=${projectName}-${gitBranch.replaceAll('/', '')} "
@@ -60,7 +57,6 @@ stage('tag and upload') {
 }
 
 stage('notify') {
-    //println 'notify'
     node {
         //util.notifySuccess()
     }
