@@ -10,6 +10,10 @@ ext {
 group = 'se.inera.intyg.refdata'
 version = System.properties['buildVersion'] ?: '0-SNAPSHOT'
 
+if (System.properties['customBuildName']) {
+    jar.archiveBaseName = System.properties['customBuildName']
+}
+
 task createVersionPropertyFile(type: VersionPropertyFileTask)
 
 uploadArchives.repositories.mavenDeployer {
