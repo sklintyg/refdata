@@ -24,7 +24,6 @@ stage('build') {
 stage('tag and upload') {
     node {
         def gitBranch = GIT_BRANCH
-
         if (gitBranch == "develop" || gitBranch == "master") {
             shgradle "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
         } else {
