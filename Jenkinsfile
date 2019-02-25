@@ -2,7 +2,7 @@
 
 def gitBranch = GIT_BRANCH
 def customBuildName = CUSTOM_BUILD_NAME
-def buildVersion = gitBranch == "devtest" ? "0-SNAPSHOT" : "1.0.0.${BUILD_NUMBER}"
+def buildVersion = gitBranch == "develop" ? "0-SNAPSHOT" : "1.0.0.${BUILD_NUMBER}"
 def projectName = "refdata"
 
 stage('checkout') {
@@ -20,7 +20,7 @@ stage('build') {
 
 stage('tag and upload') {
     node {
-        if (gitBranch == "devtest") {
+        if (gitBranch == "develop") {
             shgradle "uploadArchives -DbuildVersion=${buildVersion}"
         } else if (gitBranch == "master") {
             shgradle "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
