@@ -24,10 +24,15 @@ stage('build') {
 stage('tag and upload') {
     node {
         def gitBranch = GIT_BRANCH
-        if (gitBranch == "develop" || gitBranch == "master") {
+        if (gitBranch == "devtest" || gitBranch == "master") {
             shgradle "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
         } else {
-            shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${gitBranch.replaceAll('/', '')} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${gitBranch}-"
+            def customBuildName = CUSTOM_BUILD_NAME
+            if (customBuildName?.trim()) {
+                shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${customBuildName} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${customBuildName}-"
+            } else {
+                shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${gitBranch.replaceAll('/', '')} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${gitBranch}-"
+            }
         }
     }
 }
