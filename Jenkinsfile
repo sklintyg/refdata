@@ -1,6 +1,8 @@
 #!groovy
 
-def buildVersion = "1.0.0.${BUILD_NUMBER}"
+def gitBranch = GIT_BRANCH
+def customBuildName = CUSTOM_BUILD_NAME
+def buildVersion = gitBranch == "devtest" ? "0-SNAPSHOT" : "1.0.0.${BUILD_NUMBER}"
 def projectName = "refdata"
 
 stage('checkout') {
@@ -23,16 +25,14 @@ stage('build') {
 
 stage('tag and upload') {
     node {
-        def gitBranch = GIT_BRANCH
-        if (gitBranch == "devtest" || gitBranch == "master") {
+        if (gitBranch == "devtest") {
+            shgradle "uploadArchives -DbuildVersion=${buildVersion}"
+        } else if (gitBranch == "master") {
             shgradle "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
+        } else if (customBuildName?.trim()) {
+            shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${customBuildName} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${customBuildName}-"
         } else {
-            def customBuildName = CUSTOM_BUILD_NAME
-            if (customBuildName?.trim()) {
-                shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${customBuildName} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${customBuildName}-"
-            } else {
-                shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${gitBranch.replaceAll('/', '')} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${gitBranch}-"
-            }
+            shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${gitBranch.replaceAll('/', '')} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${gitBranch}-"
         }
     }
 }
