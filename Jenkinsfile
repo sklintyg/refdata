@@ -1,8 +1,6 @@
 #!groovy
 
-def gitBranch = GIT_BRANCH
-def customBuildName = CUSTOM_BUILD_NAME
-def buildVersion = gitBranch == "develop" ? "0-SNAPSHOT" : "1.0.0.${BUILD_NUMBER}"
+def buildVersion = "1.0.0.${BUILD_NUMBER}"
 def projectName = "refdata"
 
 stage('checkout') {
@@ -19,10 +17,10 @@ stage('build') {
 }
 
 stage('tag and upload') {
+    def gitBranch = GIT_BRANCH
+    def customBuildName = CUSTOM_BUILD_NAME
     node {
-        if (gitBranch == "develop") {
-            shgradle "uploadArchives -DbuildVersion=${buildVersion}"
-        } else if (gitBranch == "master") {
+        if (gitBranch == "master") {
             shgradle "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
         } else if (customBuildName?.trim()) {
             shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${customBuildName} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${customBuildName}-"
