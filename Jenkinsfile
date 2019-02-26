@@ -1,7 +1,7 @@
 #!groovy
 
 def buildVersion = "1.0.0.${BUILD_NUMBER}"
-def buildRoot = JOB_BASE_NAME.replaceAll(/-.*/, "") // Keep everything up to the first dash
+def projectName = "refdata"
 
 stage('checkout') {
     node {
@@ -12,18 +12,21 @@ stage('checkout') {
 
 stage('build') {
     node {
-        try {
-            shgradle "--refresh-dependencies clean build"
-        } finally {
-            publishHTML allowMissing: true, alwaysLinkToLastBuild: true, keepAll: true, reportDir: 'build/reports/allTests', \
-                reportFiles: 'index.html', reportName: 'JUnit results'
-        }
+        shgradle "--refresh-dependencies clean build"
     }
 }
 
 stage('tag and upload') {
+    def gitBranch = GIT_BRANCH
+    def customBuildName = CUSTOM_BUILD_NAME
     node {
-        shgradle "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
+        if (gitBranch == "master") {
+            shgradle "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
+        } else if (customBuildName?.trim()) {
+            shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${customBuildName} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${customBuildName}-"
+        } else {
+            shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${gitBranch.replaceAll('/', '')} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${gitBranch}-"
+        }
     }
 }
 
