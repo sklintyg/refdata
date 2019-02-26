@@ -71,7 +71,7 @@ Arbetstagaren har rätt att dölja diagnos i ett läkarintyg avsett för sjuklö
 	<text id="DFR_17.1.RBK">Beskriv vad patienten inte kan göra på grund av sin sjukdom. Ange vad uppgiften grundas på.</text>
 	<text id="DFR_19.1.RBK">Ange vad syftet är och om möjligt tidplan samt ansvarig vårdenhet.</text>
 	<text id="DFR_20.1.RBK">Ange vad syftet är och om möjligt tidplan samt ansvarig vårdenhet.</text>
-	<text id="DFR_103.1.RBK">Jag önskar att arbetsgivaren kontaktar vårdcentralen. Patienten har lämnat samtycke för kontakt mellan arbetsgivare och vårdgivare</text>
+	<text id="DFR_103.1.RBK">Jag önskar att arbetsgivaren kontaktar vårdenheten. Patienten har lämnat samtycke för kontakt mellan arbetsgivare och vårdgivare</text>
 	<text id="DFR_103.2.RBK">Ange varför du vill ha kontakt och vem som i första hand ska kontaktas.</text>
 	<text id="DFR_33.2.RBK">Beskriv medicinska skäl till annan förläggning av arbetstiden</text>
 	<text id="DFR_35.1.HLP"><![CDATA[Ange observerade nedsättningar (direkt och indirekt), exempelvis
@@ -98,8 +98,6 @@ Arbetstagaren har rätt att dölja diagnos i ett läkarintyg avsett för sjuklö
 	<text id="FRG_28.HLP">Om du kryssar i flera val är det viktigt att du tydliggör under "Övriga upplysningar" om sjukskrivningens omfattning eller period skiljer sig åt mellan olika sysselsättningar.</text>
 	<text id="FRG_28.RBK">I relation till vilken sysselsättning bedömer du arbetsförmågan?</text>
 	<text id="FRG_29.RBK">Ange yrke och arbetsuppgifter</text>
-	<text id="FRG_30.HLP">Denna ruta markeras när patienten deltar i ett arbetsmarknadspolitiskt program som Arbetsförmedlingen beslutat om. Det ska tydligt framgå vad patienten har för aktivitet i programmet och vad arbetsuppgifterna består av.</text>
-	<text id="FRG_30.RBK">Ange aktiviteter i det arbetsmarknadspolitiska programmet</text>
 	<text id="FRG_32.HLP">Utgångspunkten är att patientens arbetsförmåga ska bedömas i förhållande till hens normala arbetstid.</text>
 	<text id="FRG_32.RBK">Min bedömning av patientens nedsättning av arbetsförmågan</text>
 	<text id="FRG_33.HLP">Frågorna besvaras endast vid partiellt nedsatt arbetsförmåga.</text>
@@ -127,7 +125,7 @@ Arbetstagaren har rätt att dölja diagnos i ett läkarintyg avsett för sjuklö
 	<text id="KAT_5.RBK">Medicinsk behandling</text>
 	<text id="KAT_6.RBK">Bedömning</text>
 	<text id="KAT_7.RBK">Åtgärder</text>
-	<text id="KAT_8.RBK">Övriga upplysningar</text>
+	<text id="KAT_8.RBK">Övrigt</text>
 	<text id="KAT_9.RBK">Kontakt</text>
 	<text id="KAT_10.RBK">Smittbärarpenning</text>
 	<text id="KAT_10.HLP"><![CDATA[Fylls i om hon eller han måste avstå från sitt arbete på grund av:
@@ -142,7 +140,6 @@ Arbetstagaren har rätt att dölja diagnos i ett läkarintyg avsett för sjuklö
 	<text id="KV_FKMU_0002.ARBETSSOKANDE.RBK">Arbetssökande - att utföra sådant arbete som är normalt förekommande på arbetsmarknaden</text>
 	<text id="KV_FKMU_0002.FORALDRALEDIG.RBK">Föräldraledighet för vård av barn</text>
 	<text id="KV_FKMU_0002.NUVARANDE_ARBETE.RBK">Nuvarande arbete</text>
-	<text id="KV_FKMU_0002.PROGRAM.RBK">Deltagande i arbetsmarknadspolitiskt program</text>
 	<text id="KV_FKMU_0002.STUDIER.RBK">Studier</text>
 
 	<text id="KV_FKMU_0003.EN_FJARDEDEL.RBK">25 procent</text>
