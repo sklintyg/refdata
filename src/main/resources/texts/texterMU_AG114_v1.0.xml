@@ -30,16 +30,9 @@ Från och med dag 15 i sjukperioden beslutar Försäkringskassan om arbetstagare
 	-->
 	<text id="KAT_1.RBK">Sysselsättning</text>
 	<text id="FRG_1.RBK">I relation till vilken sysselsättning bedömer du arbetsförmågan?</text>
-	<text id="DFR_1.3.RBK">Ange vad annat är: </text>
 	<text id="FRG_2.RBK">Ange yrke och arbetsuppgifter</text>
 	<text id="FRG_2.HLP">Ange ordinarie arbete och huvudsakliga arbetsuppgifter.</text>
 
-
-	<!-- Text och hjälptext för typ av underlag ur kodverk -->
-	<text id="KV_FKMU_0001.UNDERSOKNING.RBK">Min undersökning av patienten</text>
-	<text id="KV_FKMU_0001.JOURNALUPPGIFTER.RBK">Journaluppgifter från den</text>
-	<text id="KV_FKMU_0001.ANHORIG.RBK">Anhörigs beskrivning av patienten</text>
-	<text id="KV_FKMU_0001.ANNAT.RBK">Annat</text>
 
 	<text id="KAT_2.RBK">Diagnos</text>
 	<text id="FRG_3.RBK">Önskar patienten uppge information om diagnoser till sin arbetsgivare?</text>
@@ -49,7 +42,7 @@ Från och med dag 15 i sjukperioden beslutar Försäkringskassan om arbetstagare
 
 	<text id="FRG_4.RBK">Diagnos/diagnoser för sjukdom som orsakar nedsatt arbetsförmåga</text>
 	<text id="FRG_4.HLP"></text>
-	<text id="DFR_4.1.RBK">Diagnoskod enligt ICD-10 SE</text>
+	<text id="DFR_4.1.RBK">Diagnoskod enligt ICD-10 SE (eller KSH97-P)</text>
 
 	<text id="KAT_3.RBK">Arbetsförmåga</text>
 	<text id="KAT_3.HLP"></text>
@@ -77,8 +70,8 @@ Från och med dag 15 i sjukperioden beslutar Försäkringskassan om arbetstagare
 	<text id="TOM">T.o.m.</text>
 
 	<text id="KAT_6.RBK">Kontakt</text>
-	<text id="FRG_9.RBK"></text>
-	<text id="DFR_9.1.RBK">Jag önskar att arbetsgivaren kontaktar vårdcentralen. Patienten har lämnat samtycke för kontakt mellan arbetsgivare och vårdgivare.</text>
+	<text id="FRG_9.RBK">Jag önskar att arbetsgivaren kontaktar vårdcentralen. Patienten har lämnat samtycke för kontakt mellan arbetsgivare och vårdgivare.</text>
+	<text id="DFR_9.1.RBK"></text>
 	<text id="DFR_9.2.RBK">Ange varför du vill ha kontakt och vem som i första hand ska kontaktas</text>
 
 
