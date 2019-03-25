@@ -55,8 +55,7 @@ Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transpo
 
 	<B>Pass</B>
 
-	Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 2006, pass utfärdat av Island, Liechtenstein, Norge eller Schweiz från och med den 1 september 2006.
-		</span>]]></text>
+	Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 2006, pass utfärdat av Island, Liechtenstein, Norge eller Schweiz från och med den 1 september 2006.</span>]]></text>
 	<text id="IDENTITET_ID_KORT.RBK">ID-kort</text>
 	<text id="IDENTITET_FORETAG_ELLER_TJANSTEKORT.RBK">Företagskort eller tjänstekort</text>
 	<text id="IDENTITET_KORKORT.RBK">Svenskt körkort</text>
@@ -110,18 +109,11 @@ Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transpo
   -->
 	<text id="KAT_5.RBK">Symptom, funktionshinder och prognos</text>
 	<text id="FRG_60.RBK">Ange bedömning av aktuella symptom, funktionshinder och prognos för fortsatt stabilitet i tillståndet</text>
-	<text id="FRG_60.HLP"><![CDATA[Vid bedömningen ska störningar av impulskontroll, koncentrationsförmåga, uppmärksamhet och omdöme samt
-		tvångsmässig fixering beaktas. Förekomst av kognitiva störningar samt psykiska sjukdomar och störningar ska även
-		bedömas med beaktande av vad som sägs i 10 kap. och i 14 kap. Transportstyrelsens föreskrifter och allmänna råd
-		(TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+	<text id="FRG_60.HLP"><![CDATA[Vid bedömningen ska störningar av impulskontroll, koncentrationsförmåga, uppmärksamhet och omdöme samt tvångsmässig fixering beaktas. Förekomst av kognitiva störningar samt psykiska sjukdomar och störningar ska även bedömas med beaktande av vad som sägs i 10 kap. och i 14 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
-		Bedömningen ska göras mot bakgrund av:
-		<ul><li>funktionsnedsättningens konsekvenser för det dagliga livet</li>
-		<li>förekomst av beroende, missbruk eller överkonsumtion av alkohol, narkotika eller annan substans som påverkar
-		förmågan att köra motordrivet fordon</li>
-		<li>förmågan att följa regler och förstå andras beteende i trafiken</li>
-		<li>kriminalitet</li></ul>
-		]]></text>
+	Bedömningen ska göras mot bakgrund av:
+
+	<ul><li>funktionsnedsättningens konsekvenser för det dagliga livet</li><li>förekomst av beroende, missbruk eller överkonsumtion av alkohol, narkotika eller annan substans som påverkar förmågan att köra motordrivet fordon</li><li>förmågan att följa regler och förstå andras beteende i trafiken</li><li>kriminalitet</li></ul>]]></text>
 	<text id="FRG_61.RBK">Kan prognosen för fortsatt stabilt tillstånd bedömas vara god?</text>
 	<text id="SVAR_KANEJBEDOMA.RBK">Kan ej bedöma</text>
 
