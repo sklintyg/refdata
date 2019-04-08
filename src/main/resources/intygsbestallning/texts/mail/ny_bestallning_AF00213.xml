@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <mail>
+  <logo>ib_logo.png</logo>
   <intyg>AF00213</intyg>
   <typ>NY_BESTALLNING</typ>
   <arenderad>
