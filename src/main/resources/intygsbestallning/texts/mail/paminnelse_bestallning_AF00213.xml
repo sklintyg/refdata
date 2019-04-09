@@ -5,14 +5,14 @@
   <intyg>AF00213</intyg>
   <typ>NY_BESTALLNING_PAMINNELSE</typ>
   <arenderad>
-    <arende>Förfrågan om Arbetsförmedlingens medicinska utlåtande</arende>
+    <arende>Påminnelse om förfrågan om Arbetsförmedlingens medicinska utlåtande</arende>
   </arenderad>
   <halsning>
     <text>Hej!</text>
   </halsning>
   <body>
-    <text1>En förfrågan om Arbetsförmedlingens medicinska utlåtande finns tillgänglig för er vårdenhet i tjänsten Intygsbeställning. Klicka
-      på följande länk för att ta del av förfrågan:
+    <text1>En förfrågan om Arbetsförmedlingens medicinska utlåtande riktad till er vårdenhet inkom för {0} dagar sedan till tjänsten
+      Intygsbeställning. Klicka på följande länk för att ta del av förfrågan:
     </text1>
     <text2>
       Vid problem med att klicka på ovanstående länk kan du klippa ut den och klistra in den i din webbläsare.
