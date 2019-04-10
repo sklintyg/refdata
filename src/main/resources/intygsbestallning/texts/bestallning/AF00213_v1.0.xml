@@ -1,4 +1,4 @@
-<bestallning giltigFrom="2019-01-01" typ="AF00213" version="1.0" bild="af_logo.png">
+<bestallning giltigFrom="2019-01-01" typ="AF00213" version="1.0" bild="af_logo.png" paminnelse1="7" paminnelse2="14">
   <texter>
     <!--FORFRAGAN-->
     <text id="RBK_1">Förfrågan</text>
