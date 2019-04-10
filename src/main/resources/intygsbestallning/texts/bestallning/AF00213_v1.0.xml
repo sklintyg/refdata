@@ -31,16 +31,23 @@
     <text id="RBK_5">Fakturainformation</text>
     <text id="ETK_5.1">Information</text>
     <text id="TEXT_5.1.1">
-      Följande uppgifter ska användas för att fakturera Arbetsförmedlingen för ett utfärdat medicinskt utlåtande.
+      Arbetsförmedlingen betalar ut ersättning till vårdgivaren för utfärdandet av det medicinska utlåtandet. Det är den faktiska kostnaden som hälso- och sjukvården har haft för arbetet med det medicinska utlåtandet som kan ersättas samt utifrån det som Arbetsförmedlingen har efterfrågat i förfrågan om medicinskt utlåtande. Vi ersätter även eventuell patientavgift. Det innebär att patienten inte ska stå för några kostnader (enligt Förordningen (2017:819) om ersättning till deltagare i arbetsmarknadspolitiska program, kap 3 § 9).
 
-      Arbetsförmedlingen betalar för utlåtandet, högst 2200 kr inklusive moms.
+      Specificera på fakturan vad kostnaden består av, exempelvis utfärdande av utlåtande och patientbesök. Det är viktigt att momsbeloppet anges på fakturan eftersom tjänsten är momspliktig (25 procent).
+
+      Ange kostnadsställe som referens på fakturan och specificera momsbeloppet. Arbetsförmedlingens ärendenummer ska också framgå på fakturan.
     </text>
-    <text id="ETK_5.2">Utrednings-ID</text>
+    <text id="ETK_5.2">Arbetsförmedlingens ärendenummer</text>
     <text id="ETK_5.3">Kostnadsställe</text>
     <text id="ETK_5.4">Moms</text>
     <text id="TEXT_5.4.1">25%</text>
-    <text id="ETK_5.5">Skicka fakturan till</text>
+    <text id="ETK_5.5">Fakturering till Arbetsförmedlingen ska ske elektroniskt</text>
     <text id="TEXT_5.5.1">
+      Arbetsförmedlingen hanterar i första hand fakturor elektroniskt (e-fakturor). Om ni inte har den möjligheten kan ni skicka fakturan via vår gratistjänst Leverantörsportalen. Mer information finns på vår hemsida:
+      https://www.arbetsformedlingen.se/Om-oss/For-leverantorer/Fakturahantering-och-e-handel.html
+
+      Om ni av särskilda skäl varken har möjlighet att skicka er faktura elektroniskt eller via Leverantörsportalen ska ni skicka pappersfakturan till:
+
       Arbetsförmedlingen
       Skanningscentralen
       681 85 Kristinehamn
