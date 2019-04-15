@@ -4,8 +4,7 @@
     <text id="RBK_1">Förfrågan</text>
     <text id="ETK_1.1">Avsändare</text>
     <text id="ETK_1.2">Information</text>
-    <text id="TEXT_1.2.1">
-      Arbetsförmedlingen behöver ett medicinskt utlåtande för en arbetssökande. Information om den arbetssökande hittar du nedan i förfrågan.
+    <text id="TEXT_1.2.1">Arbetsförmedlingen behöver ett medicinskt utlåtande för en arbetssökande. Information om den arbetssökande hittar du nedan i förfrågan.
 
       Vi behöver ett utlåtande för att kunna
       - utreda och bedöma om den arbetssökande har en funktionsnedsättning som medför nedsatt arbetsförmåga
@@ -30,8 +29,7 @@
     <!--FAKTURERINGSUNDERLAG-->
     <text id="RBK_5">Fakturainformation</text>
     <text id="ETK_5.1">Information</text>
-    <text id="TEXT_5.1.1">
-      Arbetsförmedlingen betalar ut ersättning till vårdgivaren för utfärdandet av det medicinska utlåtandet. Det är den faktiska kostnaden som hälso- och sjukvården har haft för arbetet med det medicinska utlåtandet som kan ersättas samt utifrån det som Arbetsförmedlingen har efterfrågat i förfrågan om medicinskt utlåtande. Vi ersätter även eventuell patientavgift. Det innebär att patienten inte ska stå för några kostnader (enligt Förordningen (2017:819) om ersättning till deltagare i arbetsmarknadspolitiska program, kap 3 § 9).
+    <text id="TEXT_5.1.1">Arbetsförmedlingen betalar ut ersättning till vårdgivaren för utfärdandet av det medicinska utlåtandet. Det är den faktiska kostnaden som hälso- och sjukvården har haft för arbetet med det medicinska utlåtandet som kan ersättas samt utifrån det som Arbetsförmedlingen har efterfrågat i förfrågan om medicinskt utlåtande. Vi ersätter även eventuell patientavgift. Det innebär att patienten inte ska stå för några kostnader (enligt Förordningen (2017:819) om ersättning till deltagare i arbetsmarknadspolitiska program, kap 3 § 9).
 
       Specificera på fakturan vad kostnaden består av, exempelvis utfärdande av utlåtande och patientbesök. Det är viktigt att momsbeloppet anges på fakturan eftersom tjänsten är momspliktig (25 procent).
 
@@ -42,8 +40,7 @@
     <text id="ETK_5.4">Moms</text>
     <text id="TEXT_5.4.1">25%</text>
     <text id="ETK_5.5">Fakturering till Arbetsförmedlingen ska ske elektroniskt</text>
-    <text id="TEXT_5.5.1">
-      Arbetsförmedlingen hanterar i första hand fakturor elektroniskt (e-fakturor). Om ni inte har den möjligheten kan ni skicka fakturan via vår gratistjänst Leverantörsportalen. Mer information finns på vår hemsida:
+    <text id="TEXT_5.5.1">Arbetsförmedlingen hanterar i första hand fakturor elektroniskt (e-fakturor). Om ni inte har den möjligheten kan ni skicka fakturan via vår gratistjänst Leverantörsportalen. Mer information finns på vår hemsida:
       https://www.arbetsformedlingen.se/Om-oss/For-leverantorer/Fakturahantering-och-e-handel.html
 
       Om ni av särskilda skäl varken har möjlighet att skicka er faktura elektroniskt eller via Leverantörsportalen ska ni skicka pappersfakturan till:
