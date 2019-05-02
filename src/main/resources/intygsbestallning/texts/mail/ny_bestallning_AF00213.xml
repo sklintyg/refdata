@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<mail>
+  <logo>ib_logo.png</logo>
+  <intyg>AF00213</intyg>
+  <typ>NY_BESTALLNING</typ>
+  <arenderad>
+    <arende>Förfrågan om Arbetsförmedlingens medicinska utlåtande</arende>
+  </arenderad>
+  <halsning>
+    <text>Hej!</text>
+  </halsning>
+  <body>
+    <text1>En förfrågan om Arbetsförmedlingens medicinska utlåtande finns tillgänglig för er vårdenhet i tjänsten Intygsbeställning. Klicka
+      på följande länk för att ta del av förfrågan:
+    </text1>
+    <text2>
+      Vid problem med att klicka på ovanstående länk kan du klippa ut den och klistra in den i din webbläsare.
+    </text2>
+  </body>
+  <footer>
+    <text>
+      Intygsbeställning är en tjänst för att hantera förfrågningar och beställningar av medicinska utlåtanden och intyg till vården.
+
+      För att logga in behöver du ett giltigt e-tjänstekort (exempelvis SITHS-kort) samt behörighet att ta del av förfrågningar och
+      beställningar för din vårdenhet.
+    </text>
+  </footer>
+</mail>
