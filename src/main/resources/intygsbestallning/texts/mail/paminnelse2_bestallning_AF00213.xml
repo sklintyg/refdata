@@ -16,7 +16,7 @@
     <text2>Vid problem med att klicka på ovanstående länk kan du klippa ut den och klistra in den i din webbläsare.</text2>
   </body>
   <footer>
-    <text>Intygsbeställning är en tjänst för att hantera förfrågningar och beställningar av medicinska utlåtanden och intyg till vården.
-      För att logga in behöver du ett giltigt e-tjänstekort (exempelvis SITHS-kort) samt behörighet att ta del av förfrågningar och beställningar för din vårdenhet.</text>
+    <text1>Intygsbeställning är en tjänst för att hantera förfrågningar och beställningar av medicinska utlåtanden och intyg till vården.</text1>
+    <text2>För att logga in behöver du ett giltigt e-tjänstekort (exempelvis SITHS-kort) samt behörighet att ta del av förfrågningar och beställningar för din vårdenhet.</text2>
   </footer>
 </mail>
