@@ -3,6 +3,7 @@
       typ="F1.0_AF00213"
       intygTyp="AF00213"
       intygTypBeskrivning="Arbetsförmedlingens medicinska utlåtande"
+      intygTypPdfFilename="af_medicinskt_utlatande"
       bild="af_logo.png"
       paminnelse1="7"
       paminnelse2="14">
