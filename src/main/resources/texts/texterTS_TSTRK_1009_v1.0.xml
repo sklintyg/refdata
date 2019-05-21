@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<texter typ="TSTRK1009" giltigFrom="2025-01-01" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<texter typ="TSTRK1009" giltigFrom="2025-01-09" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<!--
 	============================
@@ -7,7 +7,9 @@
 	============================
 	-->
 	<text id="FRM_1.RBK">Transportstyrelsens läkares anmälan TSTRK1009 ska användas för läkares anmälan om medicinsk olämplighet att inneha körkortstillstånd, körkort, traktorkort eller taxiförarlegitimation</text>
-	<text id="FRM_2.RBK"><![CDATA[<b>Bestämmelser om läkares anmälningsskyldighet m.m.</b>
+	<text id="FRM_2.RBK"><![CDATA[<b>Läkares anmälan TSTRK1009 v.1.x</b>
+
+		<b>Bestämmelser om läkares anmälningsskyldighet m.m.</b>
 
 		<b>Körkortslagen (1998:488)</b>
 
@@ -57,10 +59,10 @@
 		En anmälan från läkare ska vara skriftlig och innehålla de uppgifter om innehavarens hälsotillstånd som framkommit vid
 		undersökningen och som har betydelse för frågan om innehav.
 
-		Den senaste versionen av föreskrifterna finns på <LINK:transportstyrelsen>
+		Den senaste versionen av föreskrifterna finns på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a>
 
 		<b>Har du frågor?</b>
-		Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transportstyrelsens föreskrifter kan hämtas på <LINK:transportstyrelsen>.
+		Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transportstyrelsens föreskrifter kan hämtas på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a>.
 
 	]]></text>
 
@@ -117,10 +119,10 @@
 	<text id="KAT_3.RBK">Medicinska förhållanden</text>
 	<text id="FRG_47.RBK">Medicinska förhållanden som utgör grund för anmälan (ange t.ex. diagnos och funktionsnedsättning)</text>
 	<text id="FRG_47.HLP"><![CDATA[<b>Vid synnedsättning</b>
-		Se läkarintyg ”läkarintyg synfunktion” (TSTRK 1032) på <LINK:transportstyrelsen> för ledning. Bedömningen ska göras utifrån 2 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+		Se läkarintyg ”läkarintyg synfunktion” (TSTRK 1032) påwww.transportstyrelsen.seför ledning. Bedömningen ska göras utifrån 2 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
 		<b>Vid hjärt- och kärlsjukdom</b
-		Se läkarintyg ”läkarintyg avseende hjärt- och kärlsjukdomar” (TSTRK 1065) på <LINK:transportstyrelsen> för ledning. Bedömningen ska göras utifrån 5 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+		Se läkarintyg ”läkarintyg avseende hjärt- och kärlsjukdomar” (TSTRK 1065) på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a> för ledning. Bedömningen ska göras utifrån 5 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
 		<b>Vid epilepsi, epileptiskt anfall eller annan medvetandestörning</b>
 		Anmälan bör innehålla information om och en bedömning av
@@ -144,11 +146,11 @@
 		Bedömningen ska göras utifrån 10 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
 		<b>Vid sömn- eller vakenhetsstörning</b>
-		Se läkarintyg ”läkarintyg avseende sömn- och vakenhetsstörningar” (TSTRK 1063) på <LINK:transportstyrelsen> för ledning. Bedömningen ska göras utifrån 11 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+		Se läkarintyg ”läkarintyg avseende sömn- och vakenhetsstörningar” (TSTRK 1063) på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a> för ledning. Bedömningen ska göras utifrån 11 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
 
 		<b>Vid alkohol, narkotika och läkemedel</b>
-		Se läkarintyg ”läkarintyg avseende alkohol, narkotika och läkemedel” (TSTRK 1030) på <LINK:transportstyrelsen> för ledning. Bedömningen ska göras utifrån 12 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+		Se läkarintyg ”läkarintyg avseende alkohol, narkotika och läkemedel” (TSTRK 1030) på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a> för ledning. Bedömningen ska göras utifrån 12 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
 
 		<b>Vid psykisk sjukdom eller störning</b>
@@ -162,7 +164,7 @@
 
 
 		<b>Vid ADHD, autismspektrumtillstånd och likartade tillstånd samt psykisk utvecklingsstörning</b>
-		Se läkarintyg ”läkarintyg avseende ADHD, autismspektrumtillstånd och likartade tillstånd samt psykisk utvecklingsstörning” (TSTRK 1062) på <LINK:transportstyrelsen> för ledning. Bedömningen ska göras utifrån 15 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+		Se läkarintyg ”läkarintyg avseende ADHD, autismspektrumtillstånd och likartade tillstånd samt psykisk utvecklingsstörning” (TSTRK 1062) på <a href="http://www.transportstyrelsen.se" target="_blank">www.transportstyrelsen.se</a> för ledning. Bedömningen ska göras utifrån 15 kap. Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 	]]></text>
 
 	<text id="FRG_48.RBK">Senaste undersökningsdatum</text>
@@ -176,15 +178,57 @@
 	<text id="KAT_4.RBK">Bedömning</text>
 	<text id="FRG_1.RBK">På grunder som anges ovan bedömer jag att personen är olämplig/sannolikt olämplig att ha</text>
 	<text id="FRG_1.HLP"><![CDATA[AM - moped klass I
-		A1 - lätt motorcykel
-		A2 - mellanstor motorcykel
-		A - motorcykel
-		B - personbil och lätt lastbil
-		C1 - medeltung lastbil
-		C - tung lastbil
-		D1 - mellanstor buss
-		D - buss
-		E - tungt släpfordon]]></text>
+				A1 - lätt motorcykel
+				A2 - mellanstor motorcykel
+				A - motorcykel
+				B - personbil, lätt lastbil och enbart ett lätt släpfordon
+				BE - personbil, lätt lastbil och ett eller flera släpfordon (Släpens totalvikt får inte överstiga 3,5 ton.)
+				C1 - medeltung lastbil och enbart ett lätt släpfordon
+				C1E - medeltung lastbil och ett eller flera släpfordon oavsett vikt
+				C - tung lastbil och enbart ett lätt släpfordon
+				CE - tung lastbil och ett eller flera släpfordon oavsett vikt
+				D1 - mellanstor buss och enbart ett lätt släpfordon
+				D1E - mellanstor buss och ett eller flera släpfordon oavsett vikt
+				D - buss och enbart ett lätt släpfordon
+				DE - buss och ett eller flera släpfordon oavsett vikt
+				Taxi - taxiförarlegitimation]]></text>
+
+	<!--
+  ==================
+  KATEGORI 6: Övrigt
+  ==================
+   -->
+	<text id="KAT_6.RBK">Övrigt</text>
+
+	<text id="FRG_32.RBK">Övriga kommentarer och upplysningar</text>
+
+	<!--
+  =====================
+  KATEGORI 7: Bedömning
+  =====================
+  -->
+	<text id="KAT_7.RBK">Bedömning</text>
+
+	<text id="FRG_33.RBK">Ange för vilka behörigheter som patienten uppfyller kraven enligt Transportstyrelsens föreskrifter och allmänna råd om medicinska krav för innehav av körkort m.m.(TSFS 2010:125)</text>
+	<text id="FRG_33.HLP"><![CDATA[<span style="text-align:left">AM = moped klass I<br/>A1 = lätt motorcykel<br/>A2 = mellanstor motorcykel<br/>A = motorcykel<br/>B = personbil, lätt lastbil och enbart ett lätt släpfordon<br/>BE = personbil, lätt lastbil och ett eller flera släpfordon. Släpens totalvikt får inte överstiga 3,5 ton.<br/>C1 = medeltung lastbil och enbart ett lätt släpfordon<br/>C1E = medeltung lastbil och ett eller flera släpfordon oavsett vikt<br/>C = tung lastbil och enbart ett lätt släpfordon<br/>CE = tung lastbil och ett eller flera släpfordon oavsett vikt<br/>D1 = mellanstor buss och enbart ett lätt släpfordon<br/>D1E = mellanstor buss och ett eller flera släpfordon oavsett vikt<br/>D = buss och enbart ett lätt släpfordon<br/>DE = buss och ett eller flera släpfordon oavsett vikt<br/>Taxi = taxiförarlegitimation</span>]]></text>
+
+	<text id="KV_KORKORTSBEHORIGHET_AM.RBK">AM</text>
+	<text id="KV_KORKORTSBEHORIGHET_A1.RBK">A1</text>
+	<text id="KV_KORKORTSBEHORIGHET_A2.RBK">A2</text>
+	<text id="KV_KORKORTSBEHORIGHET_A.RBK">A</text>
+	<text id="KV_KORKORTSBEHORIGHET_B.RBK">B</text>
+	<text id="KV_KORKORTSBEHORIGHET_BE.RBK">BE</text>
+	<text id="KV_KORKORTSBEHORIGHET_TRAKTOR.RBK">Traktor</text>
+	<text id="KV_KORKORTSBEHORIGHET_C1.RBK">C1</text>
+	<text id="KV_KORKORTSBEHORIGHET_C1E.RBK">C1E</text>
+	<text id="KV_KORKORTSBEHORIGHET_C.RBK">C</text>
+	<text id="KV_KORKORTSBEHORIGHET_CE.RBK">CE</text>
+	<text id="KV_KORKORTSBEHORIGHET_D1.RBK">D1</text>
+	<text id="KV_KORKORTSBEHORIGHET_D1E.RBK">D1E</text>
+	<text id="KV_KORKORTSBEHORIGHET_D.RBK">D</text>
+	<text id="KV_KORKORTSBEHORIGHET_DE.RBK">DE</text>
+	<text id="KV_KORKORTSBEHORIGHET_TAXI.RBK">Taxi</text>
+	<text id="KV_KORKORTSBEHORIGHET_KANINTETASTALLNING.RBK">Kan inte ta ställning</text>
 
 	<text id="SVAR_ALLA.RBK">Alla behörigheter inkl. körkortstillstånd, traktorkort och taxiförarlegitimation</text>
 	<text id="SVAR_A_B_TRAKTOR.RBK">AM, A1, A2, A, B, BE, traktorkort</text>

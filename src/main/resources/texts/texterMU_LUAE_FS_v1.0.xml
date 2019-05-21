@@ -49,4 +49,9 @@ Om du inte känner patienten ska hen styrka sin identitet genom legitimation med
 <text id="KV_FKMU_0005.SKOLHALSOVARD.RBK">Underlag från skolhälsovård</text>
 <text id="KV_FKMU_0005.SPECIALISTKLINIK.RBK">Utredning av annan specialistklinik</text>
 <text id="KV_FKMU_0005.VARD_UTOMLANDS.RBK">Utredning från vårdinrättning utomlands</text>
+
+  <!-- Manuellt tillagda tilläggsfrågor så att vi kan testa den funktionaliteten -->
+  <text id="KAT_9999.RBK">Tilläggsfrågor</text>
+  <text id="KAT_9999.HLP">TBD</text>
+
 </texter>

@@ -44,6 +44,10 @@ knownIntygstyper:
   - &ki080 db
   - &ki090 doi
   - &ki100 af00213
+  - &ki110 ag114
+  - &ki120 ag7804
+  - &ki111 af00251
+  - &ki140 tstrk1009
 
 knownFeatures:
   - &kf010 HANTERA_FRAGOR
@@ -66,6 +70,7 @@ knownFeatures:
   - &kf190 SEKRETESSMARKERING
   - &kf200 NOTIFICATION_DISCARD_FELB
   - &kf210 FEATURE_UNIKT_UNDANTAG_OM_SENASTE_INTYG
+  - &kf220 OAUTH_AUTHENTICATION
 
 # Aktiverade features i Webcert
 features:
@@ -94,6 +99,10 @@ features:
 #      - *ki080 # DB
 #      - *ki090 # DOI
 #      - *ki100 # AF00213
+#      - *ki110 # AG114
+#      - *ki120 # AG7804
+#      - *ki111 # AF00213
+#      - *ki140 # TSTRK1009
   - &f030
     name: *kf030
     desc: Förnya intyg
@@ -105,8 +114,11 @@ features:
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
-      - *ki080 # DB
-      - *ki090 # DOI
+#      - *ki080 # DB
+#      - *ki090 # DOI
+#      - *ki120 # AG7804
+#      - *ki111 # AF00251
+#      - *ki140 # TSTRK1009
   - &f040
     name: *kf040
     desc: Makulera intyg
@@ -119,9 +131,13 @@ features:
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
-      - *ki080 # DB
-      - *ki090 # DOI
-      - *ki100 # AF00213
+#      - *ki080 # DB
+#      - *ki090 # DOI
+#      - *ki100 # AF00213
+#      - *ki110 # AG114
+#      - *ki120 # AG7804
+#      - *ki111 # AF00251
+#      - *ki140 # TSTRK1009
   - &f050
     name: *kf050
     desc: Makulera intyg kräver anledning
@@ -134,6 +150,11 @@ features:
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
+      - *ki100 # AF00213
+      - *ki110 # AG114
+      - *ki111 # AF00251
+      - *ki120 # AG7804
+      - *ki140 # TSTRK1009
   - &f060
     name: *kf060
     desc: Skapa ny fråga
@@ -160,9 +181,11 @@ features:
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
-      - *ki080 # DB
-      - *ki090 # DOI
-      - *ki100 # AF00213
+#      - *ki080 # DB
+#      - *ki090 # DOI
+#      - *ki100 # AF00213
+#      - *ki111 # AF00251
+#      - *ki140 # TSTRK1009
   - &f080
     name: *kf080
     desc: Signera skicka direkt
@@ -186,6 +209,10 @@ features:
       - *ki080 # DB
       - *ki090 # DOI
       - *ki100 # AF00213
+      - *ki110 # AG114
+      - *ki120 # AG7804
+      - *ki111 # AF00251
+      - *ki140 # TSTRK1009
   - &f100
     name: *kf100
     desc: Arbetsgivarutskrift
@@ -228,16 +255,20 @@ features:
     desc: Kontrollera TAK uppsättning
     global: false
     intygstyper:
-      - *ki010 # FK7263
-      - *ki020 # TS-BAS
-      - *ki030 # TS-DIABETES
-      - *ki040 # LUSE
-      - *ki050 # LISJP
-      - *ki060 # LUAE_NA
-      - *ki070 # LUAE_FS
-      - *ki080 # DB
-      - *ki090 # DOI
-      - *ki100 # AF00213
+#      - *ki010 # FK7263
+#      - *ki020 # TS-BAS
+#      - *ki030 # TS-DIABETES
+#      - *ki040 # LUSE
+#      - *ki050 # LISJP
+#      - *ki060 # LUAE_NA
+#      - *ki070 # LUAE_FS
+#      - *ki080 # DB
+#      - *ki090 # DOI
+#      - *ki100 # AF00213
+#      - *ki110 # AG114
+#      - *ki120 # AG7804
+#      - *ki111 # AF00251
+#      - *ki140 # TSTRK1009
   - &f180
     name: *kf180
     desc: Använd trädklättring i HSA
@@ -253,6 +284,9 @@ features:
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
       - *ki100 # AF00213
+      - *ki110 # AG114
+      - *ki120 # AG7804
+      - *ki111 # AF00251
   - &f200
     name: *kf200
     desc: Rensning av meddelanden av fel B
@@ -263,5 +297,45 @@ features:
     global: true
     intygstyper:
       - *ki090 # DOI
+  - &f220
+    name: *kf220
+    desc: Inloggning med OAuth
+    global: true
 
 pilots:
+  - name: DB_DOI_Test
+    desc: DB och DOI för en vårdenhet
+    hsaIds:
+      - TSTNMT2321000156-1003
+    activated:
+      - &pf010
+        name: *kf020
+        desc: Hantera utkast DB, DOI och AFMU
+        global: false
+        intygstyper:
+          - *ki080 # DB
+          - *ki090 # DOI
+          - *ki100 # AF00213
+      - &pf020
+        name: *kf030
+        desc: Förnya DB och DOI
+        global: false
+        intygstyper:
+          - *ki080 # DB
+          - *ki090 # DOI
+      - &pf030
+        name: *kf040
+        desc: Makulera DB, DOI och AFMU
+        global: false
+        intygstyper:
+          - *ki080 # DB
+          - *ki090 # DOI
+          - *ki100 # AF00213
+      - &pf040
+        name: *kf070
+        desc: Skicka DB, DOI och AFMU
+        global: false
+        intygstyper:
+          - *ki080 # DB
+          - *ki090 # DOI
+          - *ki100 # AF00213

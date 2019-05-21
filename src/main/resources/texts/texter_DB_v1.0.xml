@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<texter typ="DB" giltigFrom="2025-01-01" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<texter typ="DB" giltigFrom="2017-01-01" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <text id="KAT_1.RBK">Kompletterande patientuppgifter</text>
     <text id="DFR_1.1.RBK">Identiteten styrkt genom</text>
     <text id="KAT_2.RBK">Dödsdatum och dödsplats</text>
@@ -62,10 +62,10 @@ Annan/okänd: övrigt</text>
         När ett dödsbevis lämnas till Polismyndigheten bör en kopia av dödsbeviset samtidigt skickas till Skatteverket.</div>
         (HSLF-FS 2015:15)
 
-        Polismyndigheten ska skicka dödsbeviset tillsammans med tillståndet till gravsättning och kremering till Skatteverket enligt 4 kap. 4 § begravningslagen (1990:1144)]]></text>
+        Polismyndigheten ska skicka dödsbeviset tillsammans med tillståndet till gravsättning och kremering till Skatteverket enligt 4 kap. 4 § begravningslagen (1990:1144).]]></text>
 
     <text id="DFR_7.1.RBK">Finns skäl för polisanmälan?</text>
-    <text id="DFR_7.1.OBS">Skriv även ut dödsbeviset och skicka det till polisen per post/fax.</text>
+    <text id="DFR_7.1.OBS">Du har angett att det finns skäl för polisanmälan, därmed bör du även skriva ut dödsbeviset och skicka det till polisen per post/fax.</text>
     <text id="DFR_7.1_UNDERSOKNINGS_SKA_GORAS.INFO">Du har angivit att en rättsmedicinsk undersökning ska göras. Detta kräver att en polisanmälan görs och fältet har därför förifyllts.</text>
     <text id="DFR_7.1.SVA_1.RBK">Ja, om dödsfallet har eller kan ha orsakats av yttre påverkan (skada/förgiftning) eller fel/försummelse i vården eller den dödes identitet är okänd, ska polisanmälan göras och dödsbeviset lämnas till Polismyndigheten</text>
     <text id="DFR_7.1.SVAR_NEJ.RBK">Nej</text>
