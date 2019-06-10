@@ -80,7 +80,7 @@
   {
     "key": "ineraKundserviceAnmalFel",
     "url": "https://www.inera.se/felanmalan",
-    "text": "Ineras kundservice",
+    "text": "Inera Support",
     "target": "_blank"
   },
   {
@@ -119,7 +119,7 @@
   {
     "key": "ineraNationellaKundservice",
     "url": "https://www.inera.se/kundservice/formular/felanmalan-och-support/formular-for-felanmalan-och-support/",
-    "text": "Ineras nationella kundservice",
+    "text": "Inera Support",
     "target": "_blank",
     "tooltip": "Öppnar Ineras nationella kundservice"
   },
