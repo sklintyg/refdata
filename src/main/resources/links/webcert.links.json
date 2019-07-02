@@ -80,7 +80,7 @@
   {
     "key": "ineraKundserviceAnmalFel",
     "url": "https://www.inera.se/felanmalan",
-    "text": "Ineras kundservice",
+    "text": "Inera Support",
     "target": "_blank"
   },
   {
@@ -110,9 +110,16 @@
     "tooltip": "Öppnar Socialstyrelsens beslutstöd för angiven huvuddiagnos"
   },
   {
+    "key": "srsSkl",
+    "url": "http://rattsjukskrivning.se/",
+    "text": "Läs mer om SRS hos Rätt Sjukskrivning",
+    "target": "_blank",
+    "tooltip": "Öppnar SKLs webbplats Rätt sjukskrivning för angiven huvuddiagnos"
+  },
+  {
     "key": "ineraNationellaKundservice",
     "url": "https://www.inera.se/kundservice/formular/felanmalan-och-support/formular-for-felanmalan-och-support/",
-    "text": "Ineras nationella kundservice",
+    "text": "Inera Support",
     "target": "_blank",
     "tooltip": "Öppnar Ineras nationella kundservice"
   },
@@ -131,7 +138,7 @@
   {
     "key": "ineraInloggningEfos",
     "url": "https://www.inera.se/webcert/inloggning",
-    "text": "SITHS/Efos-kort",
+    "text": "SITHS-kort",
     "target": "_blank"
   },
   {
