@@ -16,7 +16,7 @@
 
     <!-- Fråga 1 -->
     <text id="FRG_1.HLP">Här anger du på vilken grund du har gjort bedömningen. Flera alternativ kan väljas. Bedömningen ska i huvudsak baseras på din egen undersökning och grundar den sig på något annat så ange vad.</text>
-    <text id="FRG_1.RBK">Intyget är baserat på?</text>
+    <text id="FRG_1.RBK">Intyget är baserat på</text>
     <text id="KV_FKMU_0001.UNDERSOKNING.RBK">Min undersökning av patienten</text>
     <text id="KV_FKMU_0001.ANNAT.RBK">Annat</text>
     <text id="DFR_1.3.RBK">Ange vad annat är</text>
