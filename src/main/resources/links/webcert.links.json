@@ -112,9 +112,9 @@
   {
     "key": "srsSkl",
     "url": "http://rattsjukskrivning.se/",
-    "text": "Läs mer om SRS hos Rätt Sjukskrivning",
+    "text": "Läs mer om stödet Risk och råd hos rattsjukskrivning.se",
     "target": "_blank",
-    "tooltip": "Öppnar SKLs webbplats Rätt sjukskrivning för angiven huvuddiagnos"
+    "tooltip": "Öppnar SKLs webbplats Rätt sjukskrivning"
   },
   {
     "key": "ineraNationellaKundservice",
