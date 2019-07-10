@@ -317,12 +317,35 @@ features:
     global: true
 
 pilots:
-  - name: TEST_PILOT
-    desc: Pilot avsedd för testsyfte
+  - name: SRS_PILOT
+    desc: Stöd för rätt sjukskrivning (SRS) - Risk & råd
     hsaIds:
-      - IFV1239877878-1042
+      # Enheter aktiverade för teständamål i Stage
       - TSTNMT2321000156-1077
-      - TSTNMT2321000156-105N
+      # Enheter aktiverade för pilot i Produktion
+      - SE2321000032-43SQ
+      - SE2321000032-4D3W
+      - SE2321000032-4D3C
+      - SE2321000032-43WD
+      - SE2321000032-43SV
+      - SE2321000057-5SRX
+      - SE2321000057-4W4Z
+      - SE2321000057-4BNK
+      - SE2321000057-4BLN
+      - SE2321000057-49T6
+      - SE2321000230-E00375
+      - SE2321000230-E00389
+      - SE2321000230-E00397
+      - SE2321000230-E00390
+      - SE2321000230-E00406
+      - SE2321000230-E00373
+      - SE2321000230-E00387
+      - SE2321000115-O77783
+      - SE2321000115-O15215
+      - SE2321000115-O26806
+      - SE2321000115-O32634
+      - SE2321000115-O62271
+      - SE2321000115-O99305
     activated:
       - &pf010
         name: *kf120
