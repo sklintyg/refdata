@@ -72,5 +72,15 @@ Från och med dag 15 i sjukperioden beslutar Försäkringskassan om arbetstagare
 	<text id="KV_FKMU_0002.NUVARANDE_ARBETE.RBK">Nuvarande arbete</text>
 	<text id="SKL-001.ALERT">Om en sjukskrivning löper förbi dag 14 i sjuklöneperioden ska Försäkringskassans Läkarintyg för sjukpenning (FK7804) utfärdas.</text>
 
+	<text id="KAT_7.RBK">Grund för medicinskt underlag</text>
+	<text id="FRG_10.RBK">Intyget är baserat på</text>
+	<text id="FRG_10.HLP"><![CDATA[I Socialstyrelsens föreskrifter (5 kap. HSLF-FS 2018:54) anges att ett intyg som huvudregel ska utfärdas efter en undersökning av intygspersonen. Intygsutfärdaren ska vidare med hänsyn tagen till ett intygs ändamål bl.a. överväga om det enligt författning eller av medicinska skäl krävs en undersökning av intygspersonen och hur denna undersökning bör se ut.
 
+	Om intyget inte grundas på en personlig undersökning ska du förklara under "Övriga upplysningar" hur du ändå har kunnat bedöma din patients sjukdomstillstånd och arbetsförmåga.]]></text>
+	<text id="DFR_10.3.RBK">Ange vad annat är</text>
+
+	<text id="KV_FKMU_0001.ANNAT.RBK">Annat</text>
+	<text id="KV_FKMU_0001.JOURNALUPPGIFTER.RBK">Journaluppgifter från den</text>
+	<text id="KV_FKMU_0001.TELEFONKONTAKT.RBK">Min telefonkontakt med patienten</text>
+	<text id="KV_FKMU_0001.UNDERSOKNING.RBK">Min undersökning av patienten</text>
 </texter>
