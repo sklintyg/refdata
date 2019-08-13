@@ -72,7 +72,7 @@ Uppgift om på vilket sätt sjukdomen medför nedsatt arbetsförmåga blir särs
 	<text id="DFR_9.2.RBK">Ange varför du vill ha kontakt och vem som i första hand ska kontaktas</text>
 
 	<text id="KV_FKMU_0002.NUVARANDE_ARBETE.RBK">Nuvarande arbete</text>
-	<text id="SKL-001.ALERT">Om en sjukskrivning löper förbi dag 14 i sjuklöneperioden ska Försäkringskassans Läkarintyg för sjukpenning (FK7804) utfärdas.</text>
+	<text id="SKL-001.ALERT">Om patienten bedöms vara arbetsoförmögen i mer än 14 dagar ska Läkarintyg om arbetsförmåga – arbetsgivaren användas. Intyget skapas från Försäkringskassans läkarintyg för sjukpenning (FK 7804) och innehåller motsvarande information.</text>
 
 	<text id="KAT_7.RBK">Grund för medicinskt underlag</text>
 	<text id="FRG_10.RBK">Intyget är baserat på</text>
