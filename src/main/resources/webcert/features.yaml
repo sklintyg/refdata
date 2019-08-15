@@ -349,7 +349,7 @@ pilots:
     activated:
       - &pf050
         name: *kf120
-	desc: SRS-stöd i Webcert
-	global: true
-	intygstyper:
-	  - *ki050 # lisjp
+        desc: SRS-stöd i Webcert
+        global: true
+        intygstyper:
+          - *ki050 # lisjp
