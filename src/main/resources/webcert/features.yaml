@@ -61,6 +61,7 @@ knownFeatures:
   - &kf090 UTSKRIFT
   - &kf100 ARBETSGIVARUTSKRIFT
   - &kf110 JS_LOGGNING
+  - &kf120 SRS
   - &kf130 HANTERA_INTYGSUTKAST_AVLIDEN
   - &kf140 UNIKT_INTYG
   - &kf150 UNIKT_INTYG_INOM_VG
@@ -339,3 +340,16 @@ pilots:
           - *ki080 # DB
           - *ki090 # DOI
           - *ki100 # AF00213
+  - name: SRS_PILOT
+    desc: Pilot Stöd för rätt sjukskrivning (SRS) - Risk & råd
+    hsaIds:
+      - IFV1239877878-1042
+      - TSTNMT2321000156-1077
+      - TSTNMT2321000156-105N
+    activated:
+      - &pf050
+        name: *kf120
+	desc: SRS-stöd i Webcert
+	global: true
+	intygstyper:
+	  - *ki050 # lisjp
