@@ -1,14 +1,14 @@
 plugins {
     id 'maven'
     id 'idea'
-    id "se.inera.intyg.plugin.common" version "2.0.2"
+    id "se.inera.intyg.plugin.common" version "2.0.5"
 }
 
 ext {
 }
 
 group = 'se.inera.intyg.refdata'
-version = System.properties['buildVersion'] ?: '0-SNAPSHOT'
+version = System.properties['buildVersion'] ?: '1.0-SNAPSHOT'
 
 if (System.properties['customBuildName']) {
     jar.archiveBaseName = System.properties['customBuildName']
