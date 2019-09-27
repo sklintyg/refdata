@@ -4,7 +4,7 @@
 	<!-- Text före val av elektroniskt formulär -->
 	<text id="FRM_1.RBK"><![CDATA[Läkarintyg om arbetsförmåga – sjuklöneperioden ska användas när patienten har en anställning och behöver ett läkarintyg i förhållande till sin arbetsgivare. Intyget används under sjuklöneperioden, det vill säga under de 14 första dagarna i sjukfallet.]]></text>
 	<text id="FRM_2.RBK"><![CDATA[<b>Utfärdare</b>
-	Läkarintyget får utfärdas av läkare eller tandläkare. I intyget omfattar begreppet läkare båda professionerna. Det är inte möjligt att delegera rätten att utfärda läkarintyget till annan profession, till exempel sjuksköterska eller fysioterapeut.
+	Läkarintyget får utfärdas av läkare eller tandläkare. I intyget omfattar begreppet läkare båda professionerna. Det är inte möjligt att delegera rätten att utfärda läkarintyget till annan profession, till exempel sjuksköterska eller fysioterapeut. Se även Socialstyrelsens föreskrifter om intyg (HSLF-FS 2018:54).
 
 	<b>Syften med läkarintyget</b>
 	<ul>
@@ -76,9 +76,7 @@ Uppgift om på vilket sätt sjukdomen medför nedsatt arbetsförmåga blir särs
 
 	<text id="KAT_7.RBK">Grund för medicinskt underlag</text>
 	<text id="FRG_10.RBK">Intyget är baserat på</text>
-	<text id="FRG_10.HLP"><![CDATA[I Socialstyrelsens föreskrifter (5 kap. HSLF-FS 2018:54) anges att ett intyg som huvudregel ska utfärdas efter en undersökning av intygspersonen. Intygsutfärdaren ska vidare med hänsyn tagen till ett intygs ändamål bl.a. överväga om det enligt författning eller av medicinska skäl krävs en undersökning av intygspersonen och hur denna undersökning bör se ut.
-
-	Om intyget inte grundas på en personlig undersökning ska du förklara under "Övriga upplysningar" hur du ändå har kunnat bedöma din patients sjukdomstillstånd och arbetsförmåga.]]></text>
+	<text id="FRG_10.HLP"><![CDATA[Enligt Socialstyrelsens föreskrifter (HSLF-FS 2018:54) om att utfärda intyg i hälso- och sjukvården ska ett läkarintyg innehålla uppgifter om vad som ligger till grund för din bedömning vid utfärdandet av intyget. Ett intyg ska som huvudregel utfärdas efter en undersökning av patienten. Intyget ska innehålla uppgift om kontaktsätt vid undersökningen. Annat kontaktsätt beskrivs under Övriga upplysningar.]]></text>
 	<text id="DFR_10.3.RBK">Ange vad annat är</text>
 
 	<text id="KV_FKMU_0001.ANNAT.RBK">annat</text>
