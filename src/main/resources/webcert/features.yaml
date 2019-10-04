@@ -319,7 +319,7 @@ features:
   - &f240
     name: *kf240
     desc: Aktivera IDP konnektivitetskontroll
-    global: false
+    global: true
 
 pilots:
   - name: SRS_PILOT
