@@ -1,7 +1,7 @@
 plugins {
     id 'maven'
     id 'idea'
-    id "se.inera.intyg.plugin.common" version "2.0.9"
+    id "se.inera.intyg.plugin.common" version "2.0.10"
 }
 
 group = 'se.inera.intyg.refdata'
