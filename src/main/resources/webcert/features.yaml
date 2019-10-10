@@ -47,6 +47,7 @@ knownIntygstyper:
   - &ki110 ag114
   - &ki120 ag7804
   - &ki111 af00251
+  - &ki130 tstrk1062
   - &ki140 tstrk1009
 
 knownFeatures:
@@ -72,6 +73,7 @@ knownFeatures:
   - &kf200 NOTIFICATION_DISCARD_FELB
   - &kf210 FEATURE_UNIKT_UNDANTAG_OM_SENASTE_INTYG
   - &kf220 OAUTH_AUTHENTICATION
+  - &kf230 CREATE_DRAFT_PREFILL
   - &kf240 IDP_CONNECTIVITY_CHECK
 
 # Aktiverade features i Webcert
@@ -104,6 +106,7 @@ features:
 #      - *ki110 # AG114
 #      - *ki120 # AG7804
 #      - *ki111 # AF00213
+#      - *ki130 # TSTRK1062
 #      - *ki140 # TSTRK1009
   - &f030
     name: *kf030
@@ -119,6 +122,7 @@ features:
 #      - *ki080 # DB
 #      - *ki090 # DOI
 #      - *ki120 # AG7804
+#      - *ki130 # TSTRK1062
 #      - *ki111 # AF00251
 #      - *ki140 # TSTRK1009
   - &f040
@@ -139,6 +143,7 @@ features:
 #      - *ki110 # AG114
 #      - *ki120 # AG7804
 #      - *ki111 # AF00251
+#      - *ki130 # TSTRK1062
 #      - *ki140 # TSTRK1009
   - &f050
     name: *kf050
@@ -156,6 +161,7 @@ features:
       - *ki110 # AG114
       - *ki111 # AF00251
       - *ki120 # AG7804
+      - *ki130 # TSTRK1062
       - *ki140 # TSTRK1009
   - &f060
     name: *kf060
@@ -171,6 +177,7 @@ features:
       - *ki070 # LUAE_FS
       - *ki080 # DB
       - *ki090 # DOI
+      - *ki130 # TSTRK1062
   - &f070
     name: *kf070
     desc: Skicka intyg
@@ -187,6 +194,7 @@ features:
 #      - *ki090 # DOI
 #      - *ki100 # AF00213
 #      - *ki111 # AF00251
+#      - *ki130 # TSTRK1062
 #      - *ki140 # TSTRK1009
   - &f080
     name: *kf080
@@ -196,6 +204,7 @@ features:
       - *ki080 # DB
       - *ki090 # DOI
       - *ki100 # AF00213
+      - *ki140 # TSTRK1009
   - &f090
     name: *kf090
     desc: Utskrift
@@ -214,24 +223,21 @@ features:
       - *ki110 # AG114
       - *ki120 # AG7804
       - *ki111 # AF00251
+      - *ki130 # TSTRK1062
       - *ki140 # TSTRK1009
-  - &f100
-    name: *kf100
-    desc: Arbetsgivarutskrift
-    global: true
-    intygstyper:
-      - *ki010 # FK7263
-      - *ki050 # LISJP
   - &f110
     name: *kf110
     desc: JS loggning
     global: true
+  - &f120
+    name: *kf120
+    desc: SRS
+    global: false
   - &f130
     name: *kf130
     desc: Hantera utkast för avlidna patienter
     global: true
     intygstyper:
-      - *ki080 # DB
       - *ki090 # DOI
   - &f140
     name: *kf140
@@ -270,6 +276,7 @@ features:
 #      - *ki110 # AG114
 #      - *ki120 # AG7804
 #      - *ki111 # AF00251
+#      - *ki130 # TSTRK1062
 #      - *ki140 # TSTRK1009
   - &f180
     name: *kf180
@@ -303,6 +310,12 @@ features:
     name: *kf220
     desc: Inloggning med OAuth
     global: true
+  - &f230
+    name: *kf230
+    desc: Aktivera stöd för förifyllnad vid CreateDraftCertificate
+    global: true
+    intygstyper:
+      - *ki050 # LISJP
   - &f240
     name: *kf240
     desc: Aktivera IDP konnektivitetskontroll
