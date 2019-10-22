@@ -1,18 +1,43 @@
 plugins {
     id 'maven'
     id 'idea'
-    id "se.inera.intyg.plugin.common" version "2.0.10"
+    id "se.inera.intyg.plugin.common" version "2.0.9"
+}
+
+ext {
 }
 
 group = 'se.inera.intyg.refdata'
-version = System.properties['buildVersion'] ?: '1.0-SNAPSHOT'
+version = System.properties['buildVersion'] ?: '0-SNAPSHOT'
+
+if (System.properties['customBuildName']) {
+    jar.archiveBaseName = System.properties['customBuildName']
+}
 
 task createVersionPropertyFile(type: VersionPropertyFileTask)
 
 uploadArchives.repositories.mavenDeployer {
-    snapshotRepository(url: "https://build-inera.nordicmedtest.se/nexus/repository/snapshots/") {
+    repository(url: "https://build-inera.nordicmedtest.se/nexus/repository/releases/") {
         authentication(userName: System.properties['nexusUsername'], password: System.properties['nexusPassword'])
     }
 }
 
 task tagRelease(type: TagReleaseTask)
+
+task zipResources(type: ArchiveDirectoryTask) {
+    sourcePath "${projectDir}/src/main/resources"
+    include "*"
+    include "*/*" //to include contents of a folder present inside from directory
+    archiveName "resources.zip"
+    destinationDir(file("lib"))
+    archiveOnlyIfDiff file("${destinationDir}/${archiveName}").exists()
+}
+
+dependencies {
+}
+
+repositories {
+    mavenLocal()
+    maven { url "https://build-inera.nordicmedtest.se/nexus/repository/releases/" }
+    maven { url "http://repo.maven.apache.org/maven2" }
+}
