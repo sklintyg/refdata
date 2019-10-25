@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<texter typ="AG7804" giltigFrom="2025-05-01" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.forsakringskassan.se/vardgivare_sjukvard texterMU_v1.0.xsd" xmlns="http://schema.forsakringskassan.se/vardgivare_sjukvard">
+<texter typ="AG7804" giltigFrom="2019-10-25" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.forsakringskassan.se/vardgivare_sjukvard texterMU_v1.0.xsd" xmlns="http://schema.forsakringskassan.se/vardgivare_sjukvard">
 
 	<text id="FRM_1.RBK">Intyget används för sjukskrivning som löper förbi dag 14 i sjuklöneperioden för att styrka rätten att vara frånvarande från arbetet för arbetstagaren, för att styrka rätten till sjuklön samt för att möjliggöra för arbetsgivaren att avgöra vilka stöd- och anpassningsåtgärder som är skäliga och som kan leda till att arbetstagaren kommer åter i arbete på snabbast och bästa sätt.</text>
 	<text id="FRM_2.RBK"><![CDATA[Om du inte känner patienten ska hen styrka sin identitet genom legitimation med foto (SOSFS 2005:29).
