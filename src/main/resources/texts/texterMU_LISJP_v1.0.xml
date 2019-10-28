@@ -148,9 +148,4 @@ För arbetslösa bedöms arbetsförmågan i förhållande till arbeten som norma
 <text id="KV_FKMU_0007.SEXTIO_DGR.RBK">2 månader.</text>
 <text id="KV_FKMU_0007.TREHUNDRASEXTIOFEM_DAGAR.RBK">12 månader.</text>
 <text id="KV_FKMU_0007.TRETTIO_DGR.RBK">1 månad.</text>
-
- <!-- Manuellt tillagda tilläggsfrågor så att vi kan testa den funktionaliteten -->
- <text id="KAT_9999.RBK">Tilläggsfrågor</text>
- <text id="KAT_9999.HLP">TBD</text>
-
 </texter>
