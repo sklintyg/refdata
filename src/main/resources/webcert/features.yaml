@@ -100,11 +100,11 @@ features:
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
+      - *ki110 # AG114
+      - *ki120 # AG7804
   #     - *ki080 # DB
   #     - *ki090 # DOI
   #     - *ki100 # AF00213
-     - *ki110 # AG114
-     - *ki120 # AG7804
   #     - *ki111 # AF00213
   #     - *ki130 # TSTRK1062
   #     - *ki140 # TSTRK1009
