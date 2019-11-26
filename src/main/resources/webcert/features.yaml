@@ -73,7 +73,9 @@ knownFeatures:
   - &kf200 NOTIFICATION_DISCARD_FELB
   - &kf210 FEATURE_UNIKT_UNDANTAG_OM_SENASTE_INTYG
   - &kf220 OAUTH_AUTHENTICATION
+  - &kf230 CREATE_DRAFT_PREFILL
   - &kf240 IDP_CONNECTIVITY_CHECK
+  - &kf250 FILTER_OUTDATED_MESSAGES
 
 # Aktiverade features i Webcert
 features:
@@ -99,11 +101,11 @@ features:
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
+      - *ki110 # AG114
+      - *ki120 # AG7804
   #     - *ki080 # DB
   #     - *ki090 # DOI
   #     - *ki100 # AF00213
-  #     - *ki110 # AG114
-  #     - *ki120 # AG7804
   #     - *ki111 # AF00213
   #     - *ki130 # TSTRK1062
   #     - *ki140 # TSTRK1009
@@ -224,13 +226,6 @@ features:
       - *ki111 # AF00251
       - *ki130 # TSTRK1062
       - *ki140 # TSTRK1009
-  - &f100
-    name: *kf100
-    desc: Arbetsgivarutskrift
-    global: true
-    intygstyper:
-      - *ki010 # FK7263
-      - *ki050 # LISJP
   - &f110
     name: *kf110
     desc: JS loggning
@@ -316,15 +311,28 @@ features:
     name: *kf220
     desc: Inloggning med OAuth
     global: true
+  - &f230
+    name: *kf230
+    desc: Aktivera stöd för förifyllnad vid CreateDraftCertificate
+    global: true
+    intygstyper:
+      - *ki050 # LISJP
   - &f240
     name: *kf240
     desc: Aktivera IDP konnektivitetskontroll
     global: true
+  - &f250
+    name: *kf250
+    desc: Aktivera bortfiltrering av utdaterade meddelanden
+    global: false
 
 pilots:
   - name: SRS_PILOT
     desc: Stöd för rätt sjukskrivning (SRS) - Risk & råd
     hsaIds:
+      # Enheter aktiverade för teständamål i utv/demo
+      - IFV1239877878-1042
+      - TSTNMT2321000156-105N
       # Enheter aktiverade för teständamål i Stage
       - TSTNMT2321000156-1077
       # Enheter aktiverade för pilot i Produktion

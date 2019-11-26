@@ -1,7 +1,7 @@
 plugins {
     id 'maven'
     id 'idea'
-    id "se.inera.intyg.plugin.common" version "2.0.9"
+    id "se.inera.intyg.plugin.common" version "2.0.10"
 }
 
 ext {
@@ -23,15 +23,6 @@ uploadArchives.repositories.mavenDeployer {
 }
 
 task tagRelease(type: TagReleaseTask)
-
-task zipResources(type: ArchiveDirectoryTask) {
-    sourcePath "${projectDir}/src/main/resources"
-    include "*"
-    include "*/*" //to include contents of a folder present inside from directory
-    archiveName "resources.zip"
-    destinationDir(file("lib"))
-    archiveOnlyIfDiff file("${destinationDir}/${archiveName}").exists()
-}
 
 dependencies {
 }
