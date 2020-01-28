@@ -77,7 +77,6 @@ knownPrivileges:
   - &kp040 VIDAREBEFORDRA_UTKAST
   - &kp050 VIDAREBEFORDRA_FRAGASVAR
   - &kp060 BESVARA_KOMPLETTERINGSFRAGA
-  - &kp070 FILTRERA_PA_LAKARE
   - &kp080 ATKOMST_ANDRA_ENHETER
   - &kp090 HANTERA_PERSONUPPGIFTER
   - &kp100 HANTERA_MAILSVAR
@@ -232,12 +231,6 @@ privileges:
       - *ki060 # luae_na
       - *ki070 # luae_fs
     requestOrigins: # Implicit alla
-  - &p070
-    name: *kp070
-    desc: Filtrera på annan läkare
-    intygstyper: # Implicit alla
-    requestOrigins:
-      - *ro010 # NORMAL
   - &p080
     name: *kp080
     desc: Åtkomst andra vårdenheter
@@ -479,9 +472,6 @@ roles:
               - *ki060 # luae_na
               - *ki070 # luae_fs
           - <<: *ro030 # UTHOPP
-      - <<: *p070 # FILTRERA_PA_LAKARE
-        requestOrigins:
-          - <<: *ro010 # NORMAL
       - <<: *p080 # ATKOMST_ANDRA_ENHETER
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -742,21 +732,6 @@ roles:
           - <<: *ro030 # UTHOPP
             intygstyper:
               - *ki010 # fk7263
-      - <<: *p070 # FILTRERA_PA_LAKARE
-        intygstyper:
-          - *ki010 # fk7263
-          - *ki040 # lisjp
-          - *ki100 # af00213
-          - *ki120 # ag7804
-          - *ki111 # af00251
-        requestOrigins:
-          - <<: *ro010 # NORMAL
-            intygstyper:
-              - *ki010 # fk7263
-              - *ki040 # lisjp
-              - *ki100 # af00213
-              - *ki120 # ag7804
-              - *ki111 # af00251
       - <<: *p080 # ATKOMST_ANDRA_ENHETER
         intygstyper:
           - *ki010 # fk7263
