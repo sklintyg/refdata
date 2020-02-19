@@ -76,6 +76,7 @@ knownFeatures:
   - &kf230 CREATE_DRAFT_PREFILL
   - &kf240 IDP_CONNECTIVITY_CHECK
   - &kf250 FILTER_OUTDATED_MESSAGES
+  - &kf260 TILLAT_VALIDERINGSPERSON
 
 # Aktiverade features i Webcert
 features:
@@ -101,14 +102,14 @@ features:
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
+      - *ki080 # DB
+      - *ki090 # DOI
+      - *ki100 # AF00213
       - *ki110 # AG114
       - *ki120 # AG7804
-  #     - *ki080 # DB
-  #     - *ki090 # DOI
-  #     - *ki100 # AF00213
-  #     - *ki111 # AF00213
-  #     - *ki130 # TSTRK1062
-  #     - *ki140 # TSTRK1009
+      - *ki111 # AF00213
+      - *ki130 # TSTRK1062
+      - *ki140 # TSTRK1009
   - &f030
     name: *kf030
     desc: Förnya intyg
@@ -262,7 +263,7 @@ features:
   - &f170
     name: *kf170
     desc: Kontrollera TAK uppsättning
-    global: false
+    global: true
     intygstyper:
       - *ki010 # FK7263
       - *ki020 # TS-BAS
@@ -282,7 +283,7 @@ features:
   - &f180
     name: *kf180
     desc: Använd trädklättring i HSA
-    global: false
+    global: true
   - &f190
     name: *kf190
     desc: Sekretessmarkering tillåten
@@ -325,51 +326,18 @@ features:
     name: *kf250
     desc: Aktivera bortfiltrering av utdaterade meddelanden
     global: false
+  - &f260
+    name: *kf260
+    desc: Tillåt att utfärda intyg på valideringspersoner
+    global: true
 
 pilots:
-  - name: SRS_PILOT
-    desc: Stöd för rätt sjukskrivning (SRS) - Risk & råd
+  - name: TEST_PILOT
+    desc: Pilot avsedd för testsyfte
     hsaIds:
-      # Enheter aktiverade för teständamål i utv/demo
       - IFV1239877878-1042
-      - TSTNMT2321000156-105N
-      # Enheter aktiverade för teständamål i Stage
       - TSTNMT2321000156-1077
-      # Enheter aktiverade för pilot i Produktion
-      - SE2321000032-43SQ
-      - SE2321000032-43SV
-      - SE2321000032-43WD
-      - SE2321000032-4D3C
-      - SE2321000032-4D3W
-      - SE2321000057-49T6
-      - SE2321000057-5VDQ
-      - SE2321000057-5VDP
-      - SE2321000057-4BLN
-      - SE2321000057-5TC4
-      - SE2321000057-5TC6
-      - SE2321000057-5TCJ
-      - SE2321000057-4BNK
-      - SE2321000057-5TPM
-      - SE2321000057-5TPR
-      - SE2321000057-4W4Z
-      - SE2321000057-5TW2
-      - SE2321000057-5TW3
-      - SE2321000057-5SRX
-      - SE2321000057-5VS9
-      - SE2321000115-O15215
-      - SE2321000115-O26806
-      - SE2321000115-O32634
-      - SE2321000115-O62271
-      - SE2321000115-O77783
-      - SE2321000115-O67064
-      - SE2321000115-O99305
-      - SE2321000230-E00373
-      - SE2321000230-E00375
-      - SE2321000230-E00387
-      - SE2321000230-E00389
-      - SE2321000230-E00390
-      - SE2321000230-E00397
-      - SE2321000230-E00406
+      - TSTNMT2321000156-105N
     activated:
       - &pf010
         name: *kf120
