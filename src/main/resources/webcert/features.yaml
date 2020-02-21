@@ -76,6 +76,7 @@ knownFeatures:
   - &kf230 CREATE_DRAFT_PREFILL
   - &kf240 IDP_CONNECTIVITY_CHECK
   - &kf250 FILTER_OUTDATED_MESSAGES
+  - &kf260 TILLAT_VALIDERINGSPERSON
 
 # Aktiverade features i Webcert
 features:
@@ -325,6 +326,10 @@ features:
     name: *kf250
     desc: Aktivera bortfiltrering av utdaterade meddelanden
     global: false
+  - &f260
+    name: *kf260
+    desc: Tillåt att utfärda intyg på valideringspersoner
+    global: true
 
 pilots:
   - name: DB_DOI_Test
