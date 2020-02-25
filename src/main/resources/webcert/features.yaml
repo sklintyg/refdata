@@ -263,7 +263,7 @@ features:
   - &f170
     name: *kf170
     desc: Kontrollera TAK uppsättning
-    global: false
+    global: true # mdk 20200225
     intygstyper:
 #      - *ki010 # FK7263
 #      - *ki020 # TS-BAS
@@ -283,7 +283,7 @@ features:
   - &f180
     name: *kf180
     desc: Använd trädklättring i HSA
-    global: false
+    global: true # mdk 20200225
   - &f190
     name: *kf190
     desc: Sekretessmarkering tillåten
@@ -368,16 +368,16 @@ pilots:
           - *ki080 # DB
           - *ki090 # DOI
           - *ki100 # AF00213
-  - name: SRS_PILOT
-    desc: Pilot Stöd för rätt sjukskrivning (SRS) - Risk & råd
+  - name: TEST_PILOT
+    desc: Pilot avsedd för testsyfte
     hsaIds:
       - IFV1239877878-1042
       - TSTNMT2321000156-1077
       - TSTNMT2321000156-105N
     activated:
-      - &pf050
+      - &pf010
         name: *kf120
         desc: SRS-stöd i Webcert
         global: true
         intygstyper:
-          - *ki050 # lisjp
+          - *ki050 # LISJP
