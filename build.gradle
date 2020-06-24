@@ -1,11 +1,13 @@
 plugins {
     id 'maven'
     id 'idea'
-    id "se.inera.intyg.plugin.common" version "2.0.10"
+    id "se.inera.intyg.plugin.common" version "3.1.2"
 }
 
 group = 'se.inera.intyg.refdata'
 version = System.properties['buildVersion'] ?: '1.0-SNAPSHOT'
+sourceCompatibility = 11
+targetCompatibility = 11
 
 task createVersionPropertyFile(type: VersionPropertyFileTask)
 
