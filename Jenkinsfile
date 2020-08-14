@@ -1,6 +1,6 @@
 #!groovy
 
-def buildVersion = "1.3.0.${BUILD_NUMBER}"
+def buildVersion = "1.4.0.${BUILD_NUMBER}"
 def projectName = "refdata"
 
 stage('checkout') {

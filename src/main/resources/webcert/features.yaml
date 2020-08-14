@@ -329,7 +329,7 @@ features:
   - &f260
     name: *kf260
     desc: Tillåt att utfärda intyg på valideringspersoner
-    global: false
+    global: true
 
 pilots:
   - name: SRS_PILOT
