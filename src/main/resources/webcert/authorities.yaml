@@ -347,6 +347,7 @@ privileges:
     desc: Kopiera data från signerat intyg (kandidat) till utkast som skapats upp via djupintegration
     intygstyper:
       - *ki120 # ag7804
+      - *ki090 # doi                          ADDED BY MH FOR TEST
     requestOrigins:
       - *ro020 # DJUPINTEGRATION
   - &p200
@@ -527,6 +528,10 @@ roles:
           - <<: *ro020 # DJUPINTEGRATION
             intygstyper:
               - *ki120 # ag7804
+              - *ki090 # doi
+          - <<: *ro010 # NORMAL
+            intygstyper:
+              - *ki090 # doi
       - <<: *p200 # KOPIERA_LAST_UTKAST
       - <<: *p210 # MARKERA_KOMPLETTERING_SOM_HANTERAD
         requestOrigins:
