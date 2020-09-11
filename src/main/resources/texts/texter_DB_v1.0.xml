@@ -34,9 +34,6 @@ Annan/okänd: övrigt</text>
     <text id="DFR_5.2.RBK">Har implantatet avlägsnats?</text>
     <text id="KAT_5.RBK">Yttre undersökning</text>
     <text id="DFR_6.1.RBK">Har yttre undersökning av kroppen genomförts?</text>
-    <text id="DFR_6.1.SVA_1">Ja</text>
-    <text id="DFR_6.1.SVA_2">Nej, rättsmedicinsk undersökning ska göras</text>
-    <text id="DFR_6.1.SVA_3">Nej, den avlidne undersökt kort före döden</text>
     <text id="DFR_6.3.RBK">Undersökningsdatum</text>
     <text id="KAT_6.RBK">Polisanmälan</text>
     <text id="KAT_6.HLP"><![CDATA[<div class="white-space-normal">En anmälan till Polismyndigheten ska göras i följande fall.
@@ -70,7 +67,7 @@ Annan/okänd: övrigt</text>
     <text id="DFR_7.1.SVA_1.RBK">Ja, om dödsfallet har eller kan ha orsakats av yttre påverkan (skada/förgiftning) eller fel/försummelse i vården eller den dödes identitet är okänd, ska polisanmälan göras och dödsbeviset lämnas till Polismyndigheten</text>
     <text id="DFR_7.1.SVAR_NEJ.RBK">Nej</text>
 
-    <text id="DETALJER_UNDERSOKNING.JA.RBK">Ja</text>
+    <text id="SVAR_JA.RBK">Ja</text>
     <text id="DETALJER_UNDERSOKNING.UNDERSOKNING_SKA_GORAS.RBK">Nej, rättsmedicinsk undersökning ska göras</text>
     <text id="DETALJER_UNDERSOKNING.UNDERSOKNING_GJORT_KORT_FORE_DODEN.RBK">Nej, den avlidne undersökt kort före döden</text>
 
