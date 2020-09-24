@@ -344,10 +344,10 @@ privileges:
     requestOrigins: # Implicit alla
   - &p190
     name: *kp190
-    desc: Kopiera data från signerat intyg (kandidat) till utkast som skapats upp via djupintegration
+    desc: Kopiera data från signerat intyg (kandidat) till utkast
     intygstyper:
       - *ki120 # ag7804
-      - *ki090 # doi                          ADDED BY MH FOR TEST
+      - *ki090 # doi
     requestOrigins:
       - *ro020 # DJUPINTEGRATION
   - &p200
