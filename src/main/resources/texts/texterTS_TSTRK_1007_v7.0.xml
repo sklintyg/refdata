@@ -83,9 +83,14 @@ Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 20
 	<text id="FRG_8.HLP">Alla bokstäver ska kunna läsas på den rad som anger synskärpa. Är synskärpan sämre än 0,1 ska den anges som 0,0</text>
   <text id="FRG_8.INF">Uppgifterna från tidigare utförd undersökning ska ingå som underlag vid läkarens samlade bedömning.</text>
 	<text id="DFR_8.1.RBK">Uppgifter om synskärpa skickas separat</text>
-	<text id="DFR_8.2.RBK">Utan korrektion</text>
-	<text id="DFR_8.5.RBK">Med korrektion</text>
-	<text id="DFR_8.8.RBK">Kontaktlinser</text>
+	<text id="DFR_8.2.RBK">Höger öga utan korrektion</text>
+	<text id="DFR_8.3.RBK">Vänster öga utan korrektion</text>
+	<text id="DFR_8.4.RBK">Binokulärt utan korrektion</text>
+	<text id="DFR_8.5.RBK">Höger öga med korrektion</text>
+	<text id="DFR_8.6.RBK">Vänster öga med korrektion</text>
+	<text id="DFR_8.7.RBK">Binokulärt med korrektion</text>
+	<text id="DFR_8.8.RBK">Kontaktlinser på höger öga</text>
+	<text id="DFR_8.9.RBK">Kontaktlinser på vänster öga</text>
 	<text id="FRG_9.RBK">Korrektionsglasens styrka</text>
   <text id="DFR_9.1.RBK">Högsta styrka i något av glasen överskrider plus 8 dioptrier</text>
   <text id="FRG_9.INF">Intyg om korrektionsglasens styrka måste skickas in.</text>
@@ -281,6 +286,9 @@ Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 20
 	<text id="ts-bas.label.syn.binokulart">Binokulärt</text>
 	<text id="ts-bas.label.syn.hogeroga">Höger öga</text>
 	<text id="ts-bas.label.syn.vansteroga">Vänster öga</text>
+	<text id="ts-bas.label.syn.utankorrektion">Utan korrektion</text>
+	<text id="ts-bas.label.syn.medkorrektion">Med korrektion</text>
+	<text id="ts-bas.label.syn.kontaktlins">Kontaktlinser</text>
 	<text id="ts-bas.label.syn.korrektionsglasens-styrka">Korrektionsglasens styrka</text>
 
 </texter>
