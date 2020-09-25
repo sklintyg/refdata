@@ -28,18 +28,16 @@ Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transpo
   <text id="FRG_1.RBK">Detta intyg ska användas vid förlängd giltighet av högre behörighet, ansökan om körkortstillstånd för grupp II och III och vid ansökan om taxiförarlegitimation. Intyget kan också användas när Transportstyrelsen i andra fall begärt ett läkarintyg. Markera då endast i rutan Annat nedan.</text>
   <text id="FRG_1.HLP">Grupp II omfattar behörigheterna AM, A1, A2, A, B, BE, C1, C1E, C och CE.
   Grupp III omfattar behörigheterna AM, A1, A2, A, B, BE, C1, C1E, C, CE, D1, D1E, D och DE.</text>
-  <text id="FRG_1.2.RBK">Intyget kan också användas när Transportstyrelsen i andra fall begärt ett läkarintyg. Markera då endast i rutan Annat nedan.</text>
-	<text id="KORKORT.C1.RBK">C1</text>
-	<text id="KORKORT.C1E.RBK">C1E</text>
-	<text id="KORKORT.C.RBK">C</text>
-	<text id="KORKORT.CE.RBK">CE</text>
-	<text id="KORKORT.D1.RBK">D1</text>
-	<text id="KORKORT.D1E.RBK">D1E</text>
-	<text id="KORKORT.D.RBK">D</text>
-	<text id="KORKORT.DE.RBK">DE</text>
-	<text id="KORKORT.TAXI.RBK">Taxi</text>
-	<text id="KORKORT.ANNAT.RBK">Annat</text>
-	<text id="KORKORT.KAN_INTE_TA_STALLNING.RBK">Kan inte ta ställning</text>
+	<text id="KV_INTYGET_AVSER.IAV1.RBK">C1</text>
+	<text id="KV_INTYGET_AVSER.IAV2.RBK">C1E</text>
+	<text id="KV_INTYGET_AVSER.IAV3.RBK">C</text>
+	<text id="KV_INTYGET_AVSER.IAV4.RBK">CE</text>
+	<text id="KV_INTYGET_AVSER.IAV5.RBK">D1</text>
+	<text id="KV_INTYGET_AVSER.IAV6.RBK">D1E</text>
+	<text id="KV_INTYGET_AVSER.IAV7.RBK">D</text>
+	<text id="KV_INTYGET_AVSER.IAV8.RBK">DE</text>
+	<text id="KV_INTYGET_AVSER.IAV9.RBK">Taxi</text>
+	<text id="KV_INTYGET_AVSER.IAV10.RBK">Annat</text>
 
 	<!--
 	===============================================
@@ -61,12 +59,12 @@ Se Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medic
 Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 2006, pass utfärdat av Island, Liechtenstein, Norge eller Schweiz från och med den 1 september 2006.
 
 ]]></text>
-  <text id="IDENTITET_ID_KORT.RBK">ID-kort</text>
-  <text id="IDENTITET_FORETAG_ELLER_TJANSTEKORT.RBK">Företagskort eller tjänstekort.</text>
-  <text id="IDENTITET_KORKORT.RBK">Svenskt körkort</text>
-  <text id="IDENTITET_PERS_KANNEDOM.RBK">Personlig kännedom</text>
-  <text id="IDENTITET_FORSAKRAN_KAP18.RBK">Försäkran enligt 18 kap 4 §</text>
-  <text id="IDENTITET_PASS.RBK">Pass</text>
+  <text id="KV_ID_KONTROLL.IDK1.RBK">ID-kort</text>
+  <text id="KV_ID_KONTROLL.IDK2.RBK">Företagskort eller tjänstekort.</text>
+  <text id="KV_ID_KONTROLL.IDK3.RBK">Svenskt körkort</text>
+  <text id="KV_ID_KONTROLL.IDK4.RBK">Personlig kännedom</text>
+  <text id="KV_ID_KONTROLL.IDK5.RBK">Försäkran enligt 18 kap 4 §</text>
+  <text id="KV_ID_KONTROLL.IDK6.RBK">Pass</text>
 
 	<!--
 	===============================================
@@ -84,9 +82,12 @@ Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 20
 	<text id="FRG_8.RBK">Värden för synskärpa</text>
 	<text id="FRG_8.HLP">Alla bokstäver ska kunna läsas på den rad som anger synskärpa. Är synskärpan sämre än 0,1 ska den anges som 0,0</text>
   <text id="FRG_8.INF">Uppgifterna från tidigare utförd undersökning ska ingå som underlag vid läkarens samlade bedömning.</text>
-	<text id="FRG_8.1.RBK">Uppgifter om synskärpa skickas separat</text>
+	<text id="DFR_8.1.RBK">Uppgifter om synskärpa skickas separat</text>
+	<text id="DFR_8.2.RBK">Utan korrektion</text>
+	<text id="DFR_8.5.RBK">Med korrektion</text>
+	<text id="DFR_8.8.RBK">Kontaktlinser</text>
 	<text id="FRG_9.RBK">Korrektionsglasens styrka</text>
-  <text id="FRG_9.1.RBK">Högsta styrka i något av glasen överskrider plus 8 dioptrier</text>
+  <text id="DFR_9.1.RBK">Högsta styrka i något av glasen överskrider plus 8 dioptrier</text>
   <text id="FRG_9.INF">Intyg om korrektionsglasens styrka måste skickas in.</text>
 
 	<!--
@@ -198,7 +199,7 @@ Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 20
   <text id="DFR_25.3.INF">Om provtagning görs ska resultatet redovisas separat.</text>
 
 	<text id="FRG_26.RBK">Pågår regelbundet läkarordinerat bruk av läkemedel som kan innebära en trafiksäkerhetsrisk?</text>
-	<text id="DFR_26.1.RBK">Läkemedel och ordinerad dos</text>
+	<text id="DFR_26.2.RBK">Läkemedel och ordinerad dos</text>
 
 	<!--
 	===============================================
@@ -259,6 +260,17 @@ Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 20
   <text id="DFR_33.2.RBK">Kan inte ta ställning</text>
 	<text id="FRG_34.RBK">Patienten bör före ärendets avgörande undersökas av läkare med specialistkompetens i</text>
 
+	<text id="KV_KORKORTSBEHORIGHET.VAR1.RBK">C1</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR2.RBK">C1E</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR3.RBK">C</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR4.RBK">CE</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR5.RBK">D1</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR6.RBK">D1E</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR7.RBK">D</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR8.RBK">DE</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR9.RBK">Taxi</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR10.RBK">Annat</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR11.RBK">Kan inte ta ställning</text>
 	<!--
 	===============================================
 	KATEGORI: Övriga texter som krävs för korrekt PDF rendering
@@ -269,9 +281,6 @@ Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 20
 	<text id="ts-bas.label.syn.binokulart">Binokulärt</text>
 	<text id="ts-bas.label.syn.hogeroga">Höger öga</text>
 	<text id="ts-bas.label.syn.vansteroga">Vänster öga</text>
-	<text id="ts-bas.label.syn.utankorrektion">Utan korrektion</text>
-	<text id="ts-bas.label.syn.medkorrektion">Med korrektion</text>
-	<text id="ts-bas.label.syn.kontaktlins">Kontaktlinser</text>
 	<text id="ts-bas.label.syn.korrektionsglasens-styrka">Korrektionsglasens styrka</text>
 
 </texter>
