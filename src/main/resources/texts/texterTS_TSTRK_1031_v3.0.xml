@@ -156,9 +156,12 @@ Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transpo
 	]]></text>
 
 	<text id="DFR_8.1.RBK">Uppgifter om synskärpa skickas separat</text>
-	<text id="DFR_8.2.RBK">Utan korrektion</text>
-	<text id="DFR_8.5.RBK">Med korrektion</text>
-	<text id="DFR_8.7.RBK"></text>
+	<text id="DFR_8.2.RBK">Höger öga utan korrektion</text>
+	<text id="DFR_8.3.RBK">Vänster öga utan korrektion</text>
+	<text id="DFR_8.4.RBK">Binokulärt utan korrektion</text>
+	<text id="DFR_8.5.RBK">Höger öga med korrektion</text>
+	<text id="DFR_8.6.RBK">Vänster öga med korrektion</text>
+	<text id="DFR_8.7.RBK">Binokulärt med korrektion</text>
 
 
 	<!--
@@ -214,5 +217,16 @@ Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transpo
 
 	<text id="FRG_45.RBK">Är patienten lämplig att inneha behörighet för C1, C1E, C, CE, D1, D1E, D, DE eller taxi med hänsyn till de körningar och arbetsformer som är aktuella vid sådant innehav? (Se 6 kap. 16 §)</text>
 	<text id="FRG_34.RBK">Patienten bör före ärendets avgörande undersökas av läkare med specialistkompetens i</text>
+
+	<!--
+	===============================================
+	KATEGORI: Övriga texter som krävs för korrekt rendering
+	=============================================
+	-->
+	<text id="ts-diabetes.label.syn.binokulart">Binokulärt</text>
+	<text id="ts-diabetes.label.syn.hogeroga">Höger öga</text>
+	<text id="ts-diabetes.label.syn.vansteroga">Vänster öga</text>
+	<text id="ts-diabetes.label.syn.utankorrektion">Utan korrektion</text>
+	<text id="ts-diabetes.label.syn.medkorrektion">Med korrektion</text>
 
 </texter>
