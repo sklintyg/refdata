@@ -47,7 +47,7 @@ Majoriteten av refdata ändras ganska sällan och bör vara samma oavsett miljö
 
 Rekommendationen är att de 3 applikationer (WC, MI och ST) som hanterar texter använder liknande koncept som infra och common där man bygger en `0-SNAPSHOT` version av refdata som används vid lokal testning. Snapshot releaser kommer dessutom att laddas upp till Nexus och finns ingen lokalt installerad `0-SNAPSHOT` så kommer denna till skillnad från common och infra att laddas ned från Nexus.
 
-I OpenShift Jenkins laddas senaste `0-SNAPSHOT` automatiskt ned från Nexus från [Nexus](https://build-inera.nordicmedtest.se/nexus/#browse/browse/components:snapshots) förutsatt att ingen annan konfiguration har angivits med `REFDATA_URL`.
+I OpenShift Jenkins laddas senaste `0-SNAPSHOT` automatiskt ned från Nexus från [Nexus](https://nexus.drift.inera.se/#browse/browse/components:snapshots) förutsatt att ingen annan konfiguration har angivits med `REFDATA_URL`.
 
 #### Test, stage och produktion
 
