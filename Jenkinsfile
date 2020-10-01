@@ -11,13 +11,13 @@ stage('checkout') {
 
 stage('build') {
     node {
-        shgradle "clean build"
+        shgradle11 "clean build"
     }
 }
 
 stage('tag and upload') {
     node {
-        shgradle "uploadArchives -DbuildVersion=${buildVersion}"
+        shgradle11 "uploadArchives -DbuildVersion=${buildVersion}"
     }
 }
 

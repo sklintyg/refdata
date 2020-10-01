@@ -295,6 +295,8 @@ privileges:
     desc: Hantera patient med sekretessmarkering
     intygstyper:
       - *ki010 # fk7263
+      - *ki020 # ts-bas
+      - *ki030 # ts-diabetes
       - *ki040 # lisjp
       - *ki050 # luse
       - *ki060 # luae_na
