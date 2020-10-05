@@ -346,9 +346,10 @@ privileges:
     requestOrigins: # Implicit alla
   - &p190
     name: *kp190
-    desc: Kopiera data från signerat intyg (kandidat) till utkast som skapats upp via djupintegration
+    desc: Kopiera data från signerat intyg (kandidat) till utkast
     intygstyper:
       - *ki120 # ag7804
+      - *ki090 # doi
     requestOrigins:
       - *ro020 # DJUPINTEGRATION
   - &p200
@@ -529,6 +530,10 @@ roles:
           - <<: *ro020 # DJUPINTEGRATION
             intygstyper:
               - *ki120 # ag7804
+              - *ki090 # doi
+          - <<: *ro010 # NORMAL
+            intygstyper:
+              - *ki090 # doi
       - <<: *p200 # KOPIERA_LAST_UTKAST
       - <<: *p210 # MARKERA_KOMPLETTERING_SOM_HANTERAD
         requestOrigins:
@@ -629,6 +634,11 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
+      - <<: *p190 # KOPIERA_FRAN_KANDIDAT
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+            intygstyper:
+              - *ki090 # doi
       - <<: *p200 # KOPIERA_LAST_UTKAST
       - <<: *p210 # MARKERA_KOMPLETTERING_SOM_HANTERAD
         requestOrigins:
@@ -1023,6 +1033,10 @@ roles:
           - <<: *ro020 # DJUPINTEGRATION
             intygstyper:
               - *ki120 # ag7804
+              - *ki090 # doi
+          - <<: *ro010 # NORMAL
+            intygstyper:
+              - *ki090 # doi
       - <<: *p200 # KOPIERA_LAST_UTKAST
       - <<: *p210 # MARKERA_KOMPLETTERING_SOM_HANTERAD
         requestOrigins:
