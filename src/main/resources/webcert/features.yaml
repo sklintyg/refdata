@@ -102,8 +102,8 @@ features:
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
-#      - *ki080 # DB
-#      - *ki090 # DOI
+      - *ki080 # DB
+      - *ki090 # DOI
 #      - *ki100 # AF00213
       - *ki110 # AG114
       - *ki120 # AG7804
@@ -121,8 +121,8 @@ features:
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
-#      - *ki080 # DB
-#      - *ki090 # DOI
+      - *ki080 # DB
+      - *ki090 # DOI
       - *ki120 # AG7804
 #      - *ki130 # TSTRK1062
 #      - *ki111 # AF00251
@@ -139,8 +139,8 @@ features:
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
-#      - *ki080 # DB
-#      - *ki090 # DOI
+      - *ki080 # DB
+      - *ki090 # DOI
 #      - *ki100 # AF00213
       - *ki110 # AG114
       - *ki120 # AG7804
@@ -192,8 +192,8 @@ features:
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
       - *ki070 # LUAE_FS
-#      - *ki080 # DB
-#      - *ki090 # DOI
+      - *ki080 # DB
+      - *ki090 # DOI
 #      - *ki100 # AF00213
 #      - *ki111 # AF00251
 #      - *ki130 # TSTRK1062
@@ -290,6 +290,8 @@ features:
     global: true
     intygstyper:
       - *ki010 # FK7263
+      - *ki020 # TS-BAS
+      - *ki030 # TS-DIABETES
       - *ki040 # LUSE
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
@@ -332,52 +334,16 @@ features:
     global: true
 
 pilots:
-  - name: DB_DOI_Test
-    desc: DB och DOI för en vårdenhet
-    hsaIds:
-      - TSTNMT2321000156-1003
-    activated:
-      - &pf010
-        name: *kf020
-        desc: Hantera utkast DB, DOI och AFMU
-        global: false
-        intygstyper:
-          - *ki080 # DB
-          - *ki090 # DOI
-          - *ki100 # AF00213
-      - &pf020
-        name: *kf030
-        desc: Förnya DB och DOI
-        global: false
-        intygstyper:
-          - *ki080 # DB
-          - *ki090 # DOI
-      - &pf030
-        name: *kf040
-        desc: Makulera DB, DOI och AFMU
-        global: false
-        intygstyper:
-          - *ki080 # DB
-          - *ki090 # DOI
-          - *ki100 # AF00213
-      - &pf040
-        name: *kf070
-        desc: Skicka DB, DOI och AFMU
-        global: false
-        intygstyper:
-          - *ki080 # DB
-          - *ki090 # DOI
-          - *ki100 # AF00213
-  - name: SRS_PILOT
-    desc: Pilot Stöd för rätt sjukskrivning (SRS) - Risk & råd
+  - name: TEST_PILOT
+    desc: Pilot avsedd för testsyfte
     hsaIds:
       - IFV1239877878-1042
       - TSTNMT2321000156-1077
       - TSTNMT2321000156-105N
     activated:
-      - &pf050
+      - &pf010
         name: *kf120
         desc: SRS-stöd i Webcert
         global: true
         intygstyper:
-          - *ki050 # lisjp
+          - *ki050 # LISJP
