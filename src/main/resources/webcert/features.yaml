@@ -77,6 +77,7 @@ knownFeatures:
   - &kf240 IDP_CONNECTIVITY_CHECK
   - &kf250 FILTER_OUTDATED_MESSAGES
   - &kf260 TILLAT_VALIDERINGSPERSON
+  - &kf270 SIGNED_CERTIFICATES_LIST
 
 # Aktiverade features i Webcert
 features:
@@ -331,6 +332,10 @@ features:
   - &f260
     name: *kf260
     desc: Tillåt att utfärda intyg på valideringspersoner
+    global: true
+  - &f270
+    name: *kf270
+    desc: Aktivera lista för signerade intyg i fristående.
     global: true
 
 pilots:
