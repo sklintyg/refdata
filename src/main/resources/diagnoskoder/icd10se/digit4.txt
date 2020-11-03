@@ -8593,7 +8593,8 @@ U095		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Soci
 U096		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U097		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U098		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
-U099		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
+U099		Postinfektiöst tillstånd efter covid-19
+U109		Multisystemiskt inflammatoriskt syndrom associerat med covid-19
 U820		Resistens mot penicillin
 U821		Resistens mot meticillin
 U822		Resistens på grund av betalaktamaser med utvidgat spektrum (ESBL)

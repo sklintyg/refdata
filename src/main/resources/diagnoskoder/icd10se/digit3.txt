@@ -1586,7 +1586,8 @@ T98		Sena besvär av andra och ospecificerade effekter av yttre orsaker
 U04		Svår akut respiratorisk sjukdom [SARS]
 U07		Kod som kan tas i bruk med kort varsel
 U08		Kod som kan tas i bruk med kort varsel
-U09		Kod som kan tas i bruk med kort varsel
+U09		Postinfektiöst tillstånd efter covid-19
+U10		Multisystemiskt inflammatoriskt syndrom associerat med covid-19
 U82		Resistens mot betalaktamantibiotika
 U83		Resistens mot andra antibiotika
 U84		Resistens mot andra antimikrobiella läkemedel
