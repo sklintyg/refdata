@@ -336,7 +336,7 @@ features:
   - &f270
     name: *kf270
     desc: Aktivera lista för signerade intyg i fristående.
-    global: true
+    global: false
 
 pilots:
   - name: TEST_PILOT
