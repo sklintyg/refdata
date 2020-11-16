@@ -78,6 +78,7 @@ knownFeatures:
   - &kf250 FILTER_OUTDATED_MESSAGES
   - &kf260 TILLAT_VALIDERINGSPERSON
   - &kf270 SIGNED_CERTIFICATES_LIST
+  - &kf280 WEBCERT_MESSAGE_HANDLING
 
 # Aktiverade features i Webcert
 features:
@@ -337,6 +338,10 @@ features:
     name: *kf270
     desc: Aktivera lista för signerade intyg i fristående.
     global: false
+  - &f280
+    name: *kf280
+    desc: Activate Webcert message handling
+    global: true
 
 pilots:
   - name: TEST_PILOT
