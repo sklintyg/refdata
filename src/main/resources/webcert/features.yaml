@@ -77,6 +77,7 @@ knownFeatures:
   - &kf240 IDP_CONNECTIVITY_CHECK
   - &kf250 FILTER_OUTDATED_MESSAGES
   - &kf260 TILLAT_VALIDERINGSPERSON
+  - &kf270 SIGNED_CERTIFICATES_LIST
 
 # Aktiverade features i Webcert
 features:
@@ -290,6 +291,8 @@ features:
     global: true
     intygstyper:
       - *ki010 # FK7263
+      - *ki020 # TS-BAS
+      - *ki030 # TS-DIABETES
       - *ki040 # LUSE
       - *ki050 # LISJP
       - *ki060 # LUAE_NA
@@ -330,6 +333,10 @@ features:
     name: *kf260
     desc: Tillåt att utfärda intyg på valideringspersoner
     global: true
+  - &f270
+    name: *kf270
+    desc: Aktivera lista för signerade intyg i fristående.
+    global: false
 
 pilots:
   - name: SRS_PILOT
