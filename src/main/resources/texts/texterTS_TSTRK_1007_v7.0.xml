@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<texter typ="TS-BAS" giltigFrom="2021-08-01" version="7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<texter typ="TS-BAS" giltigFrom="2020-08-01" version="7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<text id="FRM_1.RBK"><![CDATA[Transportstyrelsens läkarintyg ska användas vid förlängd giltighet av högre behörighet från 45 år, ansökan om körkortstillstånd för grupp II och III och vid ansökan om taxiförarlegitimation. Transportstyrelsens läkarintyg kan även användas när Transportstyrelsen i annat fall begärt ett allmänt läkarintyg avseende lämplighet att inneha körkort.
 
@@ -142,7 +142,7 @@ Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 20
 	<text id="DFR_19.1.RBK">Kost</text>
 	<text id="DFR_19.2.RBK">Tabletter</text>
 	<text id="DFR_19.3.RBK">Insulin</text>
-  <text id="DFR_19.3.INF">Har patienten tablett- eller insulinbehandlad diabetes krävs ett läkarintyg gällande sjukdomen</text>
+  <text id="DFR_19.3.INF">Har patienten tablett- eller insulinbehandlad diabetes krävs ett läkarintyg gällande sjukdomen.</text>
 
 	<!--
 	===============================================
@@ -252,7 +252,7 @@ Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 20
 	=============================================
 	-->
 	<text id="KAT_16.RBK">Övrig kommentar</text>
-	<text id="FRG_32.RBK">Övriga kommentarer som är relevant ur trafiksäkerhetssynpunkt:</text>
+	<text id="FRG_32.RBK">Övriga kommentarer som är relevant ur trafiksäkerhetssynpunkt.</text>
 
 	<!--
 	===============================================

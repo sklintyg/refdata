@@ -77,6 +77,7 @@ knownFeatures:
   - &kf240 IDP_CONNECTIVITY_CHECK
   - &kf250 FILTER_OUTDATED_MESSAGES
   - &kf260 TILLAT_VALIDERINGSPERSON
+  - &kf270 SIGNED_CERTIFICATES_LIST
 
 # Aktiverade features i Webcert
 features:
@@ -104,12 +105,12 @@ features:
       - *ki070 # LUAE_FS
       - *ki080 # DB
       - *ki090 # DOI
-#      - *ki100 # AF00213
+      - *ki100 # AF00213
       - *ki110 # AG114
       - *ki120 # AG7804
-#      - *ki111 # AF00213
-#      - *ki130 # TSTRK1062
-#      - *ki140 # TSTRK1009
+      - *ki111 # AF00213
+      - *ki130 # TSTRK1062
+      - *ki140 # TSTRK1009
   - &f030
     name: *kf030
     desc: Förnya intyg
@@ -124,9 +125,9 @@ features:
       - *ki080 # DB
       - *ki090 # DOI
       - *ki120 # AG7804
-#      - *ki130 # TSTRK1062
-#      - *ki111 # AF00251
-#      - *ki140 # TSTRK1009
+      - *ki130 # TSTRK1062
+      - *ki111 # AF00251
+      - *ki140 # TSTRK1009
   - &f040
     name: *kf040
     desc: Makulera intyg
@@ -141,12 +142,12 @@ features:
       - *ki070 # LUAE_FS
       - *ki080 # DB
       - *ki090 # DOI
-#      - *ki100 # AF00213
+      - *ki100 # AF00213
       - *ki110 # AG114
       - *ki120 # AG7804
-#      - *ki111 # AF00251
-#      - *ki130 # TSTRK1062
-#      - *ki140 # TSTRK1009
+      - *ki111 # AF00251
+      - *ki130 # TSTRK1062
+      - *ki140 # TSTRK1009
   - &f050
     name: *kf050
     desc: Makulera intyg kräver anledning
@@ -194,10 +195,10 @@ features:
       - *ki070 # LUAE_FS
       - *ki080 # DB
       - *ki090 # DOI
-#      - *ki100 # AF00213
-#      - *ki111 # AF00251
-#      - *ki130 # TSTRK1062
-#      - *ki140 # TSTRK1009
+      - *ki100 # AF00213
+      - *ki111 # AF00251
+      - *ki130 # TSTRK1062
+      - *ki140 # TSTRK1009
   - &f080
     name: *kf080
     desc: Signera skicka direkt
@@ -263,27 +264,27 @@ features:
   - &f170
     name: *kf170
     desc: Kontrollera TAK uppsättning
-    global: false
+    global: true
     intygstyper:
-#      - *ki010 # FK7263
-#      - *ki020 # TS-BAS
-#      - *ki030 # TS-DIABETES
-#      - *ki040 # LUSE
-#      - *ki050 # LISJP
-#      - *ki060 # LUAE_NA
-#      - *ki070 # LUAE_FS
-#      - *ki080 # DB
-#      - *ki090 # DOI
-#      - *ki100 # AF00213
+      - *ki010 # FK7263
+      - *ki020 # TS-BAS
+      - *ki030 # TS-DIABETES
+      - *ki040 # LUSE
+      - *ki050 # LISJP
+      - *ki060 # LUAE_NA
+      - *ki070 # LUAE_FS
+      - *ki080 # DB
+      - *ki090 # DOI
+      - *ki100 # AF00213
       - *ki110 # AG114
       - *ki120 # AG7804
-#      - *ki111 # AF00251
-#      - *ki130 # TSTRK1062
-#      - *ki140 # TSTRK1009
+      - *ki111 # AF00251
+      - *ki130 # TSTRK1062
+      - *ki140 # TSTRK1009
   - &f180
     name: *kf180
     desc: Använd trädklättring i HSA
-    global: false
+    global: true
   - &f190
     name: *kf190
     desc: Sekretessmarkering tillåten
@@ -331,6 +332,10 @@ features:
   - &f260
     name: *kf260
     desc: Tillåt att utfärda intyg på valideringspersoner
+    global: true
+  - &f270
+    name: *kf270
+    desc: Aktivera lista för signerade intyg i fristående.
     global: true
 
 pilots:
