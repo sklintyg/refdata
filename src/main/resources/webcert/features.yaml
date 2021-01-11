@@ -334,7 +334,7 @@ features:
   - &f270
     name: *kf270
     desc: Aktivera lista för signerade intyg i fristående.
-    global: false
+    global: true
 
 pilots:
   - name: SRS_PILOT
