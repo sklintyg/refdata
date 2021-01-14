@@ -78,6 +78,8 @@ knownFeatures:
   - &kf250 FILTER_OUTDATED_MESSAGES
   - &kf260 TILLAT_VALIDERINGSPERSON
   - &kf270 SIGNED_CERTIFICATES_LIST
+  - &kf280 VARNING_FRISTAENDE
+  - &kf290 BLOCKERA_FRISTAENDE
 
 # Aktiverade features i Webcert
 features:
@@ -335,6 +337,14 @@ features:
     name: *kf270
     desc: Aktivera lista för signerade intyg i fristående.
     global: true
+  - &f280
+    name: *kf280
+    desc: Visar ett varningsmeddelande om att inloggning skett i fristående men användaren ska logga in via sitt journalsystem.
+    global: false
+  - &f290
+    name: *kf290
+    desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
+    global: false
 
 pilots:
   - name: SRS_PILOT
@@ -403,3 +413,29 @@ pilots:
         global: true
         intygstyper:
           - *ki050 # LISJP
+  - name: VARNA_FRISTAENDE
+    desc: Varnar djupintegrerade vårdgivares användare från att använda vissa funktioner i fristående.
+    hsaIds:
+      - SE4815162344-1A02 # WebCert-Integration Enhet 1
+    activated:
+      - &pf110
+        name: *kf280
+        desc: Visar ett varningsmeddelande om att inloggning skett i fristående men användaren ska logga in via sitt journalsystem.
+        global: true
+      - &pf120
+        name: *kf290
+        desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
+        global: false
+  - name: BLOCKERA_FRISTAENDE
+    desc: Blockerar djupintegrerade vårdgivares användare från att använda vissa funktioner i fristående.
+    hsaIds:
+      - SE4815162344-1A03 # WebCert-Integration Enhet 2
+    activated:
+      - &pf110
+        name: *kf280
+        desc: Visar ett varningsmeddelande om att inloggning skett i fristående men användaren ska logga in via sitt journalsystem.
+        global: false
+      - &pf120
+        name: *kf290
+        desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
+        global: true
