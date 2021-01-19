@@ -383,7 +383,6 @@ pilots:
       - SE4815162344-1A03 # WebCert-Integration Enhet 2
       - TSTNMT2321000156-10Q5 # NMT Testvårdgivare
       - TSTNMT2321000156-10Q8 # NMT Testvårdenhet
-      - TSTNMT2321000156-107M
     activated:
       - &pf110
         name: *kf280
