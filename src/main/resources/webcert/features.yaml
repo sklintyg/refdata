@@ -371,7 +371,8 @@ pilots:
     desc: Varnar djupintegrerade vårdgivares användare från att använda vissa funktioner i fristående.
     hsaIds:
       - SE4815162344-1A02 # WebCert-Integration Enhet 1
-      - TSTNMT2321000156-10QB # NMT testenhet
+      - TSTNMT2321000156-10QB # NMT Testvårdgivare
+      - TSTNMT2321000156-10QD # NMT Testvårdenhet
     activated:
       - &pf110
         name: *kf280
@@ -385,7 +386,8 @@ pilots:
     desc: Blockerar djupintegrerade vårdgivares användare från att använda vissa funktioner i fristående.
     hsaIds:
       - SE4815162344-1A03 # WebCert-Integration Enhet 2
-      - TSTNMT2321000156-10Q5 # NMT testenhet
+      - TSTNMT2321000156-10Q5 # NMT Testvårdgivare
+      - TSTNMT2321000156-10Q8 # NMT Testvårdenhet
     activated:
       - &pf110
         name: *kf280
