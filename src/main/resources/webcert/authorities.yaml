@@ -91,6 +91,7 @@ knownPrivileges:
   - &kp190 KOPIERA_FRAN_KANDIDAT
   - &kp200 KOPIERA_LAST_UTKAST
   - &kp210 MARKERA_KOMPLETTERING_SOM_HANTERAD
+  - &kp220 MARKERA_FRAGA_SOM_HANTERAD
 
 # De roller som systemet har
 knownRoles:
@@ -225,7 +226,6 @@ privileges:
     name: *kp060
     desc: Besvara fråga om komplettering
     intygstyper:
-      - *ki010 # fk7263
       - *ki040 # lisjp
       - *ki050 # luse
       - *ki060 # luae_na
@@ -318,7 +318,6 @@ privileges:
     name: *kp160
     desc: Skapa ny administrativ fråga
     intygstyper:
-      - *ki010 # fk7263
       - *ki040 # lisjp
       - *ki050 # luse
       - *ki060 # luae_na
@@ -326,7 +325,7 @@ privileges:
     requestOrigins: # Implicit alla
   - &p170
     name: *kp170
-    desc: Skapa ny administrativ fråga
+    desc: Läsa administrativ fråga
     intygstyper:
       - *ki010 # fk7263
       - *ki040 # lisjp
@@ -338,7 +337,6 @@ privileges:
     name: *kp180
     desc: Besvara administrativ fråga
     intygstyper:
-      - *ki010 # fk7263
       - *ki040 # lisjp
       - *ki050 # luse
       - *ki060 # luae_na
@@ -383,6 +381,17 @@ privileges:
       - *ki060 # luae_na
       - *ki070 # luae_fs
     requestOrigins: # Implicit alla
+  - &p220
+    name: *kp220
+    desc: Markera fråga som hanterad
+    intygstyper:
+      - *ki010 # fk7263
+      - *ki040 # lisjp
+      - *ki050 # luse
+      - *ki060 # luae_na
+      - *ki070 # luae_fs
+    requestOrigins: # Implicit alla
+
 
 # Roller
 roles:
@@ -540,6 +549,11 @@ roles:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
           - <<: *ro030 # UTHOPP
+      - <<: *p220 # MARKERA_FRAGA_SOM_HANTERAD
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro020 # DJUPINTEGRATION
+          - <<: *ro030 # UTHOPP
   - &r020
     name: *kr020 # PRIVATLAKARE
     desc: Privatläkare
@@ -641,6 +655,9 @@ roles:
               - *ki090 # doi
       - <<: *p200 # KOPIERA_LAST_UTKAST
       - <<: *p210 # MARKERA_KOMPLETTERING_SOM_HANTERAD
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+      - <<: *p220 # MARKERA_FRAGA_SOM_HANTERAD
         requestOrigins:
           - <<: *ro010 # NORMAL
   - &r030
@@ -908,6 +925,21 @@ roles:
           - <<: *ro030 # UTHOPP
             intygstyper:
               - *ki010 # fk7263
+      - <<: *p220 # MARKERA_FRAGA_SOM_HANTERAD
+        intygstyper:
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+            intygstyper:
+              - *ki010 # fk7263
+              - *ki040 # lisjp
+          - <<: *ro020 # DJUPINTEGRATION
+            intygstyper:
+              - *ki010 # fk7263
+              - *ki040 # lisjp
+          - <<: *ro030 # UTHOPP
+            intygstyper:
+              - *ki010 # fk7263
+
   - &r040
     name: *kr040 # VARDADMINISTRATOR
     desc: Vårdadministratör
@@ -1043,6 +1075,12 @@ roles:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
           - <<: *ro030 # UTHOPP
+      - <<: *p220 # MARKERA_FRAGA_SOM_HANTERAD
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro020 # DJUPINTEGRATION
+          - <<: *ro030 # UTHOPP
+
 
 # Legitimerade yrkesroller
 titles:
