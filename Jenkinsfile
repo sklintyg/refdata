@@ -12,7 +12,7 @@ stage('checkout') {
 
 stage('build') {
     node {
-        shgradle "--refresh-dependencies clean build"
+        shgradle11 "--refresh-dependencies clean build"
     }
 }
 
@@ -21,11 +21,11 @@ stage('tag and upload') {
     def customBuildName = CUSTOM_BUILD_NAME
     node {
         if (gitBranch == "master") {
-            shgradle "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
+            shgradle11 "uploadArchives tagRelease -DbuildVersion=${buildVersion}"
         } else if (customBuildName?.trim()) {
-            shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${customBuildName} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${customBuildName}-"
+            shgradle11 "uploadArchives tagRelease -DcustomBuildName=${projectName}-${customBuildName} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${customBuildName}-"
         } else {
-            shgradle "uploadArchives tagRelease -DcustomBuildName=${projectName}-${gitBranch.replaceAll('/', '')} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${gitBranch}-"
+            shgradle11 "uploadArchives tagRelease -DcustomBuildName=${projectName}-${gitBranch.replaceAll('/', '')} -DbuildVersion=${BUILD_NUMBER} -Dintyg.tag.prefix=${gitBranch}-"
         }
     }
 }
