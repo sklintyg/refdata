@@ -80,6 +80,7 @@ knownFeatures:
   - &kf270 SIGNED_CERTIFICATES_LIST
   - &kf280 VARNING_FRISTAENDE
   - &kf290 BLOCKERA_FRISTAENDE
+  - &kf300 WEBCERT_MESSAGE_HANDLING
 
 # Aktiverade features i Webcert
 features:
@@ -345,6 +346,10 @@ features:
     name: *kf290
     desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
     global: false
+  - &f300
+    name: *kf300
+    desc: Activate Webcert message handling
+    global: true
 
 pilots:
   - name: TEST_PILOT
