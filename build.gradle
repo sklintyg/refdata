@@ -1,7 +1,7 @@
 plugins {
     id 'maven'
     id 'idea'
-    id "se.inera.intyg.plugin.common" version "2.0.10"
+    id "se.inera.intyg.plugin.common" version "3.1.3"
 }
 
 ext {
@@ -9,6 +9,8 @@ ext {
 
 group = 'se.inera.intyg.refdata'
 version = System.properties['buildVersion'] ?: '1.0-SNAPSHOT'
+sourceCompatibility = 11
+targetCompatibility = 11
 
 if (System.properties['customBuildName']) {
     jar.archiveBaseName = System.properties['customBuildName']
@@ -17,8 +19,8 @@ if (System.properties['customBuildName']) {
 task createVersionPropertyFile(type: VersionPropertyFileTask)
 
 uploadArchives.repositories.mavenDeployer {
-    repository(url: "https://build-inera.nordicmedtest.se/nexus/repository/releases/") {
-        authentication(userName: System.properties['nexusUsername'], password: System.properties['nexusPassword'])
+    repository(url: "https://nexus.drift.inera.se/repository/maven-releases/") {
+        authentication(userName: System.properties['ineraNexusUsername'], password: System.properties['ineraNexusPassword'])
     }
 }
 
@@ -29,6 +31,6 @@ dependencies {
 
 repositories {
     mavenLocal()
-    maven { url "https://build-inera.nordicmedtest.se/nexus/repository/releases/" }
+    maven { url "https://nexus.drift.inera.se/repository/maven-releases/" }
     maven { url "http://repo.maven.apache.org/maven2" }
 }
