@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texter typ="AG7804" giltigFrom="2021-03-02" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.forsakringskassan.se/vardgivare_sjukvard texterMU_v1.0.xsd" xmlns="http://schema.forsakringskassan.se/vardgivare_sjukvard">
+
+	<text id="FRM_1.RBK"><![CDATA[<p>Läkarintyg om arbetsförmåga – arbetsgivaren skapas från Försäkringskassans läkarintyg för sjukpenning (FK 7804) och används i följande situationer:</p><ul><li>När patienten har en anställning och behöver ett läkarintyg i förhållande till sin arbetsgivare.</li><li>När patienten varit frånvarande från arbetet i fler än 14 dagar.</li><li>När intygsutfärdande läkaren bedömer att patienten behöver vara sjukfrånvarande längre tid än 14 dagar och att sjukfrånvaron därmed kommer att överstiga sjuklöneperioden. <i>Läkarintyg om arbetsförmåga – arbetsgivaren</i> kan utfärdas för att undvika ett återbesök efter dag 14 och fyller då funktionen som intyg till arbetsgivare både <i>under</i> sjuklöneperioden och <i>efter</i> sjuklöneperioden.</li></ul>
+	]]></text>
+	<text id="FRM_2.RBK"><![CDATA[<b>Utfärdare</b>
+		Läkarintyget får utfärdas av läkare eller tandläkare. I intyget omfattar begreppet läkare båda professionerna. Det är inte möjligt att delegera rätten att utfärda läkarintyget till annan profession, till exempel sjuksköterska eller fysioterapeut. Se även Socialstyrelsens föreskrifter om intyg (HSLF-FS 2018:54).
+
+		<b>Syften med läkarintyget</b>
+		<ul>
+			<li><b>Rätt till frånvaro.</b> Att ge arbetstagaren rätt att vara frånvarande från arbetet på grund av sjukdom/skada. Arbetstagaren är skyldig att vid sjukdom/skada lämna in ett medicinskt underlag som styrker dels att frånvaron beror på sjukdom, dels att sjukdomen sätter ned arbetsförmågan i arbetstagarens arbetsuppgifter. Om läkarintyget inte ger tillräcklig information kan frånvaron anses vara olovlig och medföra att intyget behöver kompletteras.</li>
+			<li><b>Arbetsgivarens rehabiliteringsansvar.</b> Läkarintyget ska ge arbetsgivaren tillräcklig information om arbetstagarens medicinska hinder för att utföra sina ordinarie arbetsuppgifter. Arbetsgivare har enligt socialförsäkringsbalken, arbetsmiljölagen och arbetsdomstolens rättspraxis ett omfattande och långtgående rehabiliteringsansvar och ska genom skäliga stöd och anpassningar på arbetsplatsen underlätta för sjuka eller skadade att komma tillbaka i arbete.</li>
+			<li><b>Plan för återgång i arbete.</b> Sedan 2018 har arbetsgivare en skyldighet enligt 30 kap. 6 § socialförsäkringsbalken att ta fram en plan för återgång i arbete när en arbetstagare förväntas vara sjuk under en längre tid. Planen ska kontinuerligt följas upp och revideras vid behov. Planen är främst ett stöd för rehabiliteringsarbetet på arbetsplatsen och ska underlätta en tidig återgång i arbete. Läkarintyget ger grundläggande medicinsk information om patientens möjligheter att återgå i arbete och är en förutsättning för att arbetsgivaren tillsammans med sin arbetstagare ska kunna upprätta en plan för återgång i arbete.</li>
+			<li><b>Sjukpenningtillägg.</b> Att ge arbetstagaren rätt till kompletterande sjukpenningtillägg. De flesta kollektivavtal på svensk arbetsmarknad ger arbetstagare rätt till sjukpenningtillägg vid sjukdom.</li>
+			<li><b>Läkarintyg från och med dag 1 i sjuklöneperioden</b> Läkarintyget kan användas från och med dag 1 i sjuklöneperioden, ett så kallat förstadagsintyg. Arbetsgivaren får om det finns särskilda skäl för det begära att arbetstagaren genom intyg av läkare styrker nedsättning av arbetsförmågan tidigare än dag 8 i sjuklöneperioden.</li></ul>
+		<b>Innehåll i läkarintyget</b>
+		<i>Läkarintyg om arbetsförmåga - arbetsgivaren</i> skapas från Försäkringskassans läkarintyg för sjukpenning (FK 7804) och ska innehålla motsvarande information.
+
+		Patienten kan dock välja om hen vill delge arbetsgivaren information om vilken eller vilka diagnoser som föreligger.
+
+		Övrig information i intyget är obligatorisk.
+
+		<b>När ska <i>Läkarintyg om arbetsförmåga – arbetsgivaren</i> användas?</b>
+		<ul>
+			<li>När patienten har en anställning och behöver ett läkarintyg i förhållande till sin arbetsgivare.</li>
+			<li>När patienten varit frånvarande från arbetet i fler än 14 dagar.</li>
+			<li>När intygsutfärdande läkaren bedömer att patienten behöver vara sjukfrånvarande längre tid än 14 dagar och att sjukfrånvaron därmed kommer att överstiga sjuklöneperioden. <i>Läkarintyg om arbetsförmåga – arbetsgivaren</i> kan utfärdas för att undvika ett återbesök efter dag 14 och fyller då funktionen som intyg till arbetsgivare både under sjuklöneperioden och efter sjuklöneperioden.</li></ul>
+	]]></text>
+
+	<text id="DFR_1.3.RBK">Ange vad annat är</text>
+	<text id="DFR_17.1.HLP">Ge konkreta exempel på situationer och aktiviteter i patientens sysselsättning där svårigheter uppstår.
+
+		Beskriv hur ofta dessa situationer uppstår och graden av svårigheterna. Beskriv hur du själv har observerat begränsningarna. Om uppgiften baseras på anamnes/intervju eller någon annans observationer anger du det.
+
+		Ange även om det finns någon typ av aktivitet som patienten bör undvika på grund av betydande medicinsk risk eller allvarlig olycksrisk.
+	</text>
+	<text id="DFR_17.1.RBK">Beskriv vad patienten inte kan göra på grund av sin sjukdom. Ange vad uppgiften grundas på.</text>
+	<text id="DFR_19.1.RBK">Ange vad syftet är och om möjligt tidplan samt ansvarig vårdenhet.</text>
+	<text id="DFR_20.1.RBK">Ange vad syftet är och om möjligt tidplan samt ansvarig vårdenhet.</text>
+	<text id="DFR_103.1.RBK">Jag önskar att arbetsgivaren kontaktar vårdenheten. Patienten har lämnat samtycke för kontakt mellan arbetsgivare och vårdgivare</text>
+	<text id="DFR_103.2.RBK">Ange varför du vill ha kontakt och vem som i första hand ska kontaktas.</text>
+	<text id="DFR_33.2.RBK">Beskriv medicinska skäl till annan förläggning av arbetstiden</text>
+	<text id="DFR_35.1.HLP"><![CDATA[Ange observerade nedsättningar (direkt och indirekt), exempelvis
+		• avvikelser i somatiskt och psykiskt status
+		• röntgen- och laboratoriefynd
+		• resultat av kliniskt fysiologiska undersökningar
+		• andra testresultat, exempelvis neuropsykologiska.
+
+		Vid psykisk sjukdom, ange förutom basalt psykiskt status även den del av anamnesen som du bedömer talar för ett psykiatriskt tillstånd.]]></text>
+	<text id="DFR_35.1.RBK">Beskriv undersökningsfynd, testresultat och observationer</text>
+	<text id="DFR_6.2.RBK">Diagnoskod enligt  ICD-10 SE</text>
+	<text id="FRG_1.HLP">I Socialstyrelsens föreskrifter (5 kap. HSLF-FS 2018:54) anges att ett intyg som huvudregel ska utfärdas efter en undersökning av intygspersonen. Intygsutfärdaren ska vidare med hänsyn tagen till ett intygs ändamål bl.a. överväga om det enligt författning eller av medicinska skäl krävs en undersökning av intygspersonen och hur denna undersökning bör se ut.
+
+		Om intyget inte grundas på en personlig undersökning ska du förklara under "Övriga upplysningar" hur du ändå har kunnat bedöma din patients sjukdomstillstånd och arbetsförmåga.
+	</text>
+	<text id="FRG_1.RBK">Intyget är baserat på</text>
+	<text id="FRG_17.RBK">Aktivitetsbegränsning</text>
+	<text id="FRG_19.RBK">Pågående medicinska behandlingar/åtgärder.</text>
+	<text id="FRG_20.RBK">Planerade medicinska behandlingar/åtgärder. </text>
+	<text id="FRG_25.RBK">Övriga upplysningar till arbetsgivaren</text>
+	<text id="FRG_103.RBK">Kontakt med arbetsgivaren</text>
+	<text id="FRG_27.RBK">Avstängning enligt smittskyddslagen på grund av smitta. (Fortsätt till frågorna "Diagnos" och "Nedsättning av arbetsförmåga").</text>
+	<text id="FRG_28.HLP">Om du kryssar i flera val är det viktigt att du tydliggör under "Övriga upplysningar" om sjukskrivningens omfattning eller period skiljer sig åt mellan olika sysselsättningar.</text>
+	<text id="FRG_28.RBK">I relation till vilken sysselsättning bedömer du arbetsförmågan?</text>
+	<text id="FRG_29.RBK">Ange yrke och arbetsuppgifter</text>
+	<text id="FRG_32.HLP">Utgångspunkten är att patientens arbetsförmåga ska bedömas i förhållande till hens normala arbetstid.</text>
+	<text id="FRG_32.RBK">Min bedömning av patientens nedsättning av arbetsförmågan</text>
+	<text id="FRG_33.HLP">Frågorna besvaras endast vid partiellt nedsatt arbetsförmåga.</text>
+	<text id="FRG_33.RBK">Finns det medicinska skäl att förlägga arbetstiden på något annat sätt än att minska arbetstiden lika mycket varje dag?</text>
+	<text id="FRG_34.RBK">Resor till och från arbetet med annat färdmedel än normalt kan göra det möjligt för patienten att återgå till arbetet under sjukskrivningsperioden.</text>
+	<text id="FRG_35.RBK">Funktionsnedsättning</text>
+	<text id="FRG_37.HLP"><![CDATA[ • Om sjukdomen inte följer förväntat förlopp ska det framgå på vilket sätt.
+ • Om det inträffar komplikationer som gör att det tar längre tid att återfå arbetsförmåga ska du beskriva komplikationerna eller sjukdomstillstånden och skriva en förklaring till varför dessa fördröjer tillfrisknandet.
+ • Om sjukskrivningstidens längd påverkas av flera sjukdomar som orsakar en längre period med aktivitetsbegränsning än varje sjukdom för sig, samsjuklighet, ska du beskriva och förklara detta.]]></text>
+	<text id="FRG_37.RBK">Patientens arbetsförmåga bedöms nedsatt längre tid än den som Socialstyrelsens försäkringsmedicinska beslutsstöd anger, därför att</text>
+	<text id="FRG_39.HLP">En viktig information för att underlätta planeringen.</text>
+	<text id="FRG_39.RBK">Prognos för arbetsförmåga utifrån aktuellt undersökningstillfälle</text>
+	<text id="FRG_40.RBK">Här kan du ange åtgärder som du tror skulle göra det lättare för patienten att återgå i arbete</text>
+	<text id="FRG_44.RBK">Här kan du ange fler åtgärder. Du kan också beskriva hur åtgärderna kan underlätta återgång i arbete.</text>
+	<text id="FRG_6.HLP">Ange vilken eller vilka sjukdomar som orsakar nedsatt arbetsförmåga. Den sjukdom som påverkar arbetsförmågan mest anges först. Diagnoskoden anges alltid med så många positioner som möjligt. Om patienten har fler än tre sjukdomar som påverkar arbetsförmågan anges dessa under "övriga upplysningar".</text>
+	<text id="FRG_6.RBK">Diagnos/diagnoser för sjukdom som orsakar nedsatt arbetsförmåga</text>
+
+	<text id="FRG_100.RBK">Önskar patienten förmedla information om diagnos/diagnoser till sin arbetsgivare?</text>
+
+	<text id="KAT_1.RBK">Grund för medicinskt underlag</text>
+	<text id="KAT_2.RBK">Sysselsättning</text>
+	<text id="KAT_3.RBK">Diagnos</text>
+	<text id="KAT_4.RBK">Sjukdomens konsekvenser för patienten</text>
+	<text id="KAT_5.RBK">Medicinsk behandling</text>
+	<text id="KAT_6.RBK">Bedömning</text>
+	<text id="KAT_7.RBK">Åtgärder</text>
+	<text id="KAT_8.RBK">Övrigt</text>
+	<text id="KAT_9.RBK">Kontakt</text>
+	<text id="KAT_10.RBK">Smittbärarpenning</text>
+	<text id="KAT_10.HLP"><![CDATA[Fylls i om hon eller han måste avstå från sitt arbete på grund av:
+		• Intygsskrivande läkares beslut enligt smittskyddslagen
+		• Läkarundersökning eller hälsokontroll som syftar till att klarlägga om hon eller han är smittad av en allmänfarlig sjukdom eller om personen har en sjukdom, en smitta, ett sår eller annan skada som gör att hon eller han inte får hantera livsmedel.
+		]]></text>
+	<text id="KV_FKMU_0001.ANNAT.RBK">annat</text>
+	<text id="KV_FKMU_0001.JOURNALUPPGIFTER.RBK">journaluppgifter från den</text>
+	<text id="KV_FKMU_0001.TELEFONKONTAKT.RBK">min telefonkontakt med patienten</text>
+	<text id="KV_FKMU_0001.UNDERSOKNING.RBK">min undersökning av patienten</text>
+
+	<text id="KV_FKMU_0002.ARBETSSOKANDE.RBK">Arbetssökande - att utföra sådant arbete som är normalt förekommande på arbetsmarknaden</text>
+	<text id="KV_FKMU_0002.FORALDRALEDIG.RBK">Föräldraledighet för vård av barn</text>
+	<text id="KV_FKMU_0002.NUVARANDE_ARBETE.RBK">Nuvarande arbete</text>
+	<text id="KV_FKMU_0002.STUDIER.RBK">Studier</text>
+
+	<text id="KV_FKMU_0003.EN_FJARDEDEL.RBK">25 procent</text>
+	<text id="KV_FKMU_0003.HALFTEN.RBK">50 procent</text>
+	<text id="KV_FKMU_0003.HELT_NEDSATT.RBK">100 procent</text>
+	<text id="KV_FKMU_0003.TRE_FJARDEDEL.RBK">75 procent</text>
+
+	<text id="KV_FKMU_0004.ARBETSANPASSNING.RBK">Arbetsanpassning</text>
+	<text id="KV_FKMU_0004.ARBETSTRANING.RBK">Arbetsträning</text>
+	<text id="KV_FKMU_0004.BESOK_ARBETSPLATS.RBK">Besök på arbetsplatsen</text>
+	<text id="KV_FKMU_0004.EJ_AKTUELLT.RBK">Inte aktuellt</text>
+	<text id="KV_FKMU_0004.ERGONOMISK.RBK">Ergonomisk bedömning</text>
+	<text id="KV_FKMU_0004.HJALPMEDEL.RBK">Hjälpmedel</text>
+	<text id="KV_FKMU_0004.KONTAKT_FHV.RBK">Kontakt med företagshälsovård</text>
+	<text id="KV_FKMU_0004.OMFORDELNING.RBK">Omfördelning av arbetsuppgifter</text>
+	<text id="KV_FKMU_0004.OVRIGA_ATGARDER.RBK">Övrigt</text>
+
+	<text id="KV_FKMU_0006.ATER_X_ANTAL_DGR.RBK">Patienten förväntas kunna återgå helt i nuvarande sysselsättning inom</text>
+	<text id="KV_FKMU_0006.PROGNOS_OKLAR.RBK">Återgång i nuvarande sysselsättning är oklar.</text>
+	<text id="KV_FKMU_0006.SANNOLIKT_INTE.RBK">Patienten förväntas inte kunna återgå helt i nuvarande sysselsättning inom 12 månader.</text>
+	<text id="KV_FKMU_0006.STOR_SANNOLIKHET.RBK">Patienten förväntas kunna återgå helt i nuvarande sysselsättning efter denna sjukskrivning.</text>
+
+	<text id="KV_FKMU_0007.HUNDRAATTIO_DAGAR.RBK">6 månader</text>
+	<text id="KV_FKMU_0007.NITTIO_DGR.RBK">3 månader</text>
+	<text id="KV_FKMU_0007.SEXTIO_DGR.RBK">2 månader</text>
+	<text id="KV_FKMU_0007.TREHUNDRASEXTIOFEM_DAGAR.RBK">12 månader</text>
+	<text id="KV_FKMU_0007.TRETTIO_DGR.RBK">1 månad</text>
+
+	<text id="FRG_32.IFS1.RBK">Patienten arbetar i snitt</text>
+	<text id="FRG_32.IFS2.RBK">timmar i veckan</text>
+	<text id="FRG_32.IFS.HLP">Ange hur många timmar patienten arbetar i snitt per vecka. Observera att denna funktion endast är ett stöd för att tydliggöra hur många timmar per vecka patienten bedöms kunna arbeta när en viss nedsättning av arbetsförmåga har angivits. Uppgiften lagras inte som en del av intyget.</text>
+
+</texter>
