@@ -155,7 +155,7 @@ N99-N99		Andra sjukliga tillstånd i urin- och könsorganen
 O00-O08		Graviditet som avslutas med abort
 O10-O16		Ödem, proteinuri (äggvita i urinen) och hypertoni under graviditet, förlossning och barnsängstid
 O20-O29		Andra sjukdomar hos den blivande modern i huvudsak sammanhängande med graviditeten
-O30-O48		Vård under graviditet på grund av problem relaterade till fostret och amnionhålan (fostervattenhålan) samt befarade förlossningsproblem
+O30-O49		Vård under graviditet på grund av problem relaterade till fostret och amnionhålan (fostervattenhålan) samt befarade förlossningsproblem
 O60-O75		Komplikationer vid värkarbete och förlossning
 O80-O84		Förlossning
 O85-O92		Komplikationer huvudsakligen sammanhängande med barnsängstiden
