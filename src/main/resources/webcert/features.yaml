@@ -108,8 +108,8 @@ features:
       - *ki070 # LUAE_FS
       - *ki110 # AG114
       - *ki120 # AG7804
-      - *ki080 # DB
-      - *ki090 # DOI
+  #     - *ki080 # DB
+  #     - *ki090 # DOI
   #     - *ki100 # AF00213
   #     - *ki111 # AF00213
   #     - *ki130 # TSTRK1062
@@ -448,3 +448,16 @@ pilots:
         name: *kf290
         desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
         global: true
+  - name: DB_DOI_PILOT
+    desc: Pilot avsedd för testsyfte
+    hsaIds:
+      - TSTNMT2321000156-107M # NMT Testvårdgivare
+      - TSTNMT2321000156-1003 # NMT Testvårdenhet
+    activated:
+      - &pf020
+        name: *kf020
+        desc: Hantera DB och DOI
+        global: true
+        intygstyper:
+          - *ki080 # DB
+          - *ki090 # DOI
