@@ -78,6 +78,9 @@ knownFeatures:
   - &kf250 FILTER_OUTDATED_MESSAGES
   - &kf260 TILLAT_VALIDERINGSPERSON
   - &kf270 SIGNED_CERTIFICATES_LIST
+  - &kf280 VARNING_FRISTAENDE
+  - &kf290 BLOCKERA_FRISTAENDE
+  - &kf300 WEBCERT_MESSAGE_HANDLING
 
 # Aktiverade features i Webcert
 features:
@@ -335,6 +338,18 @@ features:
     name: *kf270
     desc: Aktivera lista för signerade intyg i fristående.
     global: false
+  - &f280
+    name: *kf280
+    desc: Visar ett varningsmeddelande om att inloggning skett i fristående men användaren ska logga in via sitt journalsystem.
+    global: false
+  - &f290
+    name: *kf290
+    desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
+    global: false
+  - &f300
+    name: *kf300
+    desc: Activate Webcert message handling
+    global: true
 
 pilots:
   - name: SRS_PILOT
@@ -396,6 +411,17 @@ pilots:
       - SE2321000222-0000106
       - SE2321000222-0000097
       - SE2321000222-0000109
+      - SE2321000032-43VT
+      - SE2321000032-4W8K
+      - SE2321000032-523M
+      - SE2321000032-5F4N
+      - SE2321000222-0000298
+      - SE2321000222-0000365
+      - SE2321000222-0000110
+      - SE2321000222-0000104
+      - SE2321000222-0255072
+      - SE2321000222-0000354
+      - SE2321000222-0000289
     activated:
       - &pf010
         name: *kf120
@@ -403,3 +429,107 @@ pilots:
         global: true
         intygstyper:
           - *ki050 # LISJP
+  - name: VARNA_FRISTAENDE
+    desc: Varnar djupintegrerade vårdgivares användare från att använda vissa funktioner i fristående.
+    hsaIds:
+      - SE2321000206-E00001
+      - SE2321000206-E00561
+      - SE2321000206-E00436
+      - SE2321000206-E00434
+      - SE2321000206-E00437
+      - SE2321000206-E00565
+      - SE2321000206-E00435
+      - SE2321000206-E00927
+      - SE2321000206-E00765
+      - SE2321000206-E00577
+      - SE2321000206-E00767
+      - SE2321000206-E00780
+      - SE2321000222-0000001
+      - SE2321000040-AAAA
+      - SE2321000040-5B78
+      - SE2321000040-5982
+      - SE2321000016-39KJ
+      - SE2321000016-4K0T
+      - SE2321000016-3HCH
+      - SE2321000016-12XZ
+      - SE2321000016-C08F
+      - SE2321000016-674W
+      - SE2321000016-C087
+      - SE2321000016-C6S1
+      - SE2321000016-94HQ
+      - SE2321000016-DFVS
+      - SE2321000016-110F
+      - SE2321000016-12B8
+      - SE2321000016-102Q
+      - SE2321000016-6S3P
+      - SE2321000016-3CLH
+      - SE2321000016-13PH
+      - SE2321000016-69V0
+      - SE2321000016-6DRF
+      - SE2321000016-1K2W
+      - SE2321000016-52LG
+      - SE2321000016-5VVK
+      - SE162321000024-0001
+      - SE165567766992-14N0
+      - SE165567766992-1909
+    activated:
+      - &pf110
+        name: *kf280
+        desc: Visar ett varningsmeddelande om att inloggning skett i fristående men användaren ska logga in via sitt journalsystem.
+        global: true
+      - &pf120
+        name: *kf290
+        desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
+        global: false
+  - name: BLOCKERA_FRISTAENDE
+    desc: Blockerar djupintegrerade vårdgivares användare från att använda vissa funktioner i fristående.
+    hsaIds:
+      - SE2321000180-1000
+      - SE2321000172-2DB3
+      - SE2321000172-2ZTM
+      - SE2321000172-2SKM
+      - SE2321000172-2CBG
+      - SE2321000172-32CD
+      - SE2321000172-2SNC
+      - SE2321000172-2CP5
+      - SE2321000172-2TB7
+      - SE2321000172-2CLW
+      - SE2321000172-3FJM
+      - SE2321000172-2FH1
+      - SE2321000172-3H2V
+      - SE2321000172-3FJN
+      - SE2321000172-3FSX
+      - SE2321000073-1000
+      - SE2321000073-ZH7B
+      - SE2321000073-XZZM
+      - SE2321000073-Z7HZ
+      - SE2321000073-XZWZ
+      - SE2321000073-ZHPL
+      - SE2321000073-ZJ6S
+      - SE2321000073-4C87
+      - SE2321000073-ZJP2
+      - SE2321000073-ZNVS
+      - SE2321000073-ZJH4
+      - SE2321000073-4C88
+      - SE2321000073-Z1GJ
+      - SE2321000073-ZMPS
+      - SE2321000073-ZLFR
+      - SE2321000073-ZJVP
+      - SE2321000073-ZLV8
+      - SE2321000073-4C8D
+      - SE2321000073-ZL93
+      - SE2321000073-4C89
+      - SE2321000073-ZLDV
+      - SE2321000073-ZJVT
+      - SE2321000073-ZH8L
+      - SE2321000073-ZJVG
+      - SE2321000073-4C86
+    activated:
+      - &pf110
+        name: *kf280
+        desc: Visar ett varningsmeddelande om att inloggning skett i fristående men användaren ska logga in via sitt journalsystem.
+        global: false
+      - &pf120
+        name: *kf290
+        desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
+        global: true
