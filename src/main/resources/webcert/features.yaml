@@ -536,7 +536,7 @@ pilots:
   - name: HANTERA_DB_DOI
     desc: Hantera DB och DOI pilot
     hsaIds:
-      - SE2321000081-B3409
+      - SE2321000081-b3409
     activated:
       - &pf020
         name: *kf020
