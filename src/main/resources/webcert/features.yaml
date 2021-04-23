@@ -81,6 +81,8 @@ knownFeatures:
   - &kf280 VARNING_FRISTAENDE
   - &kf290 BLOCKERA_FRISTAENDE
   - &kf300 WEBCERT_MESSAGE_HANDLING
+  - &kf310 SUBSCRIPTION_DURING_ADJUSTMENT_PERIOD
+  - &kf320 SUBSCRIPTION_PAST_ADJUSTMENT_PERIOD
 
 # Aktiverade features i Webcert
 features:
@@ -350,6 +352,14 @@ features:
     name: *kf300
     desc: Activate Webcert message handling
     global: true
+  - &f310
+    name: *kf310
+    desc: Subscription during adjustment period
+    global: true
+  - &f320
+    name: *kf320
+    desc: Subscription past adjustment period
+    global: false
 
 pilots:
   - name: TEST_PILOT
