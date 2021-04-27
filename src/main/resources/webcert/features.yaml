@@ -337,7 +337,7 @@ features:
   - &f270
     name: *kf270
     desc: Aktivera lista för signerade intyg i fristående.
-    global: false
+    global: true
   - &f280
     name: *kf280
     desc: Visar ett varningsmeddelande om att inloggning skett i fristående men användaren ska logga in via sitt journalsystem.
