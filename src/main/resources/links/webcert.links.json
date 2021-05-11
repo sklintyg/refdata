@@ -170,5 +170,17 @@
     "url": "https://github.com/sklintyg/webcert/blob/develop/LICENSE.md",
     "text": "GitHub",
     "target": "_blank"
+  },
+  {
+    "key": "kundportalenGetAccount",
+    "url": "https://www.inera.se/kontakta-oss/teckna-kundavtal/",
+    "text": "Teckna avtal här",
+    "target": "_blank"
+  },
+  {
+    "key": "kundportalenGetWebcert",
+    "url": "https://www.inera.se/tjanster/alla-tjanster-a-o/intygstjanster/webcert",
+    "text": "Läs mer samt beställ Webcert här",
+    "target": "_blank"
   }
 ]
