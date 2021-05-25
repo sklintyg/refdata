@@ -355,6 +355,9 @@ features:
     name: *kf310
     desc: Inactivate previous major version
     global: true
+    intygstyper:
+      - *ki020 # TS-BAS
+      - *ki030 # TS-DIABETES
 
 pilots:
   - name: TEST_PILOT
