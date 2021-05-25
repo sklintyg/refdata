@@ -81,6 +81,7 @@ knownFeatures:
   - &kf280 VARNING_FRISTAENDE
   - &kf290 BLOCKERA_FRISTAENDE
   - &kf300 WEBCERT_MESSAGE_HANDLING
+  - &kf310 INACTIVATE_PREVIOUS_MAJOR_VERSION
 
 # Aktiverade features i Webcert
 features:
@@ -349,6 +350,10 @@ features:
   - &f300
     name: *kf300
     desc: Activate Webcert message handling
+    global: true
+  - &f310
+    name: *kf310
+    desc: Inactivate previous major version
     global: true
 
 pilots:
