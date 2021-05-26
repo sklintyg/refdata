@@ -170,5 +170,11 @@
     "url": "https://github.com/sklintyg/webcert/blob/develop/LICENSE.md",
     "text": "GitHub",
     "target": "_blank"
+  },
+  {
+    "key": "privatePractitionerAgreement",
+    "url": "https://inera.atlassian.net/wiki/x/KQPIjQ",
+    "text": "Mer information",
+    "target": "_blank"
   }
 ]
