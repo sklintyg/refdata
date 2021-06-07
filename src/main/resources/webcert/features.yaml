@@ -81,6 +81,7 @@ knownFeatures:
   - &kf280 VARNING_FRISTAENDE
   - &kf290 BLOCKERA_FRISTAENDE
   - &kf300 WEBCERT_MESSAGE_HANDLING
+  - &kf310 INAKTIVERA_TIDIGARE_HUVUDVERSION
 
 # Aktiverade features i Webcert
 features:
@@ -350,6 +351,13 @@ features:
     name: *kf300
     desc: Activate Webcert message handling
     global: true
+  - &f310
+    name: *kf310
+    desc: Inactivate previous major version
+    global: true
+    intygstyper:
+      - *ki020 # TS-BAS
+      - *ki030 # TS-DIABETES
 
 pilots:
   - name: SRS_PILOT
