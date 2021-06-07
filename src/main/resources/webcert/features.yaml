@@ -440,6 +440,11 @@ pilots:
   - name: VARNA_FRISTAENDE
     desc: Varnar djupintegrerade vårdgivares användare från att använda vissa funktioner i fristående.
     hsaIds:
+      # Enheter aktiverade för teständamål i Stage
+      - SE4815162344-1A02 # WebCert-Integration Enhet 1
+      - TSTNMT2321000156-10QB # NMT Testvårdgivare
+      - TSTNMT2321000156-10QD # NMT Testvårdenhet
+      # Enheter aktiverade för pilot i Produktion
       - SE2321000206-E00001
       - SE2321000206-E00561
       - SE2321000206-E00436
@@ -493,6 +498,11 @@ pilots:
   - name: BLOCKERA_FRISTAENDE
     desc: Blockerar djupintegrerade vårdgivares användare från att använda vissa funktioner i fristående.
     hsaIds:
+      # Enheter aktiverade för teständamål i Stage
+      - SE4815162344-1A03 # WebCert-Integration Enhet 2
+      - TSTNMT2321000156-10Q5 # NMT Testvårdgivare
+      - TSTNMT2321000156-10Q8 # NMT Testvårdenhet
+      # Enheter aktiverade för pilot i Produktion
       - SE2321000180-1000
       - SE2321000172-2DB3
       - SE2321000172-2ZTM
