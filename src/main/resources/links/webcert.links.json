@@ -178,15 +178,15 @@
     "target": "_blank"
   },
   {
-    "key": "kundportalenGetAccount",
-    "url": "https://www.inera.se/kontakta-oss/teckna-kundavtal/",
-    "text": "Teckna avtal här",
+    "key": "ineraIntygstjansterWebcert",
+    "url": "https://www.inera.se/tjanster/alla-tjanster-a-o/intygstjanster/webcert/ ",
+    "text": "Läs mer samt beställ Webcert här",
     "target": "_blank"
   },
   {
-    "key": "kundportalenGetWebcert",
-    "url": "https://www.inera.se/tjanster/alla-tjanster-a-o/intygstjanster/webcert",
-    "text": "Läs mer samt beställ Webcert här",
+    "key": "ineraBestallningOchTjanster",
+    "url": "https://www.inera.se/kontakta-oss/fragor-om-bestallning-och-tjanster/ ",
+    "text": "Inera support",
     "target": "_blank"
   }
 ]

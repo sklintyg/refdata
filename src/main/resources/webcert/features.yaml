@@ -82,8 +82,8 @@ knownFeatures:
   - &kf290 BLOCKERA_FRISTAENDE
   - &kf300 WEBCERT_MESSAGE_HANDLING
   - &kf310 INAKTIVERA_TIDIGARE_HUVUDVERSION
-  - &kf320 SUBSCRIPTION_DURING_ADJUSTMENT_PERIOD
-  - &kf330 SUBSCRIPTION_PAST_ADJUSTMENT_PERIOD
+  - &kf320 SUBSCRIPTION_ADAPTATION_PERIOD
+  - &kf330 SUBSCRIPTION_REQUIRED
 
 # Aktiverade features i Webcert
 features:
@@ -362,11 +362,11 @@ features:
       - *ki030 # TS-DIABETES
   - &f320
     name: *kf320
-    desc: Subscription during adjustment period
+    desc: Subscription adaptation period
     global: true
   - &f330
     name: *kf330
-    desc: Subscription past adjustment period
+    desc: Subscription required
     global: false
 
 pilots:
