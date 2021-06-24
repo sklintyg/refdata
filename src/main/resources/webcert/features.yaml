@@ -410,7 +410,7 @@ pilots:
         global: true
   - name: REACT_WEBKLIENT_PILOT
     desc: Pilot avsedd för att testa nya reactklienten
-    hsaids:
+    hsaIds:
       - TSTNMT2321000156-ALVC # Alfa Vårdcentral
       - TSTNMT2321000156-ALLM # Alfa Läkarmottagningen
       - TSTNMT2321000156-ALMC # Alfa Medicincentrum
