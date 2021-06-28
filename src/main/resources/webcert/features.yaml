@@ -414,6 +414,8 @@ pilots:
       - TSTNMT2321000156-ALVC # Alfa Vårdcentral
       - TSTNMT2321000156-ALLM # Alfa Läkarmottagningen
       - TSTNMT2321000156-ALMC # Alfa Medicincentrum
+      - TSTNMT2321000156-10KW # sopra_vg1_ve1
+      - TSTNMT2321000156-1077 # NMT vg3 NMT vg3 ve1
     activated:
       - &pf320
         name: *kf320
