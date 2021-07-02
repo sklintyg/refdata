@@ -179,14 +179,8 @@
   },
   {
     "key": "ineraIntygstjansterWebcert",
-    "url": "https://www.inera.se/tjanster/alla-tjanster-a-o/intygstjanster/webcert/ ",
-    "text": "Läs mer samt beställ Webcert här",
-    "target": "_blank"
-  },
-  {
-    "key": "ineraBestallningOchTjanster",
-    "url": "https://www.inera.se/kontakta-oss/fragor-om-bestallning-och-tjanster/ ",
-    "text": "Inera support",
+    "url": "https://www.inera.se/tjanster/alla-tjanster-a-o/intygstjanster/webcert/",
+    "text": "Intygstjänster Webcert",
     "target": "_blank"
   }
 ]
