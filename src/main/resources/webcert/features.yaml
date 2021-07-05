@@ -83,6 +83,8 @@ knownFeatures:
   - &kf300 WEBCERT_MESSAGE_HANDLING
   - &kf310 INAKTIVERA_TIDIGARE_HUVUDVERSION
   - &kf320 ANVAND_REACT_WEBKLIENT
+  - &kf330 SUBSCRIPTION_ADAPTATION_PERIOD
+  - &kf340 SUBSCRIPTION_REQUIRED
 
 # Aktiverade features i Webcert
 features:
@@ -362,6 +364,14 @@ features:
   - &f320
     name: *kf320
     desc: Använd nya reactklienten
+    global: false
+  - &f330
+    name: *kf330
+    desc: Subscription adaptation period
+    global: true
+  - &f340
+    name: *kf340
+    desc: Subscription required
     global: false
 
 pilots:
