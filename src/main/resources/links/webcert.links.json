@@ -176,5 +176,11 @@
     "url": "https://inera.atlassian.net/wiki/x/KQPIjQ",
     "text": "Mer information",
     "target": "_blank"
+  },
+  {
+    "key": "ineraIntygstjansterWebcert",
+    "url": "https://www.inera.se/tjanster/alla-tjanster-a-o/intygstjanster/webcert/",
+    "text": "Intygstjänster Webcert",
+    "target": "_blank"
   }
 ]

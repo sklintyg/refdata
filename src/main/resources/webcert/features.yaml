@@ -82,6 +82,8 @@ knownFeatures:
   - &kf290 BLOCKERA_FRISTAENDE
   - &kf300 WEBCERT_MESSAGE_HANDLING
   - &kf310 INAKTIVERA_TIDIGARE_HUVUDVERSION
+  - &kf330 SUBSCRIPTION_ADAPTATION_PERIOD
+  - &kf340 SUBSCRIPTION_REQUIRED
 
 # Aktiverade features i Webcert
 features:
@@ -358,6 +360,14 @@ features:
     intygstyper:
       - *ki020 # TS-BAS
       - *ki030 # TS-DIABETES
+  - &f330
+    name: *kf330
+    desc: Subscription adaptation period
+    global: true
+  - &f340
+    name: *kf340
+    desc: Subscription required
+    global: false
 
 pilots:
   - name: SRS_PILOT
@@ -558,3 +568,19 @@ pilots:
         name: *kf290
         desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
         global: true
+  - name: REACT_WEBKLIENT_PILOT
+    desc: Pilot avsedd för att testa nya reactklienten
+    hsaIds:
+      - TSTNMT2321000156-ALVC # Alfa Vårdcentral
+      - TSTNMT2321000156-ALLM # Alfa Läkarmottagningen
+      - TSTNMT2321000156-ALMC # Alfa Medicincentrum
+      - TSTNMT2321000156-10KW # sopra_vg1_ve1
+      - TSTNMT2321000156-1077 # NMT vg3 NMT vg3 ve1
+    activated:
+      - &pf320
+        name: *kf320
+        desc: Använd nya reactklienten
+        global: true
+        intygstyper:
+          - *ki050 # LISJP
+          - *ki100 # AF00213
