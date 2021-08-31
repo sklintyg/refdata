@@ -1,7 +1,7 @@
 [
   {
     "key": "ineraNationellKundservice",
-    "url": "https://www.inera.se/felanmalan",
+    "url": "https://www.inera.se/kontakta-oss/felanmalan-och-anvandarstod/",
     "text": "Inera Support",
     "target": "_blank"
   },
@@ -44,13 +44,13 @@
   },
   {
     "key": "ineraPersonuppgifter",
-    "url": "https://www.inera.se/om-inera/behandling-av-personuppgifter/",
+    "url": "https://www.inera.se/om-webbplatsen/behandling-av-personuppgifter/",
     "text": "Ineras hemsida",
     "target": "_blank"
   },
   {
     "key": "ineraIntygsskola",
-    "url": "https://www.inera.se/intygsskolan/rehabstod",
+    "url": "https://inera.atlassian.net/wiki/x/ogNkFQ",
     "text": "<i class='fa fa-graduation-cap'></i> Hitta svar på dina frågor i Ineras intygsskola",
     "target": "_blank"
   },
@@ -98,7 +98,7 @@
   },
   {
     "key": "lasMerOmLoggning",
-    "url": "https://www.inera.se/intygsskolan/rehabstod",
+    "url": "https://inera.atlassian.net/wiki/x/ogNkFQ",
     "text": "Läs mer om loggning i Ineras intygsskola",
     "target": "_blank"
   }
