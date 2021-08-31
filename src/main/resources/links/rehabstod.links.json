@@ -6,6 +6,12 @@
     "target": "_blank"
   },
   {
+    "key": "ineraFelanmalanAnvandarstodSupport",
+    "url": "https://www.inera.se/kontakta-oss/felanmalan-och-anvandarstod/",
+    "text": "Support",
+    "target": "_blank"
+  },
+  {
     "key": "ptsCookies",
     "url": "https://pts.se/sv/privat/internet/integritet/kakor-cookies/",
     "text": "Kommunikationsmyndigheten PTS sida om kakor",
@@ -100,6 +106,12 @@
     "key": "lasMerOmLoggning",
     "url": "https://inera.atlassian.net/wiki/x/ogNkFQ",
     "text": "Läs mer om loggning i Ineras intygsskola",
+    "target": "_blank"
+  },
+  {
+    "key": "intygstjansterInformationFAQ",
+    "url": "https://inera.atlassian.net/wiki/x/SwhmFQ",
+    "text": "Intygstjänsters informationsyta",
     "target": "_blank"
   }
 ]
