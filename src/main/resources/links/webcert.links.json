@@ -79,13 +79,13 @@
   },
   {
     "key": "ineraKundserviceAnmalFel",
-    "url": "https://www.inera.se/felanmalan",
+    "url": "https://www.inera.se/kontakta-oss/felanmalan-och-anvandarstod/",
     "text": "Inera Support",
     "target": "_blank"
   },
   {
     "key": "ineraHjalpOchSupport",
-    "url": "https://www.inera.se/kundservice/kontakta-oss/",
+    "url": "https://www.inera.se/kontakta-oss/",
     "text": "Hjälp och support",
     "target": "_blank"
   },
@@ -125,13 +125,13 @@
   },
   {
     "key": "ineraPersonuppgifter",
-    "url": "https://www.inera.se/om-inera/behandling-av-personuppgifter/",
+    "url": "https://www.inera.se/om-webbplatsen/behandling-av-personuppgifter",
     "text": "Ineras webbplats",
     "target": "_blank"
   },
   {
     "key": "ineraIntygsskola",
-    "url": "https://www.inera.se/intygsskolan/webcert",
+    "url": "https://inera.atlassian.net/wiki/x/ogNkFQ",
     "text": "Hitta svar på dina frågor i Ineras intygsskola",
     "target": "_blank"
   },
