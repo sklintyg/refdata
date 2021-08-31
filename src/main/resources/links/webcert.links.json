@@ -84,6 +84,12 @@
     "target": "_blank"
   },
   {
+    "key": "ineraFelanmalanAnvandarstodSupport",
+    "url": "https://www.inera.se/kontakta-oss/felanmalan-och-anvandarstod/",
+    "text": "Support",
+    "target": "_blank"
+  },
+  {
     "key": "ineraHjalpOchSupport",
     "url": "https://www.inera.se/kontakta-oss/",
     "text": "Hjälp och support",
@@ -181,6 +187,12 @@
     "key": "ineraIntygstjansterWebcert",
     "url": "https://www.inera.se/tjanster/alla-tjanster-a-o/intygstjanster/webcert/",
     "text": "Intygstjänster Webcert",
+    "target": "_blank"
+  },
+  {
+    "key": "intygstjansterInformationFAQ",
+    "url": "https://inera.atlassian.net/wiki/x/SwhmFQ",
+    "text": "Webcerts informationsyta",
     "target": "_blank"
   }
 ]
