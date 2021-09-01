@@ -568,19 +568,3 @@ pilots:
         name: *kf290
         desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
         global: true
-  - name: REACT_WEBKLIENT_PILOT
-    desc: Pilot avsedd för att testa nya reactklienten
-    hsaIds:
-      - TSTNMT2321000156-ALVC # Alfa Vårdcentral
-      - TSTNMT2321000156-ALLM # Alfa Läkarmottagningen
-      - TSTNMT2321000156-ALMC # Alfa Medicincentrum
-      - TSTNMT2321000156-10KW # sopra_vg1_ve1
-      - TSTNMT2321000156-1077 # NMT vg3 NMT vg3 ve1
-    activated:
-      - &pf320
-        name: *kf320
-        desc: Använd nya reactklienten
-        global: true
-        intygstyper:
-          - *ki050 # LISJP
-          - *ki100 # AF00213
