@@ -79,13 +79,19 @@
   },
   {
     "key": "ineraKundserviceAnmalFel",
-    "url": "https://www.inera.se/felanmalan",
+    "url": "https://www.inera.se/kontakta-oss/felanmalan-och-anvandarstod/",
     "text": "Inera Support",
     "target": "_blank"
   },
   {
+    "key": "ineraFelanmalanAnvandarstodSupport",
+    "url": "https://www.inera.se/kontakta-oss/felanmalan-och-anvandarstod/",
+    "text": "Support",
+    "target": "_blank"
+  },
+  {
     "key": "ineraHjalpOchSupport",
-    "url": "https://www.inera.se/kundservice/kontakta-oss/",
+    "url": "https://www.inera.se/kontakta-oss/",
     "text": "Hjälp och support",
     "target": "_blank"
   },
@@ -125,13 +131,13 @@
   },
   {
     "key": "ineraPersonuppgifter",
-    "url": "https://www.inera.se/om-inera/behandling-av-personuppgifter/",
+    "url": "https://www.inera.se/om-webbplatsen/behandling-av-personuppgifter",
     "text": "Ineras webbplats",
     "target": "_blank"
   },
   {
     "key": "ineraIntygsskola",
-    "url": "https://www.inera.se/intygsskolan/webcert",
+    "url": "https://inera.atlassian.net/wiki/x/ogNkFQ",
     "text": "Hitta svar på dina frågor i Ineras intygsskola",
     "target": "_blank"
   },
@@ -175,6 +181,18 @@
     "key": "privatePractitionerAgreement",
     "url": "https://inera.atlassian.net/wiki/x/KQPIjQ",
     "text": "Mer information",
+    "target": "_blank"
+  },
+  {
+    "key": "ineraIntygstjansterWebcert",
+    "url": "https://www.inera.se/tjanster/alla-tjanster-a-o/intygstjanster/webcert/",
+    "text": "Intygstjänster Webcert",
+    "target": "_blank"
+  },
+  {
+    "key": "intygstjansterInformationFAQ",
+    "url": "https://inera.atlassian.net/wiki/x/SwhmFQ",
+    "text": "Webcerts informationsyta",
     "target": "_blank"
   }
 ]

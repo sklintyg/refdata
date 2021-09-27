@@ -1,7 +1,7 @@
 [
   {
     "key": "statistikAnvandarmanual",
-    "url": "https://www.inera.se/kundservice/dokument-och-lankar/tjanster/intygsstatistik-dokument/",
+    "url": "https://inera.atlassian.net/wiki/x/SYKhG",
     "text": "användarmanualer",
     "target": "_blank"
   },
@@ -13,7 +13,7 @@
   },
   {
     "key": "inerasPersonuppgiftshantering",
-    "url": "https://www.inera.se/om-inera/behandling-av-personuppgifter/",
+    "url": "https://www.inera.se/om-webbplatsen/behandling-av-personuppgifter/",
     "text": "Ineras hemsida",
     "target": "_blank"
   },
@@ -43,13 +43,13 @@
   },
   {
     "key": "sarskildBehorighetStatistik",
-    "url": "https://www.inera.se/kundservice/dokument-och-lankar/tjanster/intygsstatistik-dokument/",
+    "url": "https://inera.atlassian.net/wiki/x/SYKhG",
     "text": "Mer information om behörighet för Intygsstatistik",
     "target": "_blank"
   },
   {
     "key": "sarskildBehorighetStatistikClickHere",
-    "url": "https://www.inera.se/kundservice/dokument-och-lankar/tjanster/intygsstatistik-dokument/",
+    "url": "https://inera.atlassian.net/wiki/x/SYKhG",
     "text": "klicka här",
     "target": "_blank"
   },
@@ -61,19 +61,19 @@
   },
   {
     "key": "ineraKundserviceFelanmalan",
-    "url": "https://www.inera.se/felanmalan",
+    "url": "https://www.inera.se/kontakta-oss/felanmalan-och-anvandarstod/",
     "text": "Kontaktinformation till Inera Support",
     "target": "_blank"
   },
   {
     "key": "administrationAvLandsting",
-    "url": "https://www.inera.se/kundservice/dokument-och-lankar/tjanster/intygsstatistik-dokument/",
+    "url": "https://inera.atlassian.net/wiki/x/SYKhG",
     "text": "Administration av region",
     "target": "_blank"
   },
   {
     "key": "wc-lank-005",
-    "url": "https://www.inera.se/felanmalan",
+    "url": "https://www.inera.se/kontakta-oss/felanmalan-och-anvandarstod/",
     "text": "Inera Support",
     "target": "_blank"
   },
@@ -85,19 +85,19 @@
   },
   {
     "key": "wc-lank-013",
-    "url": "https://www.inera.se/om-inera/behandling-av-personuppgifter/",
+    "url": "https://www.inera.se/om-webbplatsen/behandling-av-personuppgifter/",
     "text": "Ineras sida om hur personuppgifter behandlas",
     "target": "_blank"
   },
   {
     "key": "st-lank-001",
-    "url": "https://www.inera.se/intygsskolan/intygsstatistik",
+    "url": "https://inera.atlassian.net/wiki/x/ogNkFQ",
     "text": "Hitta svar på dina frågor i Ineras intygsskola",
     "target": "_blank"
   },
   {
     "key": "st-lank-002",
-    "url": "https://www.inera.se/intygsstatistik/inloggning",
+    "url": "https://inera.atlassian.net/wiki/x/SwhmFQ ",
     "text": "Lär dig mer om inloggning med SITHS-kort",
     "target": "_blank"
   },

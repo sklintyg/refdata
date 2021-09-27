@@ -7,8 +7,8 @@
   },
   {
     "key": "diPatientDataLagen",
-    "url": "https://www.datainspektionen.se/lagar-och-regler/patientdatalagen",
-    "text": "Läs mer om lagring av uppgifter och ändring av information hos Datainspektionen",
+    "url": "https://www.imy.se/verksamhet/dataskydd/dataskydd-pa-olika-omraden/vard",
+    "text": "Läs mer om lagring av uppgifter och ändring av information hos Integritetsskyddsmyndigheten",
     "target": "_blank"
   },
   {
@@ -67,7 +67,7 @@
   },
   {
     "key": "ineraKontakt",
-    "url": "https://www.inera.se/kundservice/kontakta-oss/",
+    "url": "https://www.inera.se/kontakta-oss/",
     "text": "Hjälp och support",
     "target": "_blank"
   },
@@ -79,13 +79,13 @@
   },
   {
     "key": "ineraKundserviceFelanmalan",
-    "url": "https://www.inera.se/felanmalan",
+    "url": "https://www.inera.se/kontakta-oss/felanmalan-och-anvandarstod/",
     "text": "Kontaktinformation till kundservice (extern länk)",
     "target": "_blank"
   },
   {
     "key": "ineraKundserviceAnmalFel",
-    "url": "https://www.inera.se/felanmalan",
+    "url": "https://www.inera.se/kontakta-oss/felanmalan-och-anvandarstod/",
     "text": "Ineras kundservice",
     "target": "_blank"
   },
@@ -151,7 +151,7 @@
   },
   {
     "key": "ineraPersonuppgifter",
-    "url": "https://www.inera.se/om-inera/behandling-av-personuppgifter/",
+    "url": "https://www.inera.se/om-webbplatsen/behandling-av-personuppgifter/",
     "text": "Ineras hemsida",
     "target": "_blank"
   },
@@ -175,8 +175,8 @@
   },
   {
     "key": "gdpr",
-    "url": "https://eur-lex.europa.eu/legal-content/SV/TXT/?uri=celex:32016R0679",
-    "text": "Dataskyddsförordningen (EU) 2016/679",
+    "url": "https://www.imy.se/privatperson/dataskydd/",
+    "text": "Integritetsskyddsmyndigheten",
     "target": "_blank"
   },
   {
@@ -201,6 +201,18 @@
     "key": "miLicenseGithub",
     "url": "https://github.com/sklintyg/minaintyg/blob/develop/LICENSE.md",
     "text": "Github",
+    "target": "_blank"
+  },
+  {
+    "key": "1177eServicesSupport",
+    "url": "https://www.1177.se/e-tjanster-support",
+    "text": "Support",
+    "target": "_blank"
+  },
+  {
+    "key": "1177eServicesHelpAndSupport",
+    "url": "https://www.1177.se/e-tjanster-support",
+    "text": "Hjälp och support",
     "target": "_blank"
   }
 ]
