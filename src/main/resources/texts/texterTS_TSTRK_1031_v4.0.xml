@@ -22,7 +22,8 @@ Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transpo
   -->
 	<text id="KAT_1.RBK">Intyget avser</text>
 	<text id="FRG_1.RBK">Intyget avser följande behörigheter</text>
-	<text id="FRG_1.HLP"><![CDATA[AM - moped klass I
+	<text id="FRG_1.HLP"><![CDATA[Fyll i de behörigheter patienten har och de behörigheter patienten söker.
+AM - moped klass I
 A1 - lätt motorcykel
 A2 - mellanstor motorcykel
 A - motorcykel
@@ -74,7 +75,7 @@ Avser SIS-märkt företagskort eller tjänstekort.
 Se Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
 
 <b>Pass</b>
-Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 2006, pass utfärdat av Island, Liechtenstein, Norge eller Schweiz från och med den 1 september 2006.]]>
+EU-pass och pass utfärdat av Färöarna, Förenade kungariket, Island, Liechtenstein, Norge eller Schweiz.]]>
 	</text>
 
 	<text id="KV_ID_KONTROLL.IDK1.RBK">ID-kort</text>
@@ -93,13 +94,15 @@ Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 20
 	<text id="KAT_3.RBK">Allmänt</text>
 
 	<text id="FRG_35.RBK">Vilket år ställdes diagnosen diabetes?</text>
-	<text id="FRG_18.RBK">Patienten har diabetes</text>
+	<text id="FRG_18.RBK">Vilken typ av diabetes har patienten?</text>
+
+	<text id="FRG_207.RBK">Har patienten medicinering för sin diabetes?</text>
 
 	<text id="SVAR_TYP1.RBK">Typ 1</text>
 	<text id="SVAR_TYP2.RBK">Typ 2</text>
 	<text id="SVAR_ANNAN.RBK">Annan</text>
 
-	<text id="DFR_18.2.RBK">Beskriv annan</text>
+	<text id="DFR_18.2.RBK">Ange vilken</text>
 
 
 	<text id="FRG_109.RBK">Behandling</text>
@@ -125,10 +128,11 @@ Avser svenskt EU-pass, annat EU-pass utfärdade från och med den 1 september 20
 	<text id="FRG_37.RBK">Förekommer hypoglykemier med tecken på nedsatt hjärnfunktion (neuroglukopena symptom) som bedöms kunna innebära en trafiksäkerhetsrisk?</text>
 	<text id="FRG_100.RBK">Är patientens diabetessjukdom under godtagbar kontroll med avseende på risken för hypoglykemi?</text>
 	<text id="FRG_100.HLP"><![CDATA[I bedömningen ingår att patienten ska förstå de risker som är förknippade med hypoglykemi, vara väl förtrogen med	symptomen på hypoglykemi, ha kännedom om lämpliga åtgärder om sådana symptom uppkommer samt ha tillräcklig kontroll över sitt medicinska tillstånd.]]></text>
-	<text id="FRG_110.RBK">Har patienten förmåga att känna varningstecken på hypoglykemi?</text>
-	<text id="FRG_106.RBK">Har patienten haft återkommande allvarlig hypoglykemi under det senaste året?</text>
-	<text id="FRG_106.HLP"><![CDATA[Med allvarlig och återkommande avses hypoglykemi som krävt hjälp av annan för att hävas och som upprepats inom ett år.]]></text>
-	<text id="DFR_106.2.RBK">När inträffade det senast?</text>
+	<text id="FRG_110.RBK">Har patienten förmåga att känna varningstecken (awareness) på hypoglykemi?</text>
+	<text id="FRG_110.HLP"><![CDATA[Om personen aldrig har haft någon hypoglykemi ska förmågan att känna varningstecken bedömas utifrån de medicinska förhållandena i övrigt.]]></text>
+	<text id="FRG_106.RBK">Har patienten haft återkommande allvarlig hypoglykemi under de senaste tolv månaderna?</text>
+	<text id="FRG_106.HLP"><![CDATA[Med återkommande allvarlig hypoglykemi avses allvarlig hypoglykemi som upprepas inom en period om tolv månader]]></text>
+	<text id="DFR_106.2.RBK">När inträffade den senaste allvarliga hypoglykemin?</text>
 	<text id="FRG_107.RBK">Har patienten haft återkommande allvarlig hypoglykemi i vaket tillstånd under de senaste tre månaderna?</text>
 	<text id="FRG_107.HLP"><![CDATA[Med allvarlig och återkommande avses hypoglykemi som krävt hjälp av annan för att hävas och som upprepats inom ett år.]]></text>
 	<text id="DFR_107.2.RBK">När inträffade det senast?</text>
@@ -179,7 +183,7 @@ Ange gärna vilken diagnos patienten har under Övriga upplysningar och kommenta
   -->
 	<text id="KAT_7.RBK">Bedömning</text>
 
-	<text id="FRG_33.RBK">Ange för vilka behörigheter som patienten uppfyller kraven enligt Transportstyrelsens föreskrifter och allmänna råd om medicinska krav för innehav av körkort m.m.(TSFS 2010:125)</text>
+	<text id="FRG_33.RBK"><![CDATA[Patienten uppfyller kraven enligt 6 kap. i Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m. Föreskrivna krav på läkarens specialistkompetens vid diabetessjukdom anges i 17 kap. Se <a href="https://www.transportstyrelsen.se" target="_blank">Vägtrafik - transportstyrelsen.se</a> <i class="material-icons md-18">launch</i>.]]></text>
 	<text id="FRG_33.HLP"><![CDATA[AM - moped klass I
 A1 - lätt motorcykel
 A2 - mellanstor motorcykel
