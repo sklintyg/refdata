@@ -306,10 +306,6 @@ features:
       - *ki110 # AG114
       - *ki120 # AG7804
       - *ki111 # AF00251
-  - &f200
-    name: *kf200
-    desc: Rensning av meddelanden av fel B
-    global: true
   - &f210
     name: *kf210
     desc: Om intyget är det senaste skapade gäller ej UNIKT Regler
@@ -330,17 +326,9 @@ features:
     name: *kf240
     desc: Aktivera IDP konnektivitetskontroll
     global: true
-  - &f250
-    name: *kf250
-    desc: Aktivera bortfiltrering av utdaterade meddelanden
-    global: false
   - &f260
     name: *kf260
     desc: Tillåt att utfärda intyg på valideringspersoner
-    global: true
-  - &f270
-    name: *kf270
-    desc: Aktivera lista för signerade intyg i fristående.
     global: true
   - &f280
     name: *kf280
@@ -350,10 +338,6 @@ features:
     name: *kf290
     desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
     global: false
-  - &f300
-    name: *kf300
-    desc: Activate Webcert message handling
-    global: true
   - &f310
     name: *kf310
     desc: Inactivate previous major version
