@@ -70,17 +70,13 @@ knownFeatures:
   - &kf170 TAK_KONTROLL
   - &kf180 TAK_KONTROLL_TRADKLATTRING
   - &kf190 SEKRETESSMARKERING
-  - &kf200 NOTIFICATION_DISCARD_FELB
   - &kf210 FEATURE_UNIKT_UNDANTAG_OM_SENASTE_INTYG
   - &kf220 OAUTH_AUTHENTICATION
   - &kf230 CREATE_DRAFT_PREFILL
   - &kf240 IDP_CONNECTIVITY_CHECK
-  - &kf250 FILTER_OUTDATED_MESSAGES
   - &kf260 TILLAT_VALIDERINGSPERSON
-  - &kf270 SIGNED_CERTIFICATES_LIST
   - &kf280 VARNING_FRISTAENDE
   - &kf290 BLOCKERA_FRISTAENDE
-  - &kf300 WEBCERT_MESSAGE_HANDLING
   - &kf310 INAKTIVERA_TIDIGARE_HUVUDVERSION
   - &kf330 SUBSCRIPTION_ADAPTATION_PERIOD
   - &kf340 SUBSCRIPTION_REQUIRED
@@ -306,10 +302,6 @@ features:
       - *ki110 # AG114
       - *ki120 # AG7804
       - *ki111 # AF00251
-  - &f200
-    name: *kf200
-    desc: Rensning av meddelanden av fel B
-    global: true
   - &f210
     name: *kf210
     desc: Om intyget är det senaste skapade gäller ej UNIKT Regler
@@ -330,17 +322,9 @@ features:
     name: *kf240
     desc: Aktivera IDP konnektivitetskontroll
     global: true
-  - &f250
-    name: *kf250
-    desc: Aktivera bortfiltrering av utdaterade meddelanden
-    global: false
   - &f260
     name: *kf260
     desc: Tillåt att utfärda intyg på valideringspersoner
-    global: true
-  - &f270
-    name: *kf270
-    desc: Aktivera lista för signerade intyg i fristående.
     global: true
   - &f280
     name: *kf280
@@ -350,10 +334,6 @@ features:
     name: *kf290
     desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
     global: false
-  - &f300
-    name: *kf300
-    desc: Activate Webcert message handling
-    global: true
   - &f310
     name: *kf310
     desc: Inactivate previous major version
