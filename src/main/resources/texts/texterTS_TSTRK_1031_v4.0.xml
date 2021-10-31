@@ -124,22 +124,39 @@ EU-pass och pass utfärdat av Färöarna, Förenade kungariket, Island, Liechten
   KATEGORI 4: Hypoglykemier
   ==============================================
   -->
-	<text id="KAT_4.RBK">Hypoglykemier</text>
+	<!--<text id="KAT_4.RBK">Hypoglykemier</text>-->
 
-	<text id="FRG_41.RBK">Gör patienten egenkontroller av blodsocker?</text>
-	<text id="FRG_37.RBK">Förekommer hypoglykemier med tecken på nedsatt hjärnfunktion (neuroglukopena symptom) som bedöms kunna innebära en trafiksäkerhetsrisk?</text>
-	<text id="FRG_100.RBK">Är patientens diabetessjukdom under godtagbar kontroll med avseende på risken för hypoglykemi?</text>
-	<text id="FRG_100.HLP"><![CDATA[I bedömningen ingår att patienten ska förstå de risker som är förknippade med hypoglykemi, vara väl förtrogen med	symptomen på hypoglykemi, ha kännedom om lämpliga åtgärder om sådana symptom uppkommer samt ha tillräcklig kontroll över sitt medicinska tillstånd.]]></text>
+	<text id="KAT_4.RBK">Hypoglykemi</text>
+	<text id="FRG_200.RBK">Har patienten tillräcklig kontroll över sitt sjukdomstillstånd med avseende på risken för hypoglykemi?</text>
+	<text id="FRG_200.HLP"><![CDATA[Med att ha tillräcklig kontroll över sitt medicinska tillstånd avses att behandlingen är välinställd och att personen har kontroll över sin sjukdom sett till helheten. Det kan till exempel handla om behandlingsföljsamhet, att ha kontroll över sin medicinering, hantering av blodsockermätare etc. Allvarlig hypoglykemi som inträffar i trafiken tyder på att personen inte har tillräcklig kontroll över sitt medicinska tillstånd.]]></text>
+	<text id="DFR_200.2.RBK">Varför?</text>
+	<text id="FRG_201.RBK">Förstår patienten riskerna med hypoglykemi och vilka konsekvenser det kan ha för förmågan att köra körkortspliktiga fordon?</text>
+	<text id="FRG_201.HLP"><![CDATA[Risker med hypoglykemi kan vara längre reaktionstid, oförmåga att fatta adekvata beslut i en trafiksituation eller att drabbas av allvarlig hypoglykemi som kan leda till medvetslöshet]]></text>
+
 	<text id="FRG_110.RBK">Har patienten förmåga att känna varningstecken (awareness) på hypoglykemi?</text>
 	<text id="FRG_110.HLP"><![CDATA[Om personen aldrig har haft någon hypoglykemi ska förmågan att känna varningstecken bedömas utifrån de medicinska förhållandena i övrigt.]]></text>
+
+	<text id="FRG_202.RBK">Kan och har patienten möjlighet att vidta adekvata åtgärder vid tecken på hypoglykemi?</text>
+	<text id="FRG_202.HLP"><![CDATA[Med att kunna hantera tillståndet adekvat avses att:
+		<ul>
+			<li>kontrollera blodsockret om varningstecken på hypoglykemi uppstår eller om en mätare indikerar hypoglykemi eller risk för hypoglykemi,</li>
+			<li>äta eller dricka något om blodsockernivån motsvarar hypoglykemi samt vänta en stund och sedan kontrollera blodsockernivån igen,</li>
+			<li>stanna fordonet om varningstecken på hypoglykemi skulle uppstå under körning och vänta med att fortsätta köra tills blodsockernivån inte längre indikerar hypoglykemi och symptomen har försvunnit.</li>
+		</ul>]]></text>
 	<text id="FRG_106.RBK">Har patienten haft återkommande allvarlig hypoglykemi under de senaste tolv månaderna?</text>
-	<text id="FRG_106.HLP"><![CDATA[Med återkommande allvarlig hypoglykemi avses allvarlig hypoglykemi som upprepas inom en period om tolv månader]]></text>
+	<text id="FRG_106.HLP"><![CDATA[Med återkommande allvarlig hypoglykemi avses allvarlig hypoglykemi som upprepas inom en period om tolv månader.]]></text>
 	<text id="DFR_106.2.RBK">När inträffade den senaste allvarliga hypoglykemin?</text>
-	<text id="FRG_107.RBK">Har patienten haft återkommande allvarlig hypoglykemi i vaket tillstånd under de senaste tre månaderna?</text>
-	<text id="FRG_107.HLP"><![CDATA[Med allvarlig och återkommande avses hypoglykemi som krävt hjälp av annan för att hävas och som upprepats inom ett år.]]></text>
-	<text id="DFR_107.2.RBK">När inträffade det senast?</text>
-	<text id="FRG_108.RBK">Har patienten haft allvarlig hypoglykemi i trafiken under det senaste året?</text>
-	<text id="DFR_108.2.RBK">När inträffade det senast?</text>
+	<text id="DFR_106.3.RBK">Kontrolleras diabetessjukdomen regelbundet?</text>
+	<text id="DFR_106.5.RBK">Utgör tillståndet någon trafiksäkerhetsrisk?</text>
+	<text id="FRG_107.RBK">Har patienten haft återkommande allvarlig hypoglykemi i vaket tillstånd under den senaste tolvmånadersperioden?</text>
+	<text id="DFR_107.3.RBK">Har i så fall den senaste allvarliga hypoglykemin inträffat under de senaste tre månaderna?</text>
+	<text id="DFR_107.5.RBK">När inträffade det senast?</text>
+	<text id="FRG_203.RBK">Har patienten haft allvarlig hypoglykemi under de senaste tolv månaderna?</text>
+	<text id="DFR_203.2.RBK">När inträffade det senast?</text>
+	<text id="FRG_203.RBK">Har patienten haft allvarlig hypoglykemi under de senaste tolv månaderna?</text>
+	<text id="FRG_204.RBK">Genomför patienten regelbundna blodsockerkontroller minst två gånger om dagen och i samband med körning?</text>
+	<text id="FRG_204.HLP"><![CDATA[<p>Personen bör kontrollera blodsockret med den metod som han eller hon är väl förtrogen med och använder i det dagliga livet. Det kan till exempel vara genom en blodsockermätare eller en sensorbaserad kontinuerlig glukosmätare.</p>
+		<p>Begreppet i samband med körning avser kontroll av blodsockervärdena innan körningen påbörjas. Vid en längre resa eller vid upprepad körning under ett arbetspass bör kontroll dessutom genomföras med två-tre timmars mellanrum under en paus i körningen.</p>]]></text>
 
 	<!--
   ===============================================
