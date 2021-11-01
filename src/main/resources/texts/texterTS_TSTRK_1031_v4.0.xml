@@ -160,34 +160,6 @@ EU-pass och pass utfärdat av Färöarna, Förenade kungariket, Island, Liechten
 
 	<!--
   ===============================================
-  KATEGORI 5: Synfunktion
-  ===============================================
-  -->
-	<text id="KAT_5.RBK">Synfunktion</text>
-
-	<text id="FRG_103.RBK">Har patienten proliferativ retinopati, genomgången laserbehandling av retinopati, signifikant makulaödem, annan ögonsjukdom eller inger ögonbottenfoto misstanke	om sådan ögonsjukdom?</text>
-	<text id="FRG_8.RBK">Värden för synskärpa</text>
-	<text id="FRG_8.HLP"><![CDATA[Alla bokstäver ska kunna läsas på den rad som anger synskärpa. Är synskärpan sämre än 0,1 ska den anges som 0,0]]>
-	</text>
-
-	<text id="TSDIA-001.ALERT"><![CDATA[Baserat på tidigare besvarade frågor krävs, utöver det här intyget, ett Läkarintyg synfunktioner (TSTRK1032) utfärdat av läkare med specialistkompetens i ögonsjukdomar. Blankett finns på Transportstyrelsens hemsida.
-
-Ange gärna vilken diagnos patienten har under Övriga upplysningar och kommentarer nedan.]]>
-	</text>
-	<text id="TSDIA-002.ALERT"><![CDATA[Uppgifterna om synskärpa med och utan korrektion kan grundas på aktuellt intyg av bl.a. legitimerad optiker eller den som är anställd hos optiker. Alternativt kan kopia av sådant intyg bifogas. Uppgifter från ögonbottenfoto kan också användas.]]>
-	</text>
-
-	<text id="DFR_8.1.RBK">Uppgifter om synskärpa skickas separat</text>
-	<text id="DFR_8.2.RBK">Höger öga utan korrektion</text>
-	<text id="DFR_8.3.RBK">Vänster öga utan korrektion</text>
-	<text id="DFR_8.4.RBK">Binokulärt utan korrektion</text>
-	<text id="DFR_8.5.RBK">Höger öga med korrektion</text>
-	<text id="DFR_8.6.RBK">Vänster öga med korrektion</text>
-	<text id="DFR_8.7.RBK">Binokulärt med korrektion</text>
-
-
-	<!--
-  ===============================================
   KATEGORI 6: Övrigt
   ===============================================
    -->
@@ -239,16 +211,5 @@ Taxi - taxiförarlegitimation]]>
 
 	<text id="FRG_45.RBK">Är patienten lämplig att inneha behörighet för C1, C1E, C, CE, D1, D1E, D, DE eller taxi med hänsyn till de körningar och arbetsformer som är aktuella vid sådant innehav? (Se 6 kap. 16 §)</text>
 	<text id="FRG_34.RBK">Patienten bör före ärendets avgörande undersökas av läkare med specialistkompetens i</text>
-
-	<!--
-	===============================================
-	KATEGORI: Övriga texter som krävs för korrekt rendering
-	=============================================
-	-->
-	<text id="ts-diabetes.label.syn.binokulart">Binokulärt</text>
-	<text id="ts-diabetes.label.syn.hogeroga">Höger öga</text>
-	<text id="ts-diabetes.label.syn.vansteroga">Vänster öga</text>
-	<text id="ts-diabetes.label.syn.utankorrektion">Utan korrektion</text>
-	<text id="ts-diabetes.label.syn.medkorrektion">Med korrektion</text>
 
 </texter>
