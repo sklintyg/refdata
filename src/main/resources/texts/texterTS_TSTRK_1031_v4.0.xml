@@ -93,6 +93,19 @@ EU-pass och pass utfärdat av Färöarna, Förenade kungariket, Island, Liechten
   -->
 	<text id="KAT_3.RBK">Allmänt</text>
 
+	<text id="FRG_205.RBK">Patienten följs avseende sin diabetessjukdom regelbundet av:</text>
+	<text id="FRG_205.HLP"><![CDATA[<b>Primärvård</b>
+
+Läkarintyget ska utfärdas av specialistkompetent läkare med god kännedom om patientens sjukdom.
+
+<b>Specialistvård</b>
+
+Om patienten behandlas inom specialistvården ska intyget utfärdas av läkare med specialistkompetens i internmedicin, endokrinologi och diabetologi eller barn- och ungdomsmedicin.]]>
+	</text>
+
+	<text id="KV_VARDNIVA_VN1.RBK">Primärvård</text>
+	<text id="KV_VARDNIVA_VN2.RBK">Specialistvård</text>
+
 	<text id="FRG_35.RBK">Vilket år ställdes diagnosen diabetes?</text>
 	<text id="FRG_18.RBK">Vilken typ av diabetes har patienten?</text>
 
