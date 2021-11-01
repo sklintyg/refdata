@@ -84,6 +84,7 @@ knownFeatures:
   - &kf310 INAKTIVERA_TIDIGARE_HUVUDVERSION
   - &kf330 SUBSCRIPTION_ADAPTATION_PERIOD
   - &kf340 SUBSCRIPTION_REQUIRED
+  - &kf350 SKRIV_UT_I_IFRAME
 
 # Aktiverade features i Webcert
 features:
@@ -367,6 +368,10 @@ features:
   - &f340
     name: *kf340
     desc: Subscription required
+    global: false
+  - &f350
+    name: *kf350
+    desc: Använd en Iframe som target vid utskrift
     global: false
 
 pilots:
@@ -669,4 +674,112 @@ pilots:
       - &pf120
         name: *kf290
         desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
+        global: true
+  - name: SKRIV_UT_I_IFRAME
+    desc: Aktivera nya utskriftslösningen som startar nedladdning av pdf i en Iframe.
+    hsaIds:
+      # Enheter aktiverade för teständamål i Stage
+      - TSTNMT2321000156-ALFA
+      - TSTNMT2321000156-1002
+      # Enheter aktiverade för pilot i Produktion
+      - SE2321000164-7381037595244 # Storå VC
+      - SE2321000198-017320 # ALERIS
+      - SE2321000198-016965 # REGION GÄVLEBORG
+      - SE162321000255-O00001 # Region Skåne
+      - SE162321000255-O19774 # Capio Närsjukvård AB
+      - SE162321000255-O21894 # Ödåkra Läkargrupp AB
+      - SE162321000255-O21866 # Läkarhuset Roslunda AB
+      - SE162321000255-O18988 # Praktikertjänst AB
+      - SE162321000255-O21890 # Valens Läkargrupp HB
+      - SE162321000255-O21870 # Näsets Läkargrupp KB
+      - SE162321000255-O23049 # Capio Sjukvård AB
+      - SE162321000255-O19775 # Capio Nova AB
+      - SE162321000255-O21869 # Capio Nova Hälsoval AB
+      - SE162321000255-O21864 # Kristianstadkliniken HB
+      - SE162321000255-O21852 # Göingekliniken AB
+      - SE162321000255-O21861 # Kattens Läkargrupp AB
+      - SE162321000255-O23041 # Capio Närvård AB
+      - SE162321000255-O21867 # Läkarmottagningen i Bjärnum AB
+      - SE162321000255-O21865 # M O B Läkarpraktik AB
+      - SE162321000255-O21888 # Sveakliniken i Svedala AB
+      - SE162321000255-O21858 # Hälsomedicinskt Center i Hjärup AB
+      - SE162321000255-O21846 # Achima Care AB
+      - SE162321000255-O21853 # Centrumläkarna i Helsingborg AB
+      - SE162321000255-O21876 # Solklart Vård AB
+      - SE162321000255-O21895 # Örestadskliniken Vårdcentral AB
+      - SE162321000255-O21872 # Näsums Hälsocentral AB
+      - SE162321000255-O18135 # Aleris Sjukvård AB
+      - SE162321000255-O21891 # Förenade Care AB
+      - SE162321000255-O21848 # Berga Läkarhus KB
+      - SE162321000255-O21873 # Privatläkarna Hälsoval i Helsingborg AB
+      - SE162321000255-O21896 # Solklart Vård i Bjuv AB
+      - SE162321000255-O23044 # Livets Barnmorskemottagning i Trelleborg AB
+      - SE162321000255-O23050 # Frejakliniken AB
+      - SE162321000255-O23042 # Barnmorskegruppen Öresund
+      - SE162321000255-O23046 # Mödra Center Skåne AB
+      - SE162321000255-O22868 # Barnmorskorna i Malmö AB
+      - SE162321000255-O21857 # Filborna Holding AB
+      - SE162321000255-O21851 # Mama Mia AB
+      - SE162321000255-O21868 # Mubaraks Konsult AB
+      - SE162321000255-O16270 # Falck Ambulans AB
+      - SE162321000255-O23039 # Hälsomedicinskt Center BMM Lomma AB
+      - SE162321000255-O22154 # Österlenkirurgin AB
+      - SE162321000255-O21892 # Vårdhuset Malmö City AB
+      - SE162321000255-O21893 # Midgårdshälsan HB
+      - SE162321000255-O21874 # Medicoland AB
+      - SE162321000255-O22156 # Ögonläkarna i Eslöv AB
+      - SE162321000255-O22147 # Medistud AB
+      - SE162321000255-O22150 # Ramlösa Social Utveckling Aktiebolag
+      - SE162321000255-O22151 # Solstenen i Skåne AB
+      - SE162321000255-O22117 # Diagnostiskt Centrum Hud i Skåne AB
+      - SE162321000255-O22910 # A Zaborowski AB
+      - SE162321000255-O22148 # BEFEM AB
+      - SE162321000255-O21889 # Tryggakliniken Bromölla AB
+      - SE162321000255-O22149 # Friskvårdspsykiatrin Skåne AB
+      - SE162321000255-O21986 # Fresenius Medical Care Sverige AB
+      - SE162321000255-O21860 # Hälsomedicinskt Center i Landskrona AB
+      - SE162321000255-O21931 # Närsjukvården Österlen AB
+      - SE162321000255-O22681 # Lydiagården AB
+      - SE162321000255-O22097 # Annelie Öberg
+      - SE162321000255-O22166 # Agata Ögonklinik AB
+      - SE162321000255-O22170 # Ögoncentrum Annedal i Lund AB
+      - SE162321000255-O22205 # Experterna i Malmö AB
+      - SE162321000255-O22270 # Helsingborgs Vårdcentral AB
+      - SE162321000255-O22334 # Spira nu Sverige AB
+      - SE162321000255-O22158 # LARO Psykiatri Sverige AB
+      - SE162321000255-O23037 # R och A HealthCare AB
+      - SE162321000255-O23064 # NPU-TEAMET
+      - SE162321000255-O23102 # Resund Behandling AB
+      - SE162321000255-O23153 # Citymottagningen i Hässleholm AB
+      - SE162321000255-O22120 # Capio Medocular AB
+      - SE162321000255-O23277 # Sparta Medical AB
+      - SE162321000255-O23510 # Psykiatripartners Resurs AB
+      - SE162321000255-O23675 # Integrerad Närpsykiatri Malmö AB
+      - SE162321000255-O23692 # Ögonlasern i Lund AB
+      - SE162321000255-O23810 # Multifunktion i Malmö AB
+      - SE162321000255-O23859 # Barnmorskeriet Hyllie AB
+      - SE162321000255-O23984 # Hälsopartner i malmö AB
+      - SE162321000255-O24196 # August Medicare AB
+      - SE162321000255-O24217 # Garnisonsgatans läkargrupp AB
+      - SE162321000255-O24343 # Tryggakliniken Kristianstad AB
+      - SE162321000255-O24387 # Digital Medical Supply Sweden AB
+      - SE162321000255-O24527 # Hälsomedicinskt Center i Staffanstorp AB
+      - SE162321000255-O24898 # MADION AB
+      - SE162321000255-O24946 # Kalkbrottet Vård och Hälsa AB
+      - SE162321000255-O24239 # Helsa Primärvård Sverige AB
+      - SE162321000255-O25239 # GB Obesitas Skåne AB
+      - SE162321000255-O26066 # E Vård Min Doktor se Sverige AB
+      - SE162321000255-O26073 # Vårdcentral Hjärtat i Helsingborg AB
+      - SE162321000255-O26750 # Hälsomedicinskt center Seniorhälsa i Sverige AB
+      - SE162321000255-O26828 # Svenska Primärvårsspecialisterna AB
+      - SE162321000255-O27308 # PaMeLaro AB
+      - SE162321000255-O27676 # IDS Läkarkonsult AB
+      - SE162321000255-O28013 # Capio Geriatrik AB
+      - SE162321000255-O28285 # MALMÖ MEDICARE AB
+      - SE2321000131-E000000000001 # Västra Götalandsregionen
+      - SE2321000131-E000000011123 # Aleris Närsjukhus i Västra Götaland
+    activated:
+      - &pf350
+        name: *kf350
+        desc: Använd en Iframe som target vid utskrift
         global: true
