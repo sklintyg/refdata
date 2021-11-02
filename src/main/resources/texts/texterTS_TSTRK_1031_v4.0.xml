@@ -119,15 +119,13 @@ Om patienten behandlas inom specialistvården ska intyget utfärdas av läkare m
 
 	<text id="DFR_18.2.RBK">Ange vilken</text>
 
+	<text id="FRG_209.RBK">Ange vilken behandling patienten har:</text>
+	<text id="DFR_209.1.RBK">Insulin</text>
+	<text id="DFR_209.2.RBK">Tabletter</text>
+	<text id="DFR_209.3.RBK">Annan</text>
+	<text id="DFR_209.4.RBK">Ange vilken</text>
 
-	<text id="FRG_109.RBK">Behandling</text>
-	<text id="DFR_109.1.RBK">Endast kost</text>
-	<text id="DFR_109.2.RBK">Tabletter</text>
-	<text id="DFR_109.3.RBK">Insulin</text>
-	<text id="DFR_109.4.RBK">Insulin sedan år</text>
-	<text id="DFR_109.5.RBK">Annan behandling</text>
-	<text id="DFR_109.6.RBK">Annan behandling, vilken?</text>
-	<text id="DFR_109.7.RBK">Har patienten behandling som kan medföra risk för hypoglykemi?</text>
+	<text id="FRG_210.RBK">Ange när patienten började medicineringen som medför risk för hypoglykemi</text>
 
 	<text id="SVAR_JA.RBK">Ja</text>
 	<text id="SVAR_NEJ.RBK">Nej</text>
