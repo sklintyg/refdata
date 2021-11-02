@@ -137,12 +137,11 @@ Om patienten behandlas inom specialistvården ska intyget utfärdas av läkare m
   KATEGORI 4: Hypoglykemier
   ==============================================
   -->
-	<!--<text id="KAT_4.RBK">Hypoglykemier</text>-->
-
 	<text id="KAT_4.RBK">Hypoglykemi</text>
 	<text id="FRG_200.RBK">Har patienten tillräcklig kontroll över sitt sjukdomstillstånd med avseende på risken för hypoglykemi?</text>
 	<text id="FRG_200.HLP"><![CDATA[Med att ha tillräcklig kontroll över sitt medicinska tillstånd avses att behandlingen är välinställd och att personen har kontroll över sin sjukdom sett till helheten. Det kan till exempel handla om behandlingsföljsamhet, att ha kontroll över sin medicinering, hantering av blodsockermätare etc. Allvarlig hypoglykemi som inträffar i trafiken tyder på att personen inte har tillräcklig kontroll över sitt medicinska tillstånd.]]></text>
 	<text id="DFR_200.2.RBK">Varför?</text>
+
 	<text id="FRG_201.RBK">Förstår patienten riskerna med hypoglykemi och vilka konsekvenser det kan ha för förmågan att köra körkortspliktiga fordon?</text>
 	<text id="FRG_201.HLP"><![CDATA[Risker med hypoglykemi kan vara längre reaktionstid, oförmåga att fatta adekvata beslut i en trafiksituation eller att drabbas av allvarlig hypoglykemi som kan leda till medvetslöshet]]></text>
 
@@ -156,17 +155,21 @@ Om patienten behandlas inom specialistvården ska intyget utfärdas av läkare m
 			<li>äta eller dricka något om blodsockernivån motsvarar hypoglykemi samt vänta en stund och sedan kontrollera blodsockernivån igen,</li>
 			<li>stanna fordonet om varningstecken på hypoglykemi skulle uppstå under körning och vänta med att fortsätta köra tills blodsockernivån inte längre indikerar hypoglykemi och symptomen har försvunnit.</li>
 		</ul>]]></text>
+
 	<text id="FRG_106.RBK">Har patienten haft återkommande allvarlig hypoglykemi under de senaste tolv månaderna?</text>
 	<text id="FRG_106.HLP"><![CDATA[Med återkommande allvarlig hypoglykemi avses allvarlig hypoglykemi som upprepas inom en period om tolv månader.]]></text>
 	<text id="DFR_106.2.RBK">När inträffade den senaste allvarliga hypoglykemin?</text>
 	<text id="DFR_106.3.RBK">Kontrolleras diabetessjukdomen regelbundet?</text>
 	<text id="DFR_106.5.RBK">Utgör tillståndet någon trafiksäkerhetsrisk?</text>
+
 	<text id="FRG_107.RBK">Har patienten haft återkommande allvarlig hypoglykemi i vaket tillstånd under den senaste tolvmånadersperioden?</text>
 	<text id="DFR_107.3.RBK">Har i så fall den senaste allvarliga hypoglykemin inträffat under de senaste tre månaderna?</text>
 	<text id="DFR_107.5.RBK">När inträffade det senast?</text>
+
 	<text id="FRG_203.RBK">Har patienten haft allvarlig hypoglykemi under de senaste tolv månaderna?</text>
 	<text id="DFR_203.2.RBK">När inträffade det senast?</text>
 	<text id="FRG_203.RBK">Har patienten haft allvarlig hypoglykemi under de senaste tolv månaderna?</text>
+
 	<text id="FRG_204.RBK">Genomför patienten regelbundna blodsockerkontroller minst två gånger om dagen och i samband med körning?</text>
 	<text id="FRG_204.HLP"><![CDATA[<p>Personen bör kontrollera blodsockret med den metod som han eller hon är väl förtrogen med och använder i det dagliga livet. Det kan till exempel vara genom en blodsockermätare eller en sensorbaserad kontinuerlig glukosmätare.</p>
 		<p>Begreppet i samband med körning avser kontroll av blodsockervärdena innan körningen påbörjas. Vid en längre resa eller vid upprepad körning under ett arbetspass bör kontroll dessutom genomföras med två-tre timmars mellanrum under en paus i körningen.</p>]]></text>
@@ -177,8 +180,10 @@ Om patienten behandlas inom specialistvården ska intyget utfärdas av läkare m
   ===============================================
    -->
 	<text id="KAT_6.RBK">Övrigt</text>
-
-	<text id="FRG_32.RBK">Övriga upplysningar och kommentarer</text>
+	<text id="FRG_206.RBK">Föreligger det några komplikationer till följd av sjukdomen som var för sig eller tillsammans kan påverka patientens förmåga att framföra ett körkortspliktigt fordon på ett trafiksäkert sätt?</text>
+	<text id="DFR_206.2.RBK">Ange vilka komplikationer</text>
+	<text id="DFR_206.2.HLP"><![CDATA[Komplikationer som är särskilt viktiga att beakta och som kan påverka personens förmåga att framföra fordon på ett trafiksäkert sätt är bland annat påverkad synskärpa och synfält (kap. 2), komplikationer på hjärt- och kärlsystemet (kap. 5). Det kan också vara en påverkan på förmågan att uppfatta sin omgivning och fatta korrekta beslut (kap. 10). Tänk på att komplikationer tillsammans kan påverka förmågan att köra, även om de var för sig inte gör det. Ta hjälp av övriga kapitel i Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m. för att bedöma eventuell påverkan på körförmågan.]]></text>
+	<text id="FRG_34.RBK">Patienten bör före ärendets avgörande undersökas av läkare med specialistkompetens i:</text>
 
 	<!--
   ===============================================
@@ -222,7 +227,6 @@ Taxi - taxiförarlegitimation]]>
 	<text id="KV_KORKORTSBEHORIGHET.VAR9.RBK">Taxi</text>
 	<text id="KV_KORKORTSBEHORIGHET.VAR11.RBK">Kan inte ta ställning</text>
 
-	<text id="FRG_45.RBK">Är patienten lämplig att inneha behörighet för C1, C1E, C, CE, D1, D1E, D, DE eller taxi med hänsyn till de körningar och arbetsformer som är aktuella vid sådant innehav? (Se 6 kap. 16 §)</text>
-	<text id="FRG_34.RBK">Patienten bör före ärendets avgörande undersökas av läkare med specialistkompetens i</text>
+	<text id="FRG_32.RBK">Övriga upplysningar och kommentarer</text>
 
 </texter>
