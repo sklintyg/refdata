@@ -40,23 +40,6 @@ DE - buss och ett eller flera släpfordon oavsett vikt
 Taxi - taxiförarlegitimation]]>
 	</text>
 
-	<text id="KV_INTYGET_AVSER.IAV11.RBK">AM</text>
-	<text id="KV_INTYGET_AVSER.IAV12.RBK">A1</text>
-	<text id="KV_INTYGET_AVSER.IAV13.RBK">A2</text>
-	<text id="KV_INTYGET_AVSER.IAV14.RBK">A</text>
-	<text id="KV_INTYGET_AVSER.IAV15.RBK">B</text>
-	<text id="KV_INTYGET_AVSER.IAV16.RBK">BE</text>
-	<text id="KV_INTYGET_AVSER.IAV17.RBK">Traktor</text>
-	<text id="KV_INTYGET_AVSER.IAV1.RBK">C1</text>
-	<text id="KV_INTYGET_AVSER.IAV2.RBK">C1E</text>
-	<text id="KV_INTYGET_AVSER.IAV3.RBK">C</text>
-	<text id="KV_INTYGET_AVSER.IAV4.RBK">CE</text>
-	<text id="KV_INTYGET_AVSER.IAV5.RBK">D1</text>
-	<text id="KV_INTYGET_AVSER.IAV6.RBK">D1E</text>
-	<text id="KV_INTYGET_AVSER.IAV7.RBK">D</text>
-	<text id="KV_INTYGET_AVSER.IAV8.RBK">DE</text>
-	<text id="KV_INTYGET_AVSER.IAV9.RBK">Taxi</text>
-
 	<!--
   ===============================================
   KATEGORI 2: Identitet styrkt genom
@@ -132,7 +115,7 @@ Om patienten behandlas inom specialistvården ska intyget utfärdas av läkare m
 
 	<!--
   ==============================================
-  KATEGORI 4: Hypoglykemier
+  KATEGORI 4: Hypoglykemi
   ==============================================
   -->
 	<text id="KAT_4.RBK">Hypoglykemi</text>
@@ -207,6 +190,14 @@ D - buss och enbart ett lätt släpfordon
 DE - buss och ett eller flera släpfordon oavsett vikt
 Taxi - taxiförarlegitimation]]>
 	</text>
+
+	<text id="FRG_32.RBK">Övriga upplysningar och kommentarer</text>
+
+	<!--
+  ===============================================
+  KODVERK: Körkortsbehörighet
+  ===============================================
+  -->
 	<text id="KV_KORKORTSBEHORIGHET.VAR12.RBK">AM</text>
 	<text id="KV_KORKORTSBEHORIGHET.VAR13.RBK">A1</text>
 	<text id="KV_KORKORTSBEHORIGHET.VAR14.RBK">A2</text>
@@ -224,7 +215,5 @@ Taxi - taxiförarlegitimation]]>
 	<text id="KV_KORKORTSBEHORIGHET.VAR8.RBK">DE</text>
 	<text id="KV_KORKORTSBEHORIGHET.VAR9.RBK">Taxi</text>
 	<text id="KV_KORKORTSBEHORIGHET.VAR11.RBK">Kan inte ta ställning</text>
-
-	<text id="FRG_32.RBK">Övriga upplysningar och kommentarer</text>
 
 </texter>
