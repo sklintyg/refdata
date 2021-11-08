@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<texter typ="TS-DIABETES" giltigFrom="2021-10-12" version="4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<!--
+  =====================================================
+  Informationstexter
+  =====================================================
+  -->
+
+	<text id="FRM_1.RBK">Transportstyrelsens läkarintyg diabetes ska användas vid diabetessjukdom. Föreskrivna krav på läkarens specialistkompetens vid diabetessjukdom framgår av 17 kap. i Transportstyrelsens föreskrifter (TSFS 2010:125) och allmänna råd om medicinska krav för innehav av körkort m.m.
+	</text>
+	<text id="FRM_2.RBK"><![CDATA[Transportstyrelsens läkarintyg diabetes ska användas vid diabetessjukdom. Föreskrivna krav på läkarens specialistkompetens vid diabetessjukdom framgår av 17 kap. i Transportstyrelsens föreskrifter (TSFS 2010:125) och allmänna råd om medicinska krav för innehav av körkort m.m.
+
+<b>Har du frågor?</b>
+Kontakta körkortsenheten på Transportstyrelsen, telefon 0771-81 81 81. Transportstyrelsens föreskrifter kan hämtas på <LINK:transportstyrelsen>.]]>
+	</text>
+
+	<!--
+  =====================================================
+  KATEGORI 1: Intyget avser behörighet (svar och delsvar)
+  =====================================================
+  -->
+	<text id="KAT_1.RBK">Intyget avser</text>
+	<text id="FRG_1.RBK">Intyget avser följande behörigheter</text>
+	<text id="FRG_1.HLP"><![CDATA[Fyll i de behörigheter patienten har och de behörigheter patienten söker.
+AM - moped klass I
+A1 - lätt motorcykel
+A2 - mellanstor motorcykel
+A - motorcykel
+B - personbil, lätt lastbil och enbart ett lätt släpfordon
+BE - personbil, lätt lastbil och ett eller flera släpfordon (Släpens totalvikt får inte överstiga 3,5 ton.)
+C1 - medeltung lastbil och enbart ett lätt släpfordon
+C1E - medeltung lastbil och ett eller flera släpfordon oavsett vikt
+C - tung lastbil och enbart ett lätt släpfordon
+CE - tung lastbil och ett eller flera släpfordon oavsett vikt
+D1 - mellanstor buss och enbart ett lätt släpfordon
+D1E - mellanstor buss och ett eller flera släpfordon oavsett vikt
+D - buss och enbart ett lätt släpfordon
+DE - buss och ett eller flera släpfordon oavsett vikt
+Taxi - taxiförarlegitimation]]>
+	</text>
+
+	<!--
+  ===============================================
+  KATEGORI 2: Identitet styrkt genom
+  ===============================================
+  -->
+	<text id="KAT_2.RBK">Identitet</text>
+	<text id="FRG_2.RBK">Identitet styrkt genom</text>
+
+	<text id="FRG_2.HLP"><![CDATA[<b>ID-kort</b>
+Avser SIS-märkt ID-kort, svenskt nationellt ID-kort eller ID-kort utfärdat av Skatteverket.
+
+<b>Företagskort eller tjänstekort</b>
+Avser SIS-märkt företagskort eller tjänstekort.
+
+<b>Försäkran enligt 18 kap 4 §</b>
+Se Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m.
+
+<b>Pass</b>
+EU-pass och pass utfärdat av Färöarna, Förenade kungariket, Island, Liechtenstein, Norge eller Schweiz.]]>
+	</text>
+
+	<text id="KV_ID_KONTROLL.IDK1.RBK">ID-kort</text>
+	<text id="KV_ID_KONTROLL.IDK2.RBK">Företagskort eller tjänstekort</text>
+	<text id="KV_ID_KONTROLL.IDK3.RBK">Svenskt körkort</text>
+	<text id="KV_ID_KONTROLL.IDK4.RBK">Personlig kännedom</text>
+	<text id="KV_ID_KONTROLL.IDK5.RBK">Försäkran enligt 18 kap 4 §</text>
+	<text id="KV_ID_KONTROLL.IDK6.RBK">Pass</text>
+
+
+	<!--
+  ===============================================
+  KATEGORI 3: Allmänt
+  ===============================================
+  -->
+	<text id="KAT_3.RBK">Allmänt</text>
+
+	<text id="FRG_205.RBK">Patienten följs avseende sin diabetessjukdom regelbundet av:</text>
+	<text id="FRG_205.HLP"><![CDATA[<b>Primärvård</b>
+
+Läkarintyget ska utfärdas av specialistkompetent läkare med god kännedom om patientens sjukdom.
+
+<b>Specialistvård</b>
+
+Om patienten behandlas inom specialistvården ska intyget utfärdas av läkare med specialistkompetens i internmedicin, endokrinologi och diabetologi eller barn- och ungdomsmedicin.]]>
+	</text>
+
+	<text id="KV_VARDNIVA_VN1.RBK">Primärvård</text>
+	<text id="KV_VARDNIVA_VN2.RBK">Specialistvård</text>
+
+	<text id="FRG_35.RBK">Vilket år ställdes diagnosen diabetes?</text>
+	<text id="FRG_18.RBK">Vilken typ av diabetes har patienten?</text>
+
+	<text id="FRG_207.RBK">Har patienten medicinering för sin diabetes?</text>
+	<text id="FRG_208.RBK">Har patienten medicinering som medför risk för hypoglykemi?</text>
+
+	<text id="SVAR_TYP1.RBK">Typ 1</text>
+	<text id="SVAR_TYP2.RBK">Typ 2</text>
+	<text id="SVAR_LADA.RBK">LADA</text>
+	<text id="SVAR_ANNAN.RBK">Annan</text>
+
+	<text id="DFR_18.2.RBK">Ange vilken</text>
+
+	<text id="FRG_209.RBK">Ange vilken behandling patienten har:</text>
+	<text id="DFR_209.1.RBK">Insulin</text>
+	<text id="DFR_209.2.RBK">Tabletter</text>
+	<text id="DFR_209.3.RBK">Annan</text>
+	<text id="DFR_209.4.RBK">Ange vilken</text>
+
+	<text id="FRG_210.RBK">Ange när patienten började medicineringen som medför risk för hypoglykemi</text>
+
+	<text id="SVAR_JA.RBK">Ja</text>
+	<text id="SVAR_NEJ.RBK">Nej</text>
+
+	<!--
+  ==============================================
+  KATEGORI 4: Hypoglykemi
+  ==============================================
+  -->
+	<text id="KAT_4.RBK">Hypoglykemi</text>
+	<text id="FRG_200.RBK">Har patienten tillräcklig kontroll över sitt sjukdomstillstånd med avseende på risken för hypoglykemi?</text>
+	<text id="FRG_200.HLP"><![CDATA[Med att ha tillräcklig kontroll över sitt medicinska tillstånd avses att behandlingen är välinställd och att personen har kontroll över sin sjukdom sett till helheten. Det kan till exempel handla om behandlingsföljsamhet, att ha kontroll över sin medicinering, hantering av blodsockermätare etc. Allvarlig hypoglykemi som inträffar i trafiken tyder på att personen inte har tillräcklig kontroll över sitt medicinska tillstånd.]]></text>
+	<text id="DFR_200.2.RBK">Varför?</text>
+
+	<text id="FRG_201.RBK">Förstår patienten riskerna med hypoglykemi och vilka konsekvenser det kan ha för förmågan att köra körkortspliktiga fordon?</text>
+	<text id="FRG_201.HLP"><![CDATA[Risker med hypoglykemi kan vara längre reaktionstid, oförmåga att fatta adekvata beslut i en trafiksituation eller att drabbas av allvarlig hypoglykemi som kan leda till medvetslöshet]]></text>
+
+	<text id="FRG_110.RBK">Har patienten förmåga att känna varningstecken (awareness) på hypoglykemi?</text>
+	<text id="FRG_110.HLP"><![CDATA[Om personen aldrig har haft någon hypoglykemi ska förmågan att känna varningstecken bedömas utifrån de medicinska förhållandena i övrigt.]]></text>
+
+	<text id="FRG_202.RBK">Kan och har patienten möjlighet att vidta adekvata åtgärder vid tecken på hypoglykemi?</text>
+	<text id="FRG_202.HLP"><![CDATA[Med att kunna hantera tillståndet adekvat avses att:
+		<ul>
+			<li>kontrollera blodsockret om varningstecken på hypoglykemi uppstår eller om en mätare indikerar hypoglykemi eller risk för hypoglykemi,</li>
+			<li>äta eller dricka något om blodsockernivån motsvarar hypoglykemi samt vänta en stund och sedan kontrollera blodsockernivån igen,</li>
+			<li>stanna fordonet om varningstecken på hypoglykemi skulle uppstå under körning och vänta med att fortsätta köra tills blodsockernivån inte längre indikerar hypoglykemi och symptomen har försvunnit.</li>
+		</ul>]]></text>
+
+	<text id="FRG_106.RBK">Har patienten haft återkommande allvarlig hypoglykemi under de senaste tolv månaderna?</text>
+	<text id="FRG_106.HLP"><![CDATA[Med återkommande allvarlig hypoglykemi avses allvarlig hypoglykemi som upprepas inom en period om tolv månader.]]></text>
+	<text id="DFR_106.2.RBK">När inträffade den senaste allvarliga hypoglykemin?</text>
+	<text id="DFR_106.3.RBK">Kontrolleras diabetessjukdomen regelbundet?</text>
+	<text id="DFR_106.5.RBK">Utgör tillståndet någon trafiksäkerhetsrisk?</text>
+
+	<text id="FRG_107.RBK">Har patienten haft återkommande allvarlig hypoglykemi i vaket tillstånd under den senaste tolvmånadersperioden?</text>
+	<text id="DFR_107.3.RBK">Har i så fall den senaste allvarliga hypoglykemin inträffat under de senaste tre månaderna?</text>
+	<text id="DFR_107.5.RBK">När inträffade det senast?</text>
+
+	<text id="FRG_203.RBK">Har patienten haft allvarlig hypoglykemi under de senaste tolv månaderna?</text>
+	<text id="DFR_203.2.RBK">När inträffade det senast?</text>
+	<text id="FRG_203.RBK">Har patienten haft allvarlig hypoglykemi under de senaste tolv månaderna?</text>
+
+	<text id="FRG_204.RBK">Genomför patienten regelbundna blodsockerkontroller minst två gånger om dagen och i samband med körning?</text>
+	<text id="FRG_204.HLP"><![CDATA[<p>Personen bör kontrollera blodsockret med den metod som han eller hon är väl förtrogen med och använder i det dagliga livet. Det kan till exempel vara genom en blodsockermätare eller en sensorbaserad kontinuerlig glukosmätare.</p>
+		<p>Begreppet i samband med körning avser kontroll av blodsockervärdena innan körningen påbörjas. Vid en längre resa eller vid upprepad körning under ett arbetspass bör kontroll dessutom genomföras med två-tre timmars mellanrum under en paus i körningen.</p>]]></text>
+
+	<!--
+  ===============================================
+  KATEGORI 6: Övrigt
+  ===============================================
+   -->
+	<text id="KAT_6.RBK">Övrigt</text>
+	<text id="FRG_206.RBK">Föreligger det några komplikationer till följd av sjukdomen som var för sig eller tillsammans kan påverka patientens förmåga att framföra ett körkortspliktigt fordon på ett trafiksäkert sätt?</text>
+	<text id="DFR_206.2.RBK">Ange vilka komplikationer</text>
+	<text id="DFR_206.2.HLP"><![CDATA[Komplikationer som är särskilt viktiga att beakta och som kan påverka personens förmåga att framföra fordon på ett trafiksäkert sätt är bland annat påverkad synskärpa och synfält (kap. 2), komplikationer på hjärt- och kärlsystemet (kap. 5). Det kan också vara en påverkan på förmågan att uppfatta sin omgivning och fatta korrekta beslut (kap. 10). Tänk på att komplikationer tillsammans kan påverka förmågan att köra, även om de var för sig inte gör det. Ta hjälp av övriga kapitel i Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m. för att bedöma eventuell påverkan på körförmågan.]]></text>
+	<text id="FRG_34.RBK">Patienten bör före ärendets avgörande undersökas av läkare med specialistkompetens i:</text>
+
+	<!--
+  ===============================================
+  KATEGORI 7: Bedömning
+  ===============================================
+  -->
+	<text id="KAT_7.RBK">Bedömning</text>
+
+	<text id="FRG_33.RBK"><![CDATA[Patienten uppfyller kraven enligt 6 kap. i Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:125) om medicinska krav för innehav av körkort m.m. Föreskrivna krav på läkarens specialistkompetens vid diabetessjukdom anges i 17 kap. Se <a href="https://www.transportstyrelsen.se" target="_blank">Vägtrafik - transportstyrelsen.se</a> <i class="material-icons md-18">launch</i>.]]></text>
+	<text id="FRG_33.HLP"><![CDATA[AM - moped klass I
+A1 - lätt motorcykel
+A2 - mellanstor motorcykel
+A - motorcykel
+B - personbil, lätt lastbil och enbart ett lätt släpfordon
+BE - personbil, lätt lastbil och ett eller flera släpfordon (Släpens totalvikt får inte överstiga 3,5 ton.)
+C1 - medeltung lastbil och enbart ett lätt släpfordon
+C1E - medeltung lastbil och ett eller flera släpfordon oavsett vikt
+C - tung lastbil och enbart ett lätt släpfordon
+CE - tung lastbil och ett eller flera släpfordon oavsett vikt
+D1 - mellanstor buss och enbart ett lätt släpfordon
+D1E - mellanstor buss och ett eller flera släpfordon oavsett vikt
+D - buss och enbart ett lätt släpfordon
+DE - buss och ett eller flera släpfordon oavsett vikt
+Taxi - taxiförarlegitimation]]>
+	</text>
+
+	<text id="FRG_32.RBK">Övriga upplysningar och kommentarer</text>
+
+	<!--
+  ===============================================
+  KODVERK: Körkortsbehörighet
+  ===============================================
+  -->
+	<text id="KV_KORKORTSBEHORIGHET.VAR12.RBK">AM</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR13.RBK">A1</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR14.RBK">A2</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR15.RBK">A</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR16.RBK">B</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR17.RBK">BE</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR18.RBK">Traktor</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR1.RBK">C1</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR2.RBK">C1E</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR3.RBK">C</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR4.RBK">CE</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR5.RBK">D1</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR6.RBK">D1E</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR7.RBK">D</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR8.RBK">DE</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR9.RBK">Taxi</text>
+	<text id="KV_KORKORTSBEHORIGHET.VAR11.RBK">Kan inte ta ställning</text>
+
+</texter>
