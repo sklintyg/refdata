@@ -154,8 +154,8 @@ Om patienten behandlas inom specialistvården ska intyget utfärdas av läkare m
 	<text id="FRG_203.RBK">Har patienten haft allvarlig hypoglykemi under de senaste tolv månaderna?</text>
 
 	<text id="FRG_204.RBK">Genomför patienten regelbundna blodsockerkontroller minst två gånger om dagen och i samband med körning?</text>
-	<text id="FRG_204.HLP"><![CDATA[<p>Personen bör kontrollera blodsockret med den metod som han eller hon är väl förtrogen med och använder i det dagliga livet. Det kan till exempel vara genom en blodsockermätare eller en sensorbaserad kontinuerlig glukosmätare.</p>
-		<p>Begreppet i samband med körning avser kontroll av blodsockervärdena innan körningen påbörjas. Vid en längre resa eller vid upprepad körning under ett arbetspass bör kontroll dessutom genomföras med två-tre timmars mellanrum under en paus i körningen.</p>]]></text>
+	<text id="FRG_204.HLP"><![CDATA[Personen bör kontrollera blodsockret med den metod som han eller hon är väl förtrogen med och använder i det dagliga livet. Det kan till exempel vara genom en blodsockermätare eller en sensorbaserad kontinuerlig glukosmätare.<br>
+		Begreppet i samband med körning avser kontroll av blodsockervärdena innan körningen påbörjas. Vid en längre resa eller vid upprepad körning under ett arbetspass bör kontroll dessutom genomföras med två-tre timmars mellanrum under en paus i körningen.]]></text>
 
 	<!--
   ===============================================
