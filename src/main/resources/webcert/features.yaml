@@ -364,7 +364,7 @@ features:
   - &f330
     name: *kf330
     desc: Subscription adaptation period
-    global: true
+    global: false
   - &f340
     name: *kf340
     desc: Subscription required
