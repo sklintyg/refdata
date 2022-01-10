@@ -24,7 +24,7 @@ A043		Infektion med tarmhemorragiska Escherichia coli-bakterier
 A044		Annan tarminfektion med Escherichia coli
 A045		Enterit orsakad av Campylobacter
 A046		Enterit orsakad av Yersinia enterocolitica
-A047		Enterokolit orsakad av Clostridium difficile
+A047		Enterokolit orsakad av Clostridioides difficile
 A048		Andra specificerade bakteriella tarminfektioner
 A049		Bakteriell tarminfektion, ospecificerad
 A050		Matförgiftning orsakad av stafylokocker
@@ -176,7 +176,7 @@ A390	†	Meningokockmeningit (G01)
 A391	†	Waterhouse-Friderichsens syndrom (E35.1)
 A392		Akut meningokockemi
 A393		Kronisk meningokockemi
-A394		Meningokockemi, ospecificerad
+A394		Meningokockemi, ej specificerad som akut eller kronisk
 A395	†	Hjärtsjukdom orsakad av meningokocker
 A398		Andra meningokockinfektioner
 A399		Meningokockinfektion, ospecificerad
@@ -208,7 +208,7 @@ A440		Systemisk bartonellos
 A441		Kutan och mukokutan bartonellos
 A448		Andra specificerade former av bartonellos
 A449		Bartonellos, ospecificerad
-A469		Rosfeber
+A469		Rosfeber (erysipelas)
 A480		Gasgangrän
 A481		Legionärsjuka
 A482		Icke-pneumonisk legionärsjuka [Pontiac-feber]
@@ -3790,8 +3790,8 @@ J987		Luftvägsinfektioner som ej klassificeras på annan plats
 J988		Andra specificerade sjukdomar i andningsorganen
 J989		Sjukdomar i andningsorganen, ospecificerade
 J990	*	Reumatoid lungsjukdom (M05.1)
-J991	*	Lungförändringar vid andra diffusa bindvävssjukdomar
-J998	*	Lungförändringar vid andra sjukdomar som klassificeras på annan plats
+J991	*	Sjukdomar i andningsorganen vid andra diffusa bindvävssjukdomar
+J998	*	Sjukdomar i andningsorganen vid andra sjukdomar som klassificeras på annan plats
 K000		Avsaknad av tänder genom utebliven tandutveckling
 K001		Övertaliga tänder
 K002		Avvikelser i tändernas storlek och form
@@ -4665,20 +4665,20 @@ M154		Erosiv osteoartros
 M158		Annan specificerad polyartros
 M159		Polyartros, ospecificerad
 M160		Primär koxartros, dubbelsidig
-M161		Annan primär koxartros
+M161		Primär koxartros, ensidig eller UNS
 M162		Koxartros orsakad av dysplasi, dubbelsidig
-M163		Annan dysplastisk koxartros
+M163		Koxartros orsakad av dysplasi, ensidig eller UNS
 M164		Posttraumatisk koxartros, dubbelsidig
-M165		Annan posttraumatisk koxartros
+M165		Posttraumatisk koxartros, ensidig eller UNS
 M166		Annan sekundär koxartros, dubbelsidig
-M167		Annan sekundär koxartros
+M167		Annan sekundär koxartros, ensidig eller UNS
 M169		Koxartros, ospecificerad
 M170		Primär gonartros, dubbelsidig
-M171		Annan primär gonartros
+M171		Primär gonartros, ensidig eller UNS
 M172		Posttraumatisk gonartros, dubbelsidig
-M173		Annan posttraumatisk gonartros
+M173		Posttraumatisk gonartros, ensidig eller UNS
 M174		Annan sekundär gonartros, dubbelsidig
-M175		Annan sekundär gonartros
+M175		Annan sekundär gonartros, ensidig eller UNS
 M179		Gonartros, ospecificerad
 M180		Primär artros i första karpometakarpalleden, dubbelsidig
 M181		Primär artros i första karpometakarpalleden, ensidig eller UNS
@@ -5275,7 +5275,7 @@ N289		Sjukdom i njure och uretär, ospecificerad
 N290	*	Sen syfilis i njure (A52.7)
 N291	*	Andra sjukdomstillstånd i njure och uretär vid infektionssjukdomar och parasitsjukdomar som klassificeras på annan plats
 N298	*	Andra sjukdomstillstånd i njure och uretär vid andra sjukdomar som klassificeras på annan plats
-N300		Akut cystit
+N300		Akut cystit (urinvägsinfektion lokaliserad till urinblåsan)
 N301		Kronisk interstitiell cystit
 N302		Annan kronisk cystit
 N303		Trigonit
@@ -8585,7 +8585,7 @@ U085		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Soci
 U086		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U087		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U088		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
-U089		Covid-19 i den egna sjukhistorien, ospecificerat
+U089		Covid-19 i den egna sjukhistorien
 U090		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U091		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U092		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
@@ -8595,7 +8595,7 @@ U095		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Soci
 U096		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U097		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U098		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
-U099		Postinfektiöst tillstånd efter covid-19, ospecificerat
+U099		Postinfektiöst tillstånd efter covid-19
 U100		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U101		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U102		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
@@ -8605,7 +8605,7 @@ U105		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Soci
 U106		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U107		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U108		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
-U109		Multisystemiskt inflammatoriskt syndrom associerat med covid-19, ospecificerat
+U109		Multisystemiskt inflammatoriskt syndrom associerat med covid-19
 U110		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U111		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
 U112		Kod som kan tas i bruk med kort varsel efter beslut av WHO och enligt Socialstyrelsens anvisningar
@@ -9048,15 +9048,15 @@ Z026		Undersökning för försäkring
 Z027		Utfärdande av vissa medicinska intyg
 Z028		Andra undersökningar av administrativa skäl
 Z029		Undersökning av administrativa skäl, ospecificerad
-Z030		Observation för misstänkt tuberkulos
-Z031		Observation för misstänkt malign tumör
-Z032		Observation för misstänkta psykiska sjukdomar och beteendestörningar
-Z033		Observation för misstänkt sjukdom i nervsystemet
-Z034		Observation för misstänkt hjärtinfarkt
-Z035		Observation för annan misstänkt kardiovaskulär sjukdom
-Z036		Observation för misstänkt toxisk effekt av intagen substans
-Z038		Observation för andra misstänkta sjukdomar och tillstånd
-Z039		Observation för ospecificerad misstänkt sjukdom eller ospecificerat misstänkt tillstånd
+Z030		Observation för misstänkt tuberkulos som uteslutits och avskrivits
+Z031		Observation för misstänkt malign tumör som uteslutits och avskrivits
+Z032		Observation för misstänkta psykiska sjukdomar och beteendestörningar som uteslutits och avskrivits
+Z033		Observation för misstänkt sjukdom i nervsystemet som uteslutits och avskrivits
+Z034		Observation för misstänkt hjärtinfarkt som uteslutits och avskrivits
+Z035		Observation för annan misstänkt kardiovaskulär sjukdom som uteslutits och avskrivits
+Z036		Observation för misstänkt toxisk effekt av intagen substans som uteslutits och avskrivits
+Z038		Observation för andra misstänkta sjukdomar och tillstånd som uteslutits och avskrivits
+Z039		Observation för ospecificerad misstänkt sjukdom eller ospecificerat misstänkt tillstånd som uteslutits och avskrivits
 Z040		Blodprov för påvisande av alkohol, droger och läkemedel
 Z041		Undersökning och observation efter transportolycka
 Z042		Undersökning och observation efter olycksfall i arbetet
