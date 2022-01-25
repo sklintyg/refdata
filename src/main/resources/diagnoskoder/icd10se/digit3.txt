@@ -768,7 +768,7 @@ J94		Andra pleurala sjukdomar
 J95		Sjukdomar i andningsorganen efter kirurgiska och medicinska ingrepp som ej klassificeras på annan plats
 J96		Respiratorisk insufficiens (andningssvikt) som ej klassificeras på annan plats
 J98		Andra sjukdomar i andningsorganen
-J99	*	Lungförändringar vid sjukdomar som klassificeras på annan plats
+J99	*	Sjukdomar i andningsorganen vid sjukdomar som klassificeras på annan plats
 K00		Rubbningar i tändernas utveckling och frambrott
 K01		Retinerade tänder
 K02		Tandkaries
@@ -1885,7 +1885,7 @@ Y01		Övergrepp genom knuff från höjd
 Y02		Övergrepp genom att offret placerats eller knuffats framför föremål i rörelse
 Y03		Övergrepp med motorfordon
 Y04		Övergrepp genom obeväpnat våld
-Y05		Sexuellt övergrepp av obeväpnad person
+Y05		Sexuellt övergrepp genom våld eller hot
 Y06		Försummelse och vanvård
 Y07		Annan misshandel
 Y08		Övergrepp med andra specificerade metoder
