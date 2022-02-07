@@ -683,6 +683,10 @@ pilots:
   - name: REACT_WEBKLIENT_PILOT
     desc: Pilot avsedd för att testa nya reactklienten
     hsaIds:
+      - TSTNMT2321000156-ALVC # Alfa Vårdcentral
+      - TSTNMT2321000156-ALLM # Alfa Läkarmottagningen
+      - TSTNMT2321000156-ALMC # Alfa Medicincentrum
+      - TSTNMT2321000156-10KW # sopra_vg1_ve1
       - TSTNMT2321000156-1004
       - SE5565690913-100D # CGM J4 - Vårdgivare lt/reg (#VG_1) - Vårdenhet_1 (Vårdsystem_1) (#VE_1)
       - SE5565690913-100F # CGM J4 - Vårdgivare lt/reg (#VG_1) - Vårdenhet_2 (Vårdsystem_1) (#VE_2)
