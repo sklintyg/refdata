@@ -48,6 +48,7 @@ Befattningskod;Klartext;Beskrivning
 201013;Företagsläkare;Företagsläkare.
 202010;Specialistläkare;Specialistläkare.
 203010;Läkare legitimerad, specialiseringstjänstgöring;Legitimerad läkare under specialiseringstjänstgöring (ST-läkare).
+203020;Läkare legitimerad, bastjänstgöring;Legitimerad läkare under bastjänstgöring (BT-läkare).
 203090;Läkare legitimerad, annan;Legitimerad läkare under till exempel vikariat.
 204010;Läkare ej legitimerad, allmäntjänstgöring;Ej legitimerad läkare under allmäntjänstgöring (AT-läkare).
 204090;Läkare ej legitimerad, annan;Ej legitimerad läkare under till exempel vikariat eller provtjänstgöring.
