@@ -1096,6 +1096,10 @@ titleCodes:
     groupPrescriptionCode:
     role: *r010 # LAKARE
     roleTypeName: Läkare - AT
+  - titleCode: 203020
+    groupPrescriptionCode:
+    role: *r010 # LAKARE
+    roleTypeName: Läkare - BT
   - titleCode: 203090
     groupPrescriptionCode: 9300005
     role: *r010 # LAKARE
