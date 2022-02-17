@@ -78,6 +78,7 @@ knownFeatures:
   - &kf280 VARNING_FRISTAENDE
   - &kf290 BLOCKERA_FRISTAENDE
   - &kf310 INAKTIVERA_TIDIGARE_HUVUDVERSION
+  - &kf320 ANVAND_REACT_WEBKLIENT
   - &kf330 SUBSCRIPTION_ADAPTATION_PERIOD
   - &kf340 SUBSCRIPTION_REQUIRED
   - &kf350 SKRIV_UT_I_IFRAME
@@ -341,6 +342,10 @@ features:
     intygstyper:
       - *ki020 # TS-BAS
       - *ki030 # TS-DIABETES
+  - &f320
+    name: *kf320
+    desc: Använd nya reactklienten
+    global: false
   - &f330
     name: *kf330
     desc: Subscription adaptation period
@@ -657,3 +662,18 @@ pilots:
         name: *kf290
         desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
         global: true
+  - name: REACT_WEBKLIENT_PILOT
+    desc: Pilot avsedd för att testa nya reactklienten
+    hsaIds:
+      - TSTNMT2321000156-10KW # sopra_vg1_ve1
+      - TSTNMT2321000156-1003 # nmt_vg1_ve1
+      - TSTNMT2321000156-1013 # nmt_vg2_ve1
+    activated:
+      - &pf320
+        name: *kf320
+        desc: Använd nya reactklienten
+        global: true
+        intygstyper:
+          - *ki050 # LISJP
+          - *ki100 # AF00213
+          - *ki120 # AG7804
