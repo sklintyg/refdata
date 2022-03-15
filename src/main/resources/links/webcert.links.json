@@ -194,5 +194,11 @@
     "url": "https://inera.atlassian.net/wiki/x/SwhmFQ",
     "text": "Webcerts informationsyta",
     "target": "_blank"
+  },
+  {
+    "key": "ineraAvslutaTjansten",
+    "url": "https://www.inera.se/kontakta-oss/fragor-om-bestallning-och-tjanster/",
+    "text": "Avsluta tjänsten",
+    "target": "_blank"
   }
 ]
