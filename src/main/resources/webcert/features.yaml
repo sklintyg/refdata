@@ -691,6 +691,8 @@ pilots:
       - SE5565690913-100D # CGM J4 - Vårdgivare lt/reg (#VG_1) - Vårdenhet_1 (Vårdsystem_1) (#VE_1)
       - SE5565690913-100F # CGM J4 - Vårdgivare lt/reg (#VG_1) - Vårdenhet_2 (Vårdsystem_1) (#VE_2)
       - SE5565690913-100G # CGM J4 - CGMJ4Vårdgivare2 - VG2Enhet1
+      - SE2321000156-1007 # VG: SE2321000156-0001 - Värmland - VE: Kirurgi Arvika och Karlstad
+      - SE2321000156-1008 # VG: SE2321000156-0001 - Värmland - VE: Vårdenhet_2
     activated:
       - &pf320
         name: *kf320
