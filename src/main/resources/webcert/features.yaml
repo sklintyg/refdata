@@ -422,3 +422,4 @@ pilots:
           - *ki050 # LISJP
           - *ki100 # AF00213
           - *ki120 # AG7804
+          - *ki080 # DB
