@@ -427,3 +427,4 @@ pilots:
           - *ki090 # DOI
           - *ki060 # LUAENA
           - *ki070 # LUAEFS
+          - *ki020 # TSBAS
