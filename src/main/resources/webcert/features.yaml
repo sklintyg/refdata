@@ -426,3 +426,4 @@ pilots:
           - *ki080 # DB
           - *ki090 # DOI
           - *ki060 # LUAENA
+          - *ki070 # LUAEFS
