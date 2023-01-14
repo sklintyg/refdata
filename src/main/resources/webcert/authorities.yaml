@@ -730,7 +730,10 @@ roles:
           - <<: *ro020 # DJUPINTEGRATION
       - <<: *p040 # VIDAREBEFORDRA_UTKAST
         intygstyper:
-          - *ki040
+          - *ki040 # lisjp
+          - *ki100 # af00213
+          - *ki120 # ag7804
+          - *ki111 # af00251
         requestOrigins:
           - <<: *ro010 # NORMAL
             intygstyper:
