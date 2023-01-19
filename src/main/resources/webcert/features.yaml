@@ -425,3 +425,5 @@ pilots:
           - *ki120 # AG7804
           - *ki080 # DB
           - *ki090 # DOI
+          - *ki040 # LUSE (FK7800)
+
