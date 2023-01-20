@@ -681,6 +681,7 @@ pilots:
       - TSTNMT2321000156-10KW # sopra_vg1_ve1
       - TSTNMT2321000156-1003 # nmt_vg1_ve1
       - TSTNMT2321000156-1013 # nmt_vg2_ve1
+      - SE2321000016-152M
     activated:
       - &pf320
         name: *kf320
