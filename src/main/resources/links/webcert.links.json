@@ -102,6 +102,12 @@
     "target": "_blank"
   },
   {
+    "key": "transportstyrelsenVagtrafik",
+    "url": "https://www.transportstyrelsen.se",
+    "text": "Vagtrafik - transportstyrelsen.se",
+    "target": "_blank"
+  },
+  {
     "key": "fmbSoc",
     "url": "https://roi.socialstyrelsen.se/fmb",
     "text": "Läs mer om FMB hos Socialstyrelsen",
