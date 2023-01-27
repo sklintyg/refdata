@@ -429,4 +429,5 @@ pilots:
           - *ki070 # LUAEFS
           - *ki020 # TSBAS
           - *ki040 # LUSE (FK7800)
+          - *ki030 # TS-DIABETES
 
