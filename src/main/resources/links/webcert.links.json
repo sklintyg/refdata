@@ -110,9 +110,9 @@
   {
     "key": "fmbSoc",
     "url": "https://roi.socialstyrelsen.se/fmb",
-    "text": "Läs mer om FMB hos Socialstyrelsen.",
+    "text": "Läs mer om FMB hos Socialstyrelsen",
     "target": "_blank",
-    "tooltip": "Öppnar Socialstyrelsens beslutstöd för angiven huvuddiagnos"
+    "tooltip": "Öppnar Socialstyrelsens beslutstöd för angiven huvuddiagnos."
   },
   {
     "key": "fmbSocWithIcon",
