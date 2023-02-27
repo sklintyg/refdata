@@ -84,7 +84,6 @@ knownFeatures:
   - &kf350 SKRIV_UT_I_IFRAME
   - &kf360 ANVAND_REACT_WEBKLIENT_FRISTAENDE
 
-
 # Aktiverade features i Webcert
 features:
   - &f010
