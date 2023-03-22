@@ -695,3 +695,11 @@ pilots:
         intygstyper:
           - *ki050 # LISJP
           - *ki120 # AG7804
+          - *ki080 # DB
+          - *ki090 # DOI
+          - *ki060 # LUAENA
+          - *ki070 # LUAEFS
+          - *ki020 # TS-BAS
+          - *ki040 # LUSE (FK7800)
+          - *ki030 # TS-DIABETES
+          - *ki110 # AG1-14
