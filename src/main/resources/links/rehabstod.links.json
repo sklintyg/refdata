@@ -113,5 +113,11 @@
     "url": "https://inera.atlassian.net/wiki/x/SwhmFQ",
     "text": "Intygstjänsters informationsyta",
     "target": "_blank"
+  },
+  {
+    "key": "ineraManualRehabstod",
+    "url": "https://inera.atlassian.net/wiki/x/moiUG",
+    "text": "Manual Rehabstöd",
+    "target": "_blank"
   }
 ]
