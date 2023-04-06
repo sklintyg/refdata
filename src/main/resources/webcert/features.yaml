@@ -82,6 +82,7 @@ knownFeatures:
   - &kf330 SUBSCRIPTION_ADAPTATION_PERIOD
   - &kf340 SUBSCRIPTION_REQUIRED
   - &kf350 SKRIV_UT_I_IFRAME
+  - &kf360 ANVAND_REACT_WEBKLIENT_FRISTAENDE
 
 # Aktiverade features i Webcert
 features:
@@ -358,6 +359,10 @@ features:
     name: *kf350
     desc: Använd en Iframe som target vid utskrift
     global: true
+  - &f360
+    name: *kf360
+    desc: Använd nya reactklienten fristående
+    global: false
 
 pilots:
   - name: SRS_PILOT
