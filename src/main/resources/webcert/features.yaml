@@ -718,7 +718,6 @@ pilots:
         intygstyper:
           - *ki050 # LISJP
           - *ki120 # AG7804
-          - *ki100 # AF00213
           - *ki080 # DB
           - *ki090 # DOI
           - *ki060 # LUAENA
