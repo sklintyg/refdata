@@ -704,6 +704,12 @@ pilots:
       - TSTNMT2321000156-1003 # nmt_vg1_ve1
       - TSTNMT2321000156-1013 # nmt_vg2_ve1
       - SE2321000016-152M
+      - SE2321000016-14F7
+      - SE2321000016-1612
+      - SE2321000016-14HC
+      - SE2321000016-14RV
+      - SE2321000016-BRCT
+      - SE2321000016-152M
     activated:
       - &pf320
         name: *kf320
@@ -712,3 +718,12 @@ pilots:
         intygstyper:
           - *ki050 # LISJP
           - *ki120 # AG7804
+          - *ki100 # AF00213
+          - *ki080 # DB
+          - *ki090 # DOI
+          - *ki060 # LUAENA
+          - *ki070 # LUAEFS
+          - *ki020 # TS-BAS
+          - *ki040 # LUSE (FK7800)
+          - *ki030 # TS-DIABETES
+          - *ki110 # AG1-14
