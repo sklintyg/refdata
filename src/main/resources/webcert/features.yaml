@@ -428,6 +428,7 @@ pilots:
       - SE2321000180-46HV # Region Dalarna
       - PAS4412341119-101L # Region Halland
       - SE5565189692-101IU # Capio St Göran, Ortopedkliniken
+      - SE5565189692-101H # Capio St Göran, Ortopedkliniken Avd 34
     activated:
       - &pf320
         name: *kf320
