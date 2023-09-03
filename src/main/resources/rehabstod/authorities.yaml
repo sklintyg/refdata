@@ -1,5 +1,5 @@
 # ====================================================================================================
-#   Konfiguration för Intygsbeställningens rollhantering
+#   Konfiguration för Rehabstöds rollhantering
 #
 #   YAML specifikation: http://www.yaml.org/spec/1.2/spec.html
 #
@@ -33,7 +33,7 @@
 # ====================================================================================================
 ---
 version: 1.0
-released: 2019-03-13
+released: 2015-12-18
 changedby: Magnus Ekstrand
 
 
@@ -48,16 +48,12 @@ knownRequestOrigins: []
 knownIntygstyper: []
 
 # De rättigheter som systemet har
-knownPrivileges:
-  - &kp010 VISA_BESTALLNING
-  - &kp020 RADERA_BESTALLNING
-  - &kp030 LISTA_BESTALLNINGAR
-  - &kp040 ANDRA_STATUS_PA_BESTALLNING
-  - &kp050 SKRIVA_UT
+knownPrivileges: []
 
 # De roller som systemet har
 knownRoles:
-  - &kr010 VARDADMIN
+  - &kr010 LAKARE
+  - &kr020 REHABKOORDINATOR
 
 # ====================================================================================================
 #   Definitioner av ingångar, roller, privilegier, yrkesroller och befattnings-/gruppförskrivarkoder
@@ -67,47 +63,45 @@ knownRoles:
 requestOrigins: []
 
 # Rättigheter
-privileges:
-  - &p010
-      name: *kp010
-      desc: Visa beställning
-      intygstyper: # Implicit alla
-      requestOrigins: # Implicit alla
-  - &p020
-      name: *kp020
-      desc: Radera beställning
-      intygstyper: # Implicit alla
-      requestOrigins: # Implicit alla
-  - &p030
-      name: *kp030
-      desc: Lista beställningar
-      intygstyper: # Implicit alla
-      requestOrigins: # Implicit alla
-  - &p040
-      name: *kp040
-      desc: Ändra status på beställning
-      intygstyper: # Implicit alla
-      requestOrigins: # Implicit alla
-  - &p050
-      name: *kp050
-      desc: Skriva ut
-      intygstyper: # Implicit alla
-      requestOrigins: # Implicit alla
+privileges: []
 
 # Roller
 roles:
   - &r010
-    name: *kr010 # VARDADMIN
-    desc: Vårdadministratör
-    privileges:
-      - *p010 # VISA_BESTALLNING
-      - *p020 # RADERA_BESTALLNING
-      - *p030 # LISTA_BESTALLNINGAR
-      - *p040 # ANDRA_STATUS_PA_BESTALLNING
-      - *p050 # SKRIVA_UT
+    name: *kr010 # LAKARE
+    desc: Läkare
+    privileges: []
+  - &r020
+    name: *kr020 # REHABKOORDINATOR
+    desc: Rehabkoordinator
+    privileges: []
 
 # Legitimerade yrkesroller
-titles: []
+titles:
+  - title: Läkare
+    role: *r010 # LAKARE
+  - title: Rehabkoordinator
+    role: *r020 # REHABKOORDINATOR
 
 # Kombination befattningskoder och gruppförskrivarkoder
-titleCodes: []
+titleCodes:
+  - titleCode: 204010
+    groupPrescriptionCode:
+    role: *r010 # LAKARE
+    roleTypeName: Läkare - AT
+  - titleCode: 203020
+    groupPrescriptionCode:
+    role: *r010 # LAKARE
+    roleTypeName: Läkare - BT
+  - titleCode: 203090
+    groupPrescriptionCode: 9300005
+    role: *r010 # LAKARE
+    roleTypeName: Läkare - inom EU
+  - titleCode: 203090
+    groupPrescriptionCode: 9400003
+    role: *r010 # LAKARE
+    roleTypeName: Läkare - utom EU
+  - titleCode: 204090
+    groupPrescriptionCode: 9100009
+    role: *r010 # LAKARE
+    roleTypeName: Läkare - Vikariat
