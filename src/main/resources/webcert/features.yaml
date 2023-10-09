@@ -430,6 +430,7 @@ pilots:
       - SE5565189692-101IU # Capio St Göran, Ortopedkliniken
       - SE5565189692-101H # Capio St Göran, Ortopedkliniken Avd 34
       - SE2321000131-E000000000001 # Västra Götalandsregionen
+      - SE162321000255-O00001 # Region Skåne
     activated:
       - &pf320
         name: *kf320
