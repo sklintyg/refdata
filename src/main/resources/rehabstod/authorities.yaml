@@ -54,6 +54,7 @@ knownPrivileges: []
 knownRoles:
   - &kr010 LAKARE
   - &kr020 REHABKOORDINATOR
+  - &kr030 TANDLAKARE
 
 # ====================================================================================================
 #   Definitioner av ingångar, roller, privilegier, yrkesroller och befattnings-/gruppförskrivarkoder
@@ -75,6 +76,10 @@ roles:
     name: *kr020 # REHABKOORDINATOR
     desc: Rehabkoordinator
     privileges: []
+  - &r030
+    name: *kr030 # TANDLÄKARE
+    desc: Tandläkare
+    privileges: []
 
 # Legitimerade yrkesroller
 titles:
@@ -82,6 +87,8 @@ titles:
     role: *r010 # LAKARE
   - title: Rehabkoordinator
     role: *r020 # REHABKOORDINATOR
+  - title: Tandläkare
+    role: *r030 # TANDLÄKARE
 
 # Kombination befattningskoder och gruppförskrivarkoder
 titleCodes:
