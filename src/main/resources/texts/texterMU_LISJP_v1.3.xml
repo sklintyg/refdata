@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<texter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" giltigFrom="2022-01-04" typ="LISJP" version="1.3"
+<texter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" giltigFrom="2022-02-01" typ="LISJP" version="1.3"
         xsi:schemaLocation="http://schema.forsakringskassan.se/vardgivare_sjukvard/texterMU_v1.0.xsd"
         xmlns="http://schema.forsakringskassan.se/vardgivare_sjukvard">
     <text id="DFR_1.3.RBK">Ange vad annat är</text>

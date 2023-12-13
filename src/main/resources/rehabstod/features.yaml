@@ -1,3 +1,36 @@
+# ====================================================================================================
+#   Konfiguration för Rehabstöds feature-hantering
+#
+#   YAML specifikation: http://www.yaml.org/spec/1.2/spec.html
+#
+#   Kort förklaring till vissa konstruktioner i filen:
+#
+#   '-'   används för att skapa listor av värden
+#   '&'   används för att skapa ett ankare (unik nyckel)
+#   '*'   används för att peka på ett ankare, kallas också alias
+#   '<<:' används för att slå ihop och skriva över värden
+#
+#   '&' och '*' används för att undvika duplikat i en YAML-fil
+#
+#   Överskådligt exempel:
+#
+#  defaults: &defaults
+#     adapter:  postgres
+#     host:     localhost
+#
+#   development:
+#     database: myapp_development
+#     <<: *defaults
+#
+#   test:
+#     database: myapp_test
+#     <<: *defaults
+#
+#   & sets up the name of the anchor (“defaults”),
+#   << means “merge the given hash into the current one”, and
+#   * includes the named anchor (“defaults” again).
+#
+# ====================================================================================================
 ---
 
 # De intygstyper som systemet känner till
@@ -155,6 +188,36 @@ pilots:
       - SE2321000206-E00620
       - SE2321000206-E00332
       - SE2321000206-E00577
+      - SE2321000230-E00369
+      - SE2321000230-E00370
+      - SE2321000230-E00400
+      - SE2321000230-E00405
+      - SE2321000230-E00394
+      - SE2321000230-E00607
+      - SE2321000230-E00401
+      - SE2321000230-E00851
+      - SE2321000230-E01768
+      - SE2321000230-E00402
+      - SE2321000230-E00377
+      - SE2321000230-E00379
+      - SE2321000230-E00382
+      - SE2321000230-E01084
+      - SE2321000230-E01917
+      - SE2321000230-E00608
+      - SE2321000230-E00380
+      - SE2321000230-E00395
+      - SE2321000230-E00396
+      - SE2321000230-E01250
+      - SE2321000230-E00371
+      - SE2321000230-E00398
+      - SE2321000230-E00388
+      - SE2321000206-E00438
+      - SE2321000206-E00689
+      - SE2321000206-E00340
+      - SE2321000206-E00347
+      - SE2321000206-E00321
+      - SE2321000206-E00326
+      - SE2321000206-E00344
     activated:
       - &pf010
         name: *kf010

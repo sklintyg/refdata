@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<texter typ="AG7804" giltigFrom="2016-05-01" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.forsakringskassan.se/vardgivare_sjukvard texterMU_v1.0.xsd" xmlns="http://schema.forsakringskassan.se/vardgivare_sjukvard">
+<texter typ="AG7804" giltigFrom="2019-10-31" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.forsakringskassan.se/vardgivare_sjukvard texterMU_v1.0.xsd" xmlns="http://schema.forsakringskassan.se/vardgivare_sjukvard">
 
 	<text id="FRM_1.RBK"><![CDATA[<p>Läkarintyg om arbetsförmåga – arbetsgivaren skapas från Försäkringskassans läkarintyg för sjukpenning (FK 7804) och används i följande situationer:</p><ul><li>När patienten har en anställning och behöver ett läkarintyg i förhållande till sin arbetsgivare.</li><li>När patienten varit frånvarande från arbetet i fler än 14 dagar.</li><li>När intygsutfärdande läkaren bedömer att patienten behöver vara sjukfrånvarande längre tid än 14 dagar och att sjukfrånvaron därmed kommer att överstiga sjuklöneperioden. <i>Läkarintyg om arbetsförmåga – arbetsgivaren</i> kan utfärdas för att undvika ett återbesök efter dag 14 och fyller då funktionen som intyg till arbetsgivare både <i>under</i> sjuklöneperioden och <i>efter</i> sjuklöneperioden.</li></ul>
 	]]></text>
