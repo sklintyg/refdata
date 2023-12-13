@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<texter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" giltigFrom="2022-07-05" typ="LUAE_NA" version="1.2" xsi:schemaLocation="http://schema.forsakringskassan.se/vardgivare_sjukvard/texterMU_v1.0.xsd" xmlns="http://schema.forsakringskassan.se/vardgivare_sjukvard">
+<texter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" giltigFrom="2022-09-27" typ="LUAE_NA" version="1.2" xsi:schemaLocation="http://schema.forsakringskassan.se/vardgivare_sjukvard/texterMU_v1.0.xsd" xmlns="http://schema.forsakringskassan.se/vardgivare_sjukvard">
 <text id="DFR_1.3.RBK">Ange vad annat är:</text>
 <text id="DFR_10.1.RBK">Beskriv eventuella undersökningsfynd och grad av funktionsnedsättning (lätt, måttlig, stor, total)</text>
 <text id="DFR_11.1.RBK">Beskriv eventuella undersökningsfynd och grad av funktionsnedsättning (lätt, måttlig, stor, total)</text>
