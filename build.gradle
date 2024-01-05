@@ -12,7 +12,7 @@ targetCompatibility = 11
 task createVersionPropertyFile(type: VersionPropertyFileTask)
 
 uploadArchives.repositories.mavenDeployer {
-    snapshotRepository(url: "https://nexus.drift.inera.se/repository/maven-snapshots/") {
+    snapshotRepository(url: "https://nexus.drift.inera.se/repository/maven-releases/") {
         authentication(userName: System.properties['ineraNexusUsername'], password: System.properties['ineraNexusPassword'])
     }
 }
