@@ -439,6 +439,7 @@ pilots:
       - SE162321000024-0060762 # Capio VC Enköping
       - SE162321000024-0048849 # Plastikkirurgi
       - SE162321000024-0060752 # Örsundsbro VC
+      - SE2321000040-4G0G # Region Östergötland, VC Lyckorna
     activated:
       - &pf320
         name: *kf320
