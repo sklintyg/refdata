@@ -434,10 +434,12 @@ pilots:
       - SE162321000255-O00001 # Region Skåne
       - SE5565189692-31L # Capio Läkargruppens Kirurgmottagning
       - SE162321000024-0060738 # Gimo VC
+      - SE162321000024-0019948 # Gimo vårdcentral
       - SE162321000024-0016023 # Neurokirurgi
       - SE162321000024-0020148 # Hörsel och balans
       - SE162321000024-0060762 # Capio VC Enköping
       - SE162321000024-0048849 # Plastikkirurgi
+      - SE162321000024-0016137 # Plastikkirurgmottagningen
       - SE162321000024-0060752 # Örsundsbro VC
       - SE2321000040-4CSM # VC Lyckorna, Region Östergötland
       - SE2321000040-4GJ1 # Enhet under VC Lyckorna
