@@ -78,7 +78,7 @@ knownFeatures:
   - &kf280 VARNING_FRISTAENDE
   - &kf290 BLOCKERA_FRISTAENDE
   - &kf310 INAKTIVERA_TIDIGARE_HUVUDVERSION
-  - &kf320 ANVAND_REACT_WEBKLIENT
+  - &kf320 ANVAND_ANGULAR_WEBKLIENT
   - &kf330 SUBSCRIPTION_ADAPTATION_PERIOD
   - &kf340 SUBSCRIPTION_REQUIRED
   - &kf350 SKRIV_UT_I_IFRAME
@@ -345,7 +345,7 @@ features:
       - *ki030 # TS-DIABETES
   - &f320
     name: *kf320
-    desc: Använd nya reactklienten
+    desc: Använd angularklienten
     global: false
   - &f330
     name: *kf330
@@ -409,53 +409,12 @@ pilots:
         name: *kf290
         desc: Blockerar möjligheten att skapa nya utkast i fristående Webcert.
         global: true
-  - name: REACT_WEBKLIENT_PILOT
-    desc: Pilot avsedd för att testa nya reactklienten
+  - name: ANGULAR_WEBKLIENT
+    desc: Enheter som fortfarande är i behov av att köra gamla angluarklienten
     hsaIds:
-      - TSTNMT2321000156-ALVC # Alfa Vårdcentral
-      - TSTNMT2321000156-ALLM # Alfa Läkarmottagningen
-      - TSTNMT2321000156-ALMC # Alfa Medicincentrum
-      - TSTNMT2321000156-10KW # sopra_vg1_ve1
-      - TSTNMT2321000156-1077 # NMT vg3 NMT vg3 ve1
-      - TSTNMT2321000156-102Q # nmt_vg3 (VG)
-      - TSTNMT2321000156-107M # vg_testautomation (VG)
-      - SE2321000016-I1B7 # Testenhet 17
-      - TSTNMT2321000156-1004
-      - SE5565690913-100D # CGM J4 - Vårdgivare lt/reg (#VG_1) - Vårdenhet_1 (Vårdsystem_1) (#VE_1)
-      - SE5565690913-100F # CGM J4 - Vårdgivare lt/reg (#VG_1) - Vårdenhet_2 (Vårdsystem_1) (#VE_2)
-      - SE5565690913-100G # CGM J4 - CGMJ4Vårdgivare2 - VG2Enhet1
-      - SE2321000156-1007 # VG: SE2321000156-0001 - Värmland - VE: Kirurgi Arvika och Karlstad
-      - SE2321000156-1008 # VG: SE2321000156-0001 - Värmland - VE: Vårdenhet_2
-      - SE2321000180-46HV # Region Dalarna
-      - PAS4412341119-101L # Region Halland
-      - SE5565189692-101IU # Capio St Göran, Ortopedkliniken
-      - SE5565189692-101H # Capio St Göran, Ortopedkliniken Avd 34
-      - SE2321000131-E000000000001 # Västra Götalandsregionen
-      - SE162321000255-O00001 # Region Skåne
-      - SE5565189692-31L # Capio Läkargruppens Kirurgmottagning
-      - SE162321000024-0060738 # Gimo VC
-      - SE162321000024-0019948 # Gimo vårdcentral
-      - SE162321000024-0016023 # Neurokirurgi
-      - SE162321000024-0020148 # Hörsel och balans
-      - SE162321000024-0060762 # Capio VC Enköping
-      - SE162321000024-0048849 # Plastikkirurgi
-      - SE162321000024-0016137 # Plastikkirurgmottagningen
-      - SE162321000024-0060752 # Örsundsbro VC
-      - SE2321000040-4CSM # VC Lyckorna, Region Östergötland
-      - SE2321000040-4GJ1 # Enhet under VC Lyckorna
+      - TSTNMT2321000156-BEVC # Beta Vårdcentral
     activated:
       - &pf320
         name: *kf320
-        desc: Använd nya reactklienten
+        desc: Använd angularklienten
         global: true
-        intygstyper:
-          - *ki050 # LISJP
-          - *ki120 # AG7804
-          - *ki080 # DB
-          - *ki090 # DOI
-          - *ki060 # LUAENA
-          - *ki070 # LUAEFS
-          - *ki020 # TS-BAS
-          - *ki040 # LUSE (FK7800)
-          - *ki030 # TS-DIABETES
-          - *ki110 # AG1-14
