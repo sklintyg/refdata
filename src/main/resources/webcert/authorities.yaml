@@ -99,6 +99,7 @@ knownRoles:
   - &kr020 PRIVATLAKARE
   - &kr030 TANDLAKARE
   - &kr040 VARDADMINISTRATOR
+  - &kr050 SJUKSKOTERSKA
 
 
 # ====================================================================================================
@@ -1084,6 +1085,146 @@ roles:
           - <<: *ro020 # DJUPINTEGRATION
           - <<: *ro030 # UTHOPP
 
+  - &r050
+    name: *kr050 # SJUKSKOTERSKA
+    desc: Sjuksköterska
+    privileges:
+      - <<: *p000 # VISA_INTYG
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro020 # DJUPINTEGRATION
+          - <<: *ro030 # UTHOPP
+          - <<: *ro040 # READONLY
+      - <<: *p005 # SKRIVA_INTYG
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro020 # DJUPINTEGRATION
+          - <<: *ro030 # UTHOPP
+      - <<: *p030 # FORNYA_INTYG
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+            intygstyper: # EJ ts-intyg eller fk7263
+              - *ki040 # lisjp
+              - *ki050 # luse
+              - *ki060 # luae_na
+              - *ki070 # luae_fs
+              - *ki120 # ag7804
+          - <<: *ro020 # DJUPINTEGRATION
+      - <<: *p040 # VIDAREBEFORDRA_UTKAST
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro030 # UTHOPP
+      - <<: *p050 # VIDAREBEFORDRA_FRAGASVAR
+      - <<: *p060 # BESVARA_KOMPLETTERINGSFRAGA
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+            intygstyper:
+              - *ki040 # lisjp
+              - *ki050 # luse
+              - *ki060 # luae_na
+              - *ki070 # luae_fs
+          - <<: *ro020 # DJUPINTEGRATION
+            intygstyper:
+              - *ki040 # lisjp
+              - *ki050 # luse
+              - *ki060 # luae_na
+              - *ki070 # luae_fs
+          - <<: *ro030 # UTHOPP
+      - <<: *p080 # ATKOMST_ANDRA_ENHETER
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro030 # UTHOPP
+      - <<: *p090 # HANTERA_PERSONUPPGIFTER
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro030 # UTHOPP
+      - <<: *p100 # HANTERA_MAILSVAR
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro030 # UTHOPP
+      - <<: *p110 # NAVIGERING
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro030 # UTHOPP
+      - <<: *p120 # SVARA_MED_NYTT_INTYG
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro020 # DJUPINTEGRATION
+      - <<: *p130 # NOTIFIERING_UTKAST
+        requestOrigins:
+          - <<: *ro020 # DJUPINTEGRATION
+      - <<: *p160 # SKAPA_NY_FRAGA
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+            intygstyper:
+              - *ki040 # lisjp
+              - *ki050 # luse
+              - *ki060 # luae_na
+              - *ki070 # luae_fs
+          - <<: *ro020 # DJUPINTEGRATION
+            intygstyper:
+              - *ki040 # lisjp
+              - *ki050 # luse
+              - *ki060 # luae_na
+              - *ki070 # luae_fs
+          - <<: *ro030 # UTHOPP
+      - <<: *p170 # LASA_FRAGA
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+            intygstyper:
+              - *ki040 # lisjp
+              - *ki050 # luse
+              - *ki060 # luae_na
+              - *ki070 # luae_fs
+          - <<: *ro040 # READONLY
+            intygstyper:
+              - *ki010 # fk7263
+              - *ki040 # lisjp
+              - *ki050 # luse
+              - *ki060 # luae_na
+              - *ki070 # luae_fs
+          - <<: *ro020 # DJUPINTEGRATION
+            intygstyper:
+              - *ki040 # lisjp
+              - *ki050 # luse
+              - *ki060 # luae_na
+              - *ki070 # luae_fs
+          - <<: *ro030 # UTHOPP
+      - <<: *p180 # BESVARA_FRAGA
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+            intygstyper:
+              - *ki040 # lisjp
+              - *ki050 # luse
+              - *ki060 # luae_na
+              - *ki070 # luae_fs
+          - <<: *ro020 # DJUPINTEGRATION
+            intygstyper:
+              - *ki040 # lisjp
+              - *ki050 # luse
+              - *ki060 # luae_na
+              - *ki070 # luae_fs
+          - <<: *ro030 # UTHOPP
+      - <<: *p190 # KOPIERA_FRAN_KANDIDAT
+        requestOrigins:
+          - <<: *ro020 # DJUPINTEGRATION
+            intygstyper:
+              - *ki120 # ag7804
+              - *ki090 # doi
+          - <<: *ro010 # NORMAL
+            intygstyper:
+              - *ki090 # doi
+      - <<: *p200 # KOPIERA_LAST_UTKAST
+      - <<: *p210 # MARKERA_KOMPLETTERING_SOM_HANTERAD
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro020 # DJUPINTEGRATION
+          - <<: *ro030 # UTHOPP
+      - <<: *p220 # MARKERA_FRAGA_SOM_HANTERAD
+        requestOrigins:
+          - <<: *ro010 # NORMAL
+          - <<: *ro020 # DJUPINTEGRATION
+          - <<: *ro030 # UTHOPP
 
 # Legitimerade yrkesroller
 titles:
@@ -1091,6 +1232,8 @@ titles:
     role: *r010 # LAKARE
   - title: Tandläkare
     role: *r030 # TANDLAKARE
+  - title: Sjuksköterska
+    role: *r050 # SJUKSKOTERSKA
 
 # Kombination befattningskoder och gruppförskrivarkoder
 # roleTypeName används för loggningssyften för att se mer detaljer om typ av läkare-roll.
