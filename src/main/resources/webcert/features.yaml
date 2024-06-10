@@ -79,8 +79,6 @@ knownFeatures:
   - &kf290 BLOCKERA_FRISTAENDE
   - &kf310 INAKTIVERA_TIDIGARE_HUVUDVERSION
   - &kf320 ANVAND_ANGULAR_WEBKLIENT
-  - &kf330 SUBSCRIPTION_ADAPTATION_PERIOD
-  - &kf340 SUBSCRIPTION_REQUIRED
   - &kf350 SKRIV_UT_I_IFRAME
   - &kf360 ANVAND_REACT_WEBKLIENT_FRISTAENDE
 
@@ -347,14 +345,6 @@ features:
     name: *kf320
     desc: Använd angularklienten
     global: false
-  - &f330
-    name: *kf330
-    desc: Subscription adaptation period
-    global: false
-  - &f340
-    name: *kf340
-    desc: Subscription required
-    global: true
   - &f350
     name: *kf350
     desc: Använd en Iframe som target vid utskrift
