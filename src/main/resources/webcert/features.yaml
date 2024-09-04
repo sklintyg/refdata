@@ -744,6 +744,12 @@ pilots:
       - SE162321000255-O22156
       - SE162321000255-O21895
       - SE162321000255-O22154
+      - SE2321000164-7381037590003 # Region Örebro Län
+      - SE2321000164-7381037594803 # Capio vårdcentral Haga
+      - SE2321000164-7381037595039 # Capio vårdcentral Hallsberg
+      - SE2321000164-7381037594971 # Capio vårdcentral Lekeberg
+      - SE2321000164-13WC # Praktikertjänst Backa vårdcentral
+      - SE2321000164-13TX # Vivalla vårdcentraler AB
     activated:
       - &pf110
         name: *kf280
