@@ -749,7 +749,7 @@ pilots:
       - SE2321000164-7381037595039 # Capio vårdcentral Hallsberg
       - SE2321000164-7381037594971 # Capio vårdcentral Lekeberg
       - SE2321000164-13WC # Praktikertjänst Backa vårdcentral
-      - SE2321000164-13TX # Vivalla vårdcentraler AB
+      - SE2321000164-7381037594902 # Vivalla/Lundby vårdcentral
     activated:
       - &pf110
         name: *kf280
