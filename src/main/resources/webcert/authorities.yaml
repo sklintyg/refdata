@@ -45,8 +45,6 @@ changedby: Magnus Ekstrand
 knownRequestOrigins:
   - &kro010 NORMAL # Inloggning via SITHS / BankID
   - &kro020 DJUPINTEGRATION # Inloggning via länk från journalsystem
-  - &kro030 UTHOPP # Inloggning via uthoppslänk från journalsystem
-  - &kro040 READONLY # Inloggning via länk från annat system men ges endast läsrättigheter
 
 # De intygstyper som systemet har
 knownIntygstyper:
@@ -114,12 +112,6 @@ requestOrigins:
     intygstyper: # Implicit alla
   - &ro020
     name: *kro020
-    intygstyper: # Implicit alla
-  - &ro030
-    name: *kro030
-    intygstyper: # Implicit alla
-  - &ro040
-    name: *kro040
     intygstyper: # Implicit alla
 
 # Rättigheter
@@ -206,7 +198,6 @@ privileges:
       - *ki140 # tstrk1009
     requestOrigins:
       - *ro010 # NORMAL
-      - *ro030 # UTHOPP
   - &p050
     name: *kp050
     desc: Vidarebefordra frågasvar
@@ -222,8 +213,6 @@ privileges:
           - *ki070 # luae_fs
           - *ki080 # db
           - *ki090 # doi
-      - <<: *ro030 # UTHOPP
-        intygstyper: # Alla intyg
   - &p060
     name: *kp060
     desc: Besvara fråga om komplettering
@@ -239,28 +228,24 @@ privileges:
     intygstyper: # Implicit alla
     requestOrigins:
       - *ro010 # NORMAL
-      - *ro030 # UTHOPP
   - &p090
     name: *kp090
     desc: Hantera personuppgifter
     intygstyper: # Implicit alla
     requestOrigins:
       - *ro010 # NORMAL
-      - *ro030 # UTHOPP
   - &p100
     name: *kp100
     desc: Hantera notifieringsmail om frågasvar
     intygstyper: # Implicit alla
     requestOrigins:
       - *ro010 # NORMAL
-      - *ro030 # UTHOPP
   - &p110
     name: *kp110
     desc: Navigera i menyer, på logo, via tillbakaknappar
     intygstyper: # Implicit alla
     requestOrigins:
       - *ro010 # NORMAL
-      - *ro030 # UTHOPP
   - &p120
     name: *kp120
     desc: Svara med nytt intyg
@@ -405,18 +390,14 @@ roles:
         requestOrigins:
           - *ro010 # NORMAL
           - *ro020 # DJUPINTEGRATION
-          - *ro030 # UTHOPP
-          - *ro040 # READONLY
       - <<: *p005 # SKRIVA_INTYG
         requestOrigins:
           - *ro010 # NORMAL
           - *ro020 # DJUPINTEGRATION
-          - *ro030 # UTHOPP
       - <<: *p010 # SIGNERA_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
       - <<: *p020 # MAKULERA_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -469,7 +450,6 @@ roles:
       - <<: *p040 # VIDAREBEFORDRA_UTKAST
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p050 # VIDAREBEFORDRA_FRAGASVAR
       - <<: *p060 # BESVARA_KOMPLETTERINGSFRAGA
         requestOrigins:
@@ -485,23 +465,18 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p080 # ATKOMST_ANDRA_ENHETER
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p090 # HANTERA_PERSONUPPGIFTER
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p100 # HANTERA_MAILSVAR
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p110 # NAVIGERING
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p120 # SVARA_MED_NYTT_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -510,19 +485,14 @@ roles:
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
-          - <<: *ro040 # READONLY
       - <<: *p150 # GODKANNA_MOTTAGARE
       - <<: *p160 # SKAPA_NY_FRAGA
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
       - <<: *p170 # LASA_FRAGA
         requestOrigins:
           - <<: *ro010 # NORMAL
-            intygstyper:
-          - <<: *ro040 # READONLY
             intygstyper:
               - *ki010 # fk7163
               - *ki040 # lisjp
@@ -530,12 +500,10 @@ roles:
               - *ki060 # luae_na
               - *ki070 # luae_fs
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
       - <<: *p180 # BESVARA_FRAGA
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
       - <<: *p190 # KOPIERA_FRAN_KANDIDAT
         requestOrigins:
           - <<: *ro020 # DJUPINTEGRATION
@@ -550,12 +518,10 @@ roles:
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
       - <<: *p220 # MARKERA_FRAGA_SOM_HANTERAD
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
   - &r020
     name: *kr020 # PRIVATLAKARE
     desc: Privatläkare
@@ -677,9 +643,6 @@ roles:
         requestOrigins:
           - *ro010 # NORMAL
           - *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p005 # SKRIVA_INTYG
         intygstyper:
           - *ki010 # fk7263
@@ -743,9 +706,6 @@ roles:
               - *ki100 # af00213
               - *ki120 # ag7804
               - *ki111 # af00251
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p050 # VIDAREBEFORDRA_FRAGASVAR
         intygstyper:
           - *ki040 # lisjp
@@ -753,9 +713,6 @@ roles:
           - <<: *ro010 # NORMAL
             intygstyper:
               - *ki040 # lisjp
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p060 # BESVARA_KOMPLETTERINGSFRAGA
         intygstyper:
           - *ki040 # lisjp
@@ -766,9 +723,6 @@ roles:
           - <<: *ro020 # DJUPINTEGRATION
             intygstyper:
               - *ki040 # lisjp
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p080 # ATKOMST_ANDRA_ENHETER
         intygstyper:
           - *ki010 # fk7263
@@ -782,9 +736,6 @@ roles:
               - *ki100 # af00213
               - *ki120 # ag7804
               - *ki111 # af00251
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p090 # HANTERA_PERSONUPPGIFTER
         intygstyper:
           - *ki010 # fk7263
@@ -800,9 +751,6 @@ roles:
               - *ki100 # af00213
               - *ki120 # ag7804
               - *ki111 # af00251
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p100 # HANTERA_MAILSVAR
         intygstyper:
           - *ki010 # fk7263
@@ -818,9 +766,6 @@ roles:
               - *ki100 # af00213
               - *ki120 # ag7804
               - *ki111 # af00251
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p110 # NAVIGERING
         intygstyper:
           - *ki010 # fk7263
@@ -836,9 +781,6 @@ roles:
               - *ki100 # af00213
               - *ki120 # ag7804
               - *ki111 # af00251
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p120 # SVARA_MED_NYTT_INTYG
         intygstyper:
           - *ki040 # lisjp
@@ -860,10 +802,6 @@ roles:
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
-              - *ki120 # ag7804
       - <<: *p150 # GODKANNA_MOTTAGARE
       - <<: *p160 # SKAPA_NY_FRAGA
         intygstyper:
@@ -875,9 +813,6 @@ roles:
           - <<: *ro020 # DJUPINTEGRATION
             intygstyper:
               - *ki040 # lisjp
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p170 # LASA_FRAGA
         intygstyper:
           - *ki040 # lisjp
@@ -888,9 +823,6 @@ roles:
           - <<: *ro020 # DJUPINTEGRATION
             intygstyper:
               - *ki040 # lisjp
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p180 # BESVARA_FRAGA
         intygstyper:
           - *ki040 # lisjp
@@ -901,9 +833,6 @@ roles:
           - <<: *ro020 # DJUPINTEGRATION
             intygstyper:
               - *ki040 # lisjp
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p190 # KOPIERA_FRAN_KANDIDAT
         requestOrigins:
           - <<: *ro020 # DJUPINTEGRATION
@@ -927,9 +856,6 @@ roles:
             intygstyper:
               - *ki010 # fk7263
               - *ki040 # lisjp
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
       - <<: *p220 # MARKERA_FRAGA_SOM_HANTERAD
         intygstyper:
         requestOrigins:
@@ -941,9 +867,6 @@ roles:
             intygstyper:
               - *ki010 # fk7263
               - *ki040 # lisjp
-          - <<: *ro030 # UTHOPP
-            intygstyper:
-              - *ki010 # fk7263
 
   - &r040
     name: *kr040 # VARDADMINISTRATOR
@@ -953,13 +876,10 @@ roles:
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
-          - <<: *ro040 # READONLY
       - <<: *p005 # SKRIVA_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
       - <<: *p030 # FORNYA_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -973,7 +893,6 @@ roles:
       - <<: *p040 # VIDAREBEFORDRA_UTKAST
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p050 # VIDAREBEFORDRA_FRAGASVAR
       - <<: *p060 # BESVARA_KOMPLETTERINGSFRAGA
         requestOrigins:
@@ -989,23 +908,18 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p080 # ATKOMST_ANDRA_ENHETER
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p090 # HANTERA_PERSONUPPGIFTER
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p100 # HANTERA_MAILSVAR
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p110 # NAVIGERING
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p120 # SVARA_MED_NYTT_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -1027,18 +941,10 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p170 # LASA_FRAGA
         requestOrigins:
           - <<: *ro010 # NORMAL
             intygstyper:
-              - *ki040 # lisjp
-              - *ki050 # luse
-              - *ki060 # luae_na
-              - *ki070 # luae_fs
-          - <<: *ro040 # READONLY
-            intygstyper:
-              - *ki010 # fk7263
               - *ki040 # lisjp
               - *ki050 # luse
               - *ki060 # luae_na
@@ -1049,7 +955,6 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p180 # BESVARA_FRAGA
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -1064,7 +969,6 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p190 # KOPIERA_FRAN_KANDIDAT
         requestOrigins:
           - <<: *ro020 # DJUPINTEGRATION
@@ -1079,12 +983,10 @@ roles:
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
       - <<: *p220 # MARKERA_FRAGA_SOM_HANTERAD
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
 
   - &r050
     name: *kr050 # SJUKSKOTERSKA
@@ -1094,13 +996,10 @@ roles:
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
-          - <<: *ro040 # READONLY
       - <<: *p005 # SKRIVA_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
       - <<: *p030 # FORNYA_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -1114,7 +1013,6 @@ roles:
       - <<: *p040 # VIDAREBEFORDRA_UTKAST
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p050 # VIDAREBEFORDRA_FRAGASVAR
       - <<: *p060 # BESVARA_KOMPLETTERINGSFRAGA
         requestOrigins:
@@ -1130,23 +1028,18 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p080 # ATKOMST_ANDRA_ENHETER
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p090 # HANTERA_PERSONUPPGIFTER
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p100 # HANTERA_MAILSVAR
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p110 # NAVIGERING
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p120 # SVARA_MED_NYTT_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -1168,18 +1061,10 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p170 # LASA_FRAGA
         requestOrigins:
           - <<: *ro010 # NORMAL
             intygstyper:
-              - *ki040 # lisjp
-              - *ki050 # luse
-              - *ki060 # luae_na
-              - *ki070 # luae_fs
-          - <<: *ro040 # READONLY
-            intygstyper:
-              - *ki010 # fk7263
               - *ki040 # lisjp
               - *ki050 # luse
               - *ki060 # luae_na
@@ -1190,7 +1075,6 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p180 # BESVARA_FRAGA
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -1205,7 +1089,6 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p190 # KOPIERA_FRAN_KANDIDAT
         requestOrigins:
           - <<: *ro020 # DJUPINTEGRATION
@@ -1220,12 +1103,10 @@ roles:
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
       - <<: *p220 # MARKERA_FRAGA_SOM_HANTERAD
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
 
   - &r060
     name: *kr060 # BARNMORSKA
@@ -1235,13 +1116,10 @@ roles:
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
-          - <<: *ro040 # READONLY
       - <<: *p005 # SKRIVA_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
       - <<: *p030 # FORNYA_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -1255,7 +1133,6 @@ roles:
       - <<: *p040 # VIDAREBEFORDRA_UTKAST
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p050 # VIDAREBEFORDRA_FRAGASVAR
       - <<: *p060 # BESVARA_KOMPLETTERINGSFRAGA
         requestOrigins:
@@ -1271,23 +1148,18 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p080 # ATKOMST_ANDRA_ENHETER
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p090 # HANTERA_PERSONUPPGIFTER
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p100 # HANTERA_MAILSVAR
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p110 # NAVIGERING
         requestOrigins:
           - <<: *ro010 # NORMAL
-          - <<: *ro030 # UTHOPP
       - <<: *p120 # SVARA_MED_NYTT_INTYG
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -1309,18 +1181,10 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p170 # LASA_FRAGA
         requestOrigins:
           - <<: *ro010 # NORMAL
             intygstyper:
-              - *ki040 # lisjp
-              - *ki050 # luse
-              - *ki060 # luae_na
-              - *ki070 # luae_fs
-          - <<: *ro040 # READONLY
-            intygstyper:
-              - *ki010 # fk7263
               - *ki040 # lisjp
               - *ki050 # luse
               - *ki060 # luae_na
@@ -1331,7 +1195,6 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p180 # BESVARA_FRAGA
         requestOrigins:
           - <<: *ro010 # NORMAL
@@ -1346,7 +1209,6 @@ roles:
               - *ki050 # luse
               - *ki060 # luae_na
               - *ki070 # luae_fs
-          - <<: *ro030 # UTHOPP
       - <<: *p190 # KOPIERA_FRAN_KANDIDAT
         requestOrigins:
           - <<: *ro020 # DJUPINTEGRATION
@@ -1361,12 +1223,10 @@ roles:
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
       - <<: *p220 # MARKERA_FRAGA_SOM_HANTERAD
         requestOrigins:
           - <<: *ro010 # NORMAL
           - <<: *ro020 # DJUPINTEGRATION
-          - <<: *ro030 # UTHOPP
 
 # Legitimerade yrkesroller
 titles:
